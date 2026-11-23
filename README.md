@@ -36,6 +36,27 @@ của workflow.
 
 Thư mục `RawPackets/` giữ gói gốc của cmd `1`, `25` và `35` để kiểm tra khi máy chủ đổi định dạng.
 
+## Dữ liệu xmap (`navigation/`)
+
+ToolKpah (xmap) tải hai file này từ GitHub mỗi lần chạy. Tool thêm query ngẫu nhiên và header `no-cache`
+nên đẩy lên là tool lấy được ngay. Tool cũng lưu một bản đệm để dùng khi mất mạng. Workflow ở trên chỉ
+commit `TeaMobi/`, không đụng tới thư mục này.
+
+| File | Nội dung | Cách cập nhật |
+|---|---|---|
+| `navigation/KpahMaps.json` | Bảng loại ô (`res/t`, `res/t_hang`, `res/t_thanh`), file map client mang sẵn (`res/<id>`), cổng và NPC của từng map (server `cMap`) | Sinh lại bằng `tools/MapDataGen` của ToolKpah |
+| `navigation/KpahRules.json` | Tên map và `offMapID` của client, `idXaphu` của client, làng theo lãnh thổ, tàu ra đảo, NPC dịch chuyển do máy chủ sinh (vị trí, tầm, các dòng menu, giá) | Sửa tay (có chú thích trong file) |
+
+Sinh lại `KpahMaps.json` (chạy trong thư mục ToolKpah):
+
+```powershell
+dotnet run --project tools\MapDataGen -- "<KPAH_276>\KPAH_276_Data" "<GameResource>\server\cMap" "<DataKpah>\navigation\KpahMaps.json"
+```
+
+Muốn thử dữ liệu trước khi đẩy lên: đặt biến môi trường `TOOLKPAH_DATA_DIR` = thư mục DataKpah trên máy.
+Khi đó tool đọc thẳng file, không tải từ GitHub. Trong tool, lệnh `dulieu` cho xem đang dùng bản nào,
+`dulieu tai` tải lại bản mới nhất.
+
 ## Cấu hình GitHub Actions
 
 Tạo repository secret:

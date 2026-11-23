@@ -1,0 +1,111 @@
+// Luật đi lại của xmap ToolKpah (sửa tay). Tool đọc file này từ GitHub mỗi lần chạy (lệnh 'dulieu tai' để
+// tải lại giữa chừng), nên đổi ở đây là tool dùng ngay, không cần build lại.
+// Nguồn: client KPAH v2.7.6 (Assembly-CSharp) và source server KPAH (GameResource/server).
+// Ô = toạ độ ô 16px. "Load" = ID file map (mapLoad); "Map" = đúng ID map.
+{
+  "Version": 1,
+
+  // Tên map viết cứng trong client (Tilemap.setNameMap) - dùng khi máy chủ chưa gửi tên.
+  "MapNames": {
+    "0": "Sơn Nam", "1": "Dao Châu", "2": "Tiên Du", "3": "Phù Liệt", "4": "Kỳ Bố", "5": "Hàm Tử",
+    "6": "Thạch Giang", "7": "Đông Sơn", "8": "Tử Quan", "9": "Trường Giang", "10": "Lộc Trĩ", "11": "Sơn Lâm",
+    "100": "Nhà bán HP", "101": "Nhà bán MP", "102": "Nhà thợ rèn",
+    "110": "Hang động", "111": "Hang mãng xà", "112": "Hang thằn lằn", "202": "Đấu trường"
+  },
+
+  // Map offline của client (GameScr.offMapID): cổng có toM thuộc danh sách này là cổng vào nhà.
+  "OfflineMaps": [
+    90, 91, 92, 93, 94, 95, 96, 97, 98, 99, 100, 102, 103, 104, 108, 109,
+    260, 261, 262, 263, 264, 265, 266, 267, 268, 269, 270, 271, 29, 30, 31,
+    72, 73, 74, 78, 79, 82, 83, 84, 88, 89
+  ],
+
+  // idXaphu viết cứng trong client theo file map (Tilemap.setNameMap); cmd 12 luôn ghi đè khi đã vào map.
+  "ClientXaphu": { "0": 0, "3": 1, "4": 2, "5": 3, "6": 4, "7": 5, "8": 6, "9": 7, "10": 8, "202": 9, "70": 0, "80": 0 },
+
+  // Làng theo lãnh thổ đang đứng (inCountry 0/1/2): mảng mapstart / vilage của máy chủ.
+  // Trong ServerNpcs, "village:i" = phần tử i của dòng này.
+  "Villages": [[70, 1701], [0, 301], [80, 1901]],
+
+  // Tàu ra đảo: NPC Hoa tiêu (loại NpcType trong file map bến). Chưa có vé (thuốc id 20) thì mua (cmd 81), lên tàu
+  // (cmd 82); máy chủ chuyển From → Ship → Land (Char.update + Map update exitBoard), cập bến ở ô Landing.
+  "Boat": {
+    "NpcType": 10,
+    "MinLevel": 15,
+    "Landing": [64, 124],
+    "Routes": [
+      { "From": 106, "Ship": 107, "Land": 10 },
+      { "From": 2421, "Ship": 2441, "Land": 501 },
+      { "From": 2422, "Ship": 2442, "Land": 502 },
+      { "From": 2423, "Ship": 2443, "Land": 503 },
+      { "From": 2424, "Ship": 2444, "Land": 504 }
+    ]
+  },
+
+  // NPC dịch chuyển do máy chủ tự sinh (client không có): đứng cách (X, Y) không quá Range ô, gửi cmd 23 (Type)
+  // xin menu, nhận cmd -30, gửi cmd -30 chọn lần lượt các dòng trong Menu (menu con thì chọn tiếp).
+  //   Load / Map: NPC có ở các map dùng file Load, hoặc đúng map Map.
+  //   Nation / Country: chỉ dùng khi quốc gia / lãnh thổ đang đứng thuộc danh sách (máy chủ không gửi menu nếu khác).
+  //   To: map đích (số, hoặc "village:i"); Also: nơi khác máy chủ có thể đưa tới (chọn ngẫu nhiên).
+  //   Spawn: ô xuất hiện dự kiến; Price: xu (dịch vụ tốn xu, theo công tắc 'xaphu').
+  //   Border: dòng "sang biên giới" (chỉ chạy bằng lệnh 'bienGioi', đổi lãnh thổ đang đứng 0 ↔ 1).
+  "ServerNpcs": [
+    {
+      // Map.java: setInfoChar("xa phu", -26, ...) cho map file 10; doMenu -26 bỏ qua dòng chọn, về ngẫu nhiên.
+      "Type": -26, "Name": "xa phu", "Load": 10, "X": 58, "Y": 125, "Range": 5,
+      "Choices": [
+        { "Label": "về làng", "Menu": [0], "To": "village:0", "Also": ["village:0", "village:1"], "Spawn": [16, 33] }
+      ]
+    },
+    {
+      // Map.java: bot "Xa phu" -9 ở map 17; doMenu -9: dòng i → làng i.
+      "Type": -9, "Name": "Xa phu", "Map": 17, "X": 99, "Y": 54, "Range": 5,
+      "Choices": [
+        { "Label": "về làng", "Menu": [0], "To": "village:0", "Spawn": [16, 33] },
+        { "Label": "về làng (Đông)", "Menu": [1], "To": "village:1", "Spawn": [16, 33] }
+      ]
+    },
+    {
+      // sendInfoNpc: "Cổng dịch chuyển" -22 ở map 118 (pixel 736,640); doMenu -22 tầm 7; dòng 2 "Trường giang"
+      // chỉ có khi máy chủ tắt pkAuto; RequestNPCInfoHandler không gửi menu cho quốc gia 2.
+      "Type": -22, "Name": "Cổng dịch chuyển", "Map": 118, "X": 46, "Y": 40, "Range": 7,
+      "Nation": [0, 1], "Country": [0, 1],
+      "Choices": [
+        { "Label": "Trường giang", "Menu": [1], "To": 9, "Also": [9, 481, 482, 483, 484], "Spawn": [16, 84] }
+      ],
+      "Border": { "Label": "Đến biên giới", "Menu": [0] }
+    },
+    {
+      // Hoa tiêu -19 ở Hồi hồ (map file 114, pixel 1920,1904): 30000 xu; menu "Bình kiều"/"Chiến hạm" rồi bản sao.
+      "Type": -19, "Name": "Hoa tiêu", "Load": 114, "X": 120, "Y": 119, "Range": 5,
+      "Choices": [
+        { "Label": "Bình kiều", "Menu": [0, 0], "To": 21, "Spawn": [35, 3], "Price": 30000 },
+        { "Label": "Đông Bình kiều", "Menu": [0, 1], "To": 721, "Spawn": [35, 3], "Price": 30000 },
+        { "Label": "Tây Bình kiều", "Menu": [0, 2], "To": 722, "Spawn": [35, 3], "Price": 30000 },
+        { "Label": "Nam Bình kiều", "Menu": [0, 3], "To": 723, "Spawn": [35, 3], "Price": 30000 },
+        { "Label": "Bắc Bình kiều", "Menu": [0, 4], "To": 724, "Spawn": [35, 3], "Price": 30000 },
+        { "Label": "Chiến hạm", "Menu": [1, 0], "To": 22, "Spawn": [2, 46], "Price": 30000 },
+        { "Label": "Đông Chiến hạm", "Menu": [1, 1], "To": 741, "Spawn": [2, 46], "Price": 30000 },
+        { "Label": "Tây Chiến hạm", "Menu": [1, 2], "To": 742, "Spawn": [2, 46], "Price": 30000 },
+        { "Label": "Nam Chiến hạm", "Menu": [1, 3], "To": 743, "Spawn": [2, 46], "Price": 30000 },
+        { "Label": "Bắc Chiến hạm", "Menu": [1, 4], "To": 744, "Spawn": [2, 46], "Price": 30000 }
+      ]
+    },
+    {
+      // Hoa tiêu -20 ở Bình kiều (map file 21, pixel 608,48), miễn phí: dòng k → Hồi hồ / Đông Hồi hồ.
+      "Type": -20, "Name": "Hoa tiêu", "Load": 21, "X": 38, "Y": 3, "Range": 5,
+      "Choices": [
+        { "Label": "Hồi hồ", "Menu": [0], "To": 114, "Spawn": [120, 119] },
+        { "Label": "Đông Hồi hồ", "Menu": [1], "To": 2581, "Spawn": [120, 119] }
+      ]
+    },
+    {
+      // Hoa tiêu -21 ở Chiến hạm (map file 22, pixel 32,736), miễn phí.
+      "Type": -21, "Name": "Hoa tiêu", "Load": 22, "X": 2, "Y": 46, "Range": 5,
+      "Choices": [
+        { "Label": "Hồi hồ", "Menu": [0], "To": 114, "Spawn": [120, 119] },
+        { "Label": "Đông Hồi hồ", "Menu": [1], "To": 2581, "Spawn": [120, 119] }
+      ]
+    }
+  ]
+}
