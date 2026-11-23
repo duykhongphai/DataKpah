@@ -1,0 +1,134 @@
+name: Cập nhật dữ liệu KPAH
+
+on:
+  schedule:
+    # 06:25 giờ Việt Nam (UTC+7). Lệch đầu giờ để tránh hàng đợi Actions đông.
+    - cron: "25 23 * * *"
+  workflow_dispatch:
+    inputs:
+      bo-qua-anh:
+        description: "Bỏ qua tải ảnh"
+        type: boolean
+        required: false
+        default: false
+
+permissions:
+  contents: write
+
+concurrency:
+  group: cap-nhat-data-kpah
+  cancel-in-progress: false
+
+jobs:
+  cap-nhat:
+    runs-on: ubuntu-latest
+    timeout-minutes: 60
+    env:
+      # Dữ liệu KPAH dùng chung giữa các máy chủ nên mọi lượt đều ghi vào một kho.
+      KPAH_THUMUC: ${{ vars.KPAH_THUMUC || 'DuLieu' }}
+      KPAH_RA: .
+
+    steps:
+      - name: Lấy mã nguồn
+        uses: actions/checkout@v4
+
+      - name: Cài .NET
+        uses: actions/setup-dotnet@v4
+        with:
+          dotnet-version: "10.0.x"
+
+      - name: Dựng headless client
+        run: dotnet publish HeadlessClient/DataKpah.HeadlessClient/DataKpah.HeadlessClient.csproj -c Release --nologo -o may
+
+      - name: Đăng nhập lần lượt các nhân vật và lấy dữ liệu
+        env:
+          KPAH_TAIKHOAN: ${{ secrets.KPAH_TAIKHOAN }}
+          # Mỗi dòng "Máy chủ|slot". Chỉ số kỹ năng chỉ có cho phái của nhân vật đã đăng nhập,
+          # nên thêm một nhân vật mỗi phái để có đủ 5 phái.
+          KPAH_NHAN_VAT_DS: ${{ vars.KPAH_NHAN_VAT || 'Vạn Xuân|0' }}
+          BO_QUA_ANH: ${{ github.event.inputs.bo-qua-anh }}
+        run: |
+          set -euo pipefail
+          if [ -z "${KPAH_TAIKHOAN:-}" ]; then
+            echo "::error::Chưa có secret KPAH_TAIKHOAN theo dạng tài_khoản|mật_khẩu"
+            exit 1
+          fi
+
+          IFS='|' read -r KPAH_TK KPAH_MK <<< "$KPAH_TAIKHOAN"
+          if [ -z "${KPAH_TK:-}" ] || [ -z "${KPAH_MK:-}" ]; then
+            echo "::error::Secret KPAH_TAIKHOAN phải có dạng tài_khoản|mật_khẩu"
+            exit 1
+          fi
+          export KPAH_TK KPAH_MK
+          [ "${BO_QUA_ANH:-}" = "true" ] && export KPAH_KHONG_ANH=1
+
+          mapfile -t targets < <(printf '%s\n' "$KPAH_NHAN_VAT_DS" | sed 's/\r$//' | grep -v '^[[:space:]]*$')
+
+          # Một tài khoản chỉ đăng nhập được một nhân vật tại một thời điểm: chạy tuần tự, mỗi
+          # nhân vật thử lại một lần, lỗi thì chuyển sang nhân vật kế tiếp.
+          ok=0
+          failed=()
+          for target in "${targets[@]}"; do
+            IFS='|' read -r server slot <<< "$target"
+            slot="${slot:-0}"
+            echo "::group::$server - slot $slot"
+            done_target=0
+            for lan in 1 2; do
+              if timeout -k 15 1500 ./may/DataKpah.HeadlessClient --maychu "$server" --nhan-vat "$slot"; then
+                done_target=1
+                break
+              else
+                code=$?
+                echo "::warning::$server slot $slot lượt $lan lỗi (exit $code)"
+                if [ "$lan" -lt 2 ]; then sleep 20; fi
+              fi
+            done
+            echo "::endgroup::"
+            if [ "$done_target" -eq 1 ]; then ok=$((ok + 1)); else failed+=("$server slot $slot"); fi
+            sleep 5
+          done
+
+          echo "Thành công: $ok/${#targets[@]}"
+          if [ "${#failed[@]}" -gt 0 ]; then
+            echo "::warning::Không lấy được: ${failed[*]}"
+          fi
+          if [ "$ok" -eq 0 ]; then
+            echo "::error::Không nhân vật nào lấy được đầy đủ dữ liệu."
+            echo "KPAH_TAT_CA_LOI=1" >> "$GITHUB_ENV"
+          fi
+
+      - name: Dọn tệp dựng
+        if: always()
+        run: rm -rf may
+
+      - name: Kiểm tra dữ liệu
+        run: |
+          dir="TeaMobi/$KPAH_THUMUC"
+          for f in EquipmentItems Gems ShopItems Potions Monsters Skills; do
+            if [ -s "$dir/$f.json" ]; then echo "$f: $(jq length "$dir/$f.json")"; else echo "$f: chưa có"; fi
+          done
+          echo "Icon: $(find "$dir/Icons" -type f 2>/dev/null | wc -l)"
+          echo "Ảnh quái: $(find "$dir/Monsters" -type f 2>/dev/null | wc -l)"
+
+      - name: Commit và đẩy
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add -A TeaMobi
+          if git diff --cached --quiet; then
+            echo "Dữ liệu không đổi."
+            exit 0
+          fi
+          git commit -m "data: cập nhật tự động $(date -u +%Y-%m-%d)"
+          for lan in 1 2 3; do
+            if git push origin HEAD:main; then exit 0; fi
+            git pull --rebase origin main || { git rebase --abort || true; exit 1; }
+            sleep 5
+          done
+          exit 1
+
+      - name: Báo lỗi nếu không nhân vật nào thành công
+        if: env.KPAH_TAT_CA_LOI == '1'
+        run: |
+          echo "::error::Đã lưu phần dữ liệu nhận được, nhưng không nhân vật nào hoàn tất. Xem log bước đăng nhập."
+          exit 1
