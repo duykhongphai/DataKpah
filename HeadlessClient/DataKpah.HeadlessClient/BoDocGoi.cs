@@ -28,6 +28,12 @@ public sealed class BoDocGoi
     public TaskCompletionSource CoQuai { get; } = new(TaskCreationOptions.RunContinuationsAsynchronously);
     public TaskCompletionSource DaVaoGame { get; } = new(TaskCreationOptions.RunContinuationsAsynchronously);
     public TaskCompletionSource DangNhapHong { get; } = new(TaskCreationOptions.RunContinuationsAsynchronously);
+    /// <summary>Máy chủ cấp provider/agent (cmd 2 tiền tố "3"); client gốc lưu lại và dùng cho lần đăng nhập sau.</summary>
+    public TaskCompletionSource CoProvider { get; } = new(TaskCreationOptions.RunContinuationsAsynchronously);
+
+    public string? Provider { get; private set; }
+    public string? Agent { get; private set; }
+    public string? ThongBao { get; private set; }
 
     public int SoMauQuaiNhan;
     public int SoAnhQuaiNhan;
@@ -81,6 +87,7 @@ public sealed class BoDocGoi
                 case 25: DocVatPham(goi.DuLieu); CoVatPham.TrySetResult(); break;
                 case 26: DocSoQuai(goi.DuLieu); CoQuai.TrySetResult(); break;
                 case 35: DocChiSoKyNang(goi.DuLieu); break;
+                case 37: DocThongBao(goi.DuLieu); break;
                 case 100: DocMauQuai(goi.DuLieu); break;
                 case -8: DocBoAnh(goi.DuLieu); break;
                 case -47: DocAnhQuai(goi.DuLieu); break;
@@ -104,11 +111,29 @@ public sealed class BoDocGoi
     // cmd 2: "3…" chỉ là cập nhật provider/agent; các chuỗi khác là thông báo lỗi đăng nhập.
     private void DocThongBaoDangNhap(byte[] raw)
     {
-        var text = new BoDoc(raw).Utf();
-        if (text.StartsWith('3')) return;
+        var r = new BoDoc(raw);
+        var text = r.Utf();
+        if (text.StartsWith('3'))
+        {
+            Provider = r.Utf();
+            Agent = r.Utf();
+            Console.WriteLine($"Máy chủ cấp provider {Provider}, agent {Agent}");
+            CoProvider.TrySetResult();
+            return;
+        }
         data.LoiDangNhap = text.Length > 1 && char.IsDigit(text[0]) ? text[1..] : text;
         Console.WriteLine("Máy chủ từ chối: " + data.LoiDangNhap);
         DangNhapHong.TrySetResult();
+    }
+
+    // cmd 37 (SERVER_MESSAGE): thông báo hộp thoại; có url nghĩa là máy chủ đòi cập nhật phiên bản.
+    private void DocThongBao(byte[] raw)
+    {
+        var r = new BoDoc(raw);
+        var text = r.Utf();
+        var url = r.Con >= 2 ? r.Utf() : "";
+        ThongBao = text;
+        Console.WriteLine($"Thông báo máy chủ: {text}{(url.Length > 0 ? $" (cập nhật: {url})" : "")}");
     }
 
     private void DocDanhSachNhanVat(byte[] raw)

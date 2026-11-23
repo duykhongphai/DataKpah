@@ -24,36 +24,46 @@ public static class Program
             BoXuat.NapCu(data, c.ThuMucRa);
             BoDocGoi.TaoKyNangGoc(data);
 
-            var doc = new BoDocGoi(data, c.ThuMucRa);
-            await using var phien = new PhienKpah();
-            phien.Nhan += doc.NhanAsync;
-
-            await phien.NoiAsync(mayChu.Host, mayChu.Port, ct);
-            await phien.DaBatTay.Task.WaitAsync(TimeSpan.FromSeconds(30), ct);
-
-            // LoginScr.doLogin: setClientType (cmd -1, byte 2) rồi GameService.login (cmd 1).
-            await phien.GuiAsync(-1, new BoGhi().Byte(2).Xong(), ct);
-            await phien.GuiAsync(1, new BoGhi()
-                .Utf(c.TaiKhoan).Utf(c.MatKhau).Utf(c.PhienBan)
-                .Utf("nokia/1/1").Utf("0").Utf("-1").Utf("-1")
-                .Byte(4)       // Main.isPC
-                .Short(800)    // Canvas.w
-                .Byte(0)       // không xin tile từ máy chủ
-                .Byte(mayChu.Route)
-                .Xong(), ct);
-
-            var ketQua = await Task.WhenAny(doc.CoNhanVat.Task, doc.DangNhapHong.Task, phien.DaNgat.Task,
-                Task.Delay(90_000, ct));
-            if (!doc.CoNhanVat.Task.IsCompleted)
+            // Lần đầu client gửi provider/agent "-1"; máy chủ có thể cấp giá trị mới (cmd 2 "3…")
+            // mà client gốc lưu vào RMS để dùng ở lần đăng nhập sau. Khi đó nối lại bằng giá trị ấy.
+            var provider = "-1";
+            var agent = "-1";
+            PhienKpah? phien = null;
+            BoDocGoi? doc = null;
+            for (var lan = 1; lan <= 3 && phien == null; lan++)
             {
-                var lyDo = doc.DangNhapHong.Task.IsCompleted ? doc.LoiDangNhap ?? "đăng nhập thất bại"
-                    : phien.DaNgat.Task.IsCompleted ? "máy chủ ngắt kết nối"
-                    : "hết thời gian chờ danh sách nhân vật";
+                if (lan > 1) await Task.Delay(5_000, ct);
+                var thuDoc = new BoDocGoi(data, c.ThuMucRa);
+                var thuPhien = new PhienKpah();
+                thuPhien.Nhan += thuDoc.NhanAsync;
+                Console.WriteLine($"Đăng nhập lần {lan} (provider {provider}, agent {agent})...");
+                var lyDo = await ThuDangNhapAsync(thuPhien, thuDoc, mayChu, c, provider, agent, ct);
+                if (lyDo == null)
+                {
+                    phien = thuPhien;
+                    doc = thuDoc;
+                    break;
+                }
+
                 Console.WriteLine($"Không vào được màn chọn nhân vật: {lyDo}");
-                Console.WriteLine($"  gói đã nhận: {doc.TomTatGoi()}");
-                BoXuat.Ghi(data, c.ThuMucRa, mayChu, c.NhanVat); // giữ các bảng đã nhận
+                Console.WriteLine($"  gói đã nhận: {thuDoc.TomTatGoi()}");
+                await thuPhien.DisposeAsync();
+                var duocCap = thuDoc.Provider != null && (thuDoc.Provider != provider || thuDoc.Agent != agent);
+                if (!duocCap || thuDoc.DangNhapHong.Task.IsCompleted)
+                {
+                    BoXuat.Ghi(data, c.ThuMucRa, mayChu, c.NhanVat); // giữ các bảng đã nhận
+                    return 1;
+                }
+                provider = thuDoc.Provider!;
+                agent = thuDoc.Agent ?? "-1";
+            }
+
+            if (phien == null || doc == null)
+            {
+                BoXuat.Ghi(data, c.ThuMucRa, mayChu, c.NhanVat);
                 return 1;
             }
+            await using var _ = phien;
 
             NhanVat? nhanVat;
             lock (data.Khoa)
@@ -146,6 +156,44 @@ public static class Program
             Console.Error.WriteLine(e.Message);
             return 1;
         }
+    }
+
+    /// <summary>Nối, bắt tay, đăng nhập và chờ danh sách nhân vật. Trả null nếu thành công, ngược lại là lý do.</summary>
+    private static async Task<string?> ThuDangNhapAsync(PhienKpah phien, BoDocGoi doc, MayChu mayChu, CauHinh c,
+        string provider, string agent, CancellationToken ct)
+    {
+        try
+        {
+            await phien.NoiAsync(mayChu.Host, mayChu.Port, ct);
+            await phien.DaBatTay.Task.WaitAsync(TimeSpan.FromSeconds(30), ct);
+
+            // LoginScr.doLogin: setClientType (cmd -1, byte 2) rồi GameService.login (cmd 1).
+            await phien.GuiAsync(-1, new BoGhi().Byte(2).Xong(), ct);
+            await phien.GuiAsync(1, new BoGhi()
+                .Utf(c.TaiKhoan).Utf(c.MatKhau).Utf(c.PhienBan)
+                .Utf("nokia/1/1").Utf("0").Utf(provider).Utf(agent)
+                .Byte(4)       // Main.isPC
+                .Short(800)    // Canvas.w
+                .Byte(0)       // không xin tile từ máy chủ
+                .Byte(mayChu.Route)
+                .Xong(), ct);
+        }
+        catch (Exception e) when (e is not OperationCanceledException || !ct.IsCancellationRequested)
+        {
+            return e.Message;
+        }
+
+        var dung = new Task[] { doc.CoNhanVat.Task, doc.DangNhapHong.Task, phien.DaNgat.Task };
+        var xong = await Task.WhenAny([.. dung, doc.CoProvider.Task, Task.Delay(90_000, ct)]);
+        // Nhận provider mới mà chưa có danh sách nhân vật: chờ thêm một lúc rồi đăng nhập lại.
+        if (xong == doc.CoProvider.Task && !doc.CoNhanVat.Task.IsCompleted)
+            await Task.WhenAny([.. dung, Task.Delay(15_000, ct)]);
+
+        if (doc.CoNhanVat.Task.IsCompleted) return null;
+        if (doc.DangNhapHong.Task.IsCompleted) return doc.LoiDangNhap ?? "đăng nhập thất bại";
+        var thongBao = doc.ThongBao != null ? $" (máy chủ báo: {doc.ThongBao})" : "";
+        if (phien.DaNgat.Task.IsCompleted) return "máy chủ ngắt kết nối" + thongBao;
+        return "hết thời gian chờ danh sách nhân vật" + thongBao;
     }
 
     /// <summary>Chờ tới khi bộ đếm gói phản hồi đứng yên 5 giây (tối đa 60 giây).</summary>
