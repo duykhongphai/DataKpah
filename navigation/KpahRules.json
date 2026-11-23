@@ -5,12 +5,18 @@
 {
   "Version": 1,
 
-  // Tên map viết cứng trong client (Tilemap.setNameMap) - dùng khi máy chủ chưa gửi tên.
+  // Tên map dùng khi máy chủ chưa gửi tên (vào game thì tool dùng tên máy chủ gửi trong cmd 12 / cmd 105).
+  // 0-11, 100-102, 110-112, 202: viết cứng trong client (Tilemap.setNameMap).
+  // 13-26, 113, 114: theo bảng Map.mapID / Map.namMap của server (RealController.initMapKPAH), cột đầu của từng dòng;
+  // 21, 22 khớp menu NPC -19 ("Bình kiều" → 21, "Chiến hạm" → 22).
   "MapNames": {
     "0": "Sơn Nam", "1": "Dao Châu", "2": "Tiên Du", "3": "Phù Liệt", "4": "Kỳ Bố", "5": "Hàm Tử",
     "6": "Thạch Giang", "7": "Đông Sơn", "8": "Tử Quan", "9": "Trường Giang", "10": "Lộc Trĩ", "11": "Sơn Lâm",
     "100": "Nhà bán HP", "101": "Nhà bán MP", "102": "Nhà thợ rèn",
-    "110": "Hang động", "111": "Hang mãng xà", "112": "Hang thằn lằn", "202": "Đấu trường"
+    "110": "Hang động", "111": "Hang mãng xà", "112": "Hang thằn lằn", "202": "Đấu trường",
+    "13": "Phong châu", "14": "Bình lục", "15": "Bảo thái", "17": "Khu mỏ", "18": "Bạch hạc", "19": "Tế giang",
+    "20": "Siêu loại", "21": "Bình kiều", "22": "Chiến hạm", "23": "Cẩm khê", "24": "Đỗ đông", "26": "Rừng già",
+    "113": "Hầm tối", "114": "Hồi hồ"
   },
 
   // Map offline của client (GameScr.offMapID): cổng có toM thuộc danh sách này là cổng vào nhà.
