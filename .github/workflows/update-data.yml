@@ -43,9 +43,8 @@ jobs:
       - name: Đăng nhập lần lượt các nhân vật và lấy dữ liệu
         env:
           KPAH_TAIKHOAN: ${{ secrets.KPAH_TAIKHOAN }}
-          # Mỗi dòng "Máy chủ|slot". Chỉ số kỹ năng chỉ có cho phái của nhân vật đã đăng nhập,
-          # nên thêm một nhân vật mỗi phái để có đủ 5 phái.
-          KPAH_NHAN_VAT_DS: ${{ vars.KPAH_NHAN_VAT || 'Vạn Xuân|0' }}
+          # Variable KPAH_NHAN_VAT (mỗi dòng "Máy chủ|slot") ghi đè danh sách mặc định bên dưới.
+          KPAH_NHAN_VAT_DS: ${{ vars.KPAH_NHAN_VAT }}
           BO_QUA_ANH: ${{ github.event.inputs.bo-qua-anh }}
         run: |
           set -euo pipefail
@@ -62,6 +61,18 @@ jobs:
           export KPAH_TK KPAH_MK
           [ "${BO_QUA_ANH:-}" = "true" ] && export KPAH_KHONG_ANH=1
 
+          # Chỉ số và icon kỹ năng chỉ gửi cho phái của nhân vật đang chơi, nên mặc định đăng
+          # nhập một nhân vật cho mỗi phái.
+          if [ -z "${KPAH_NHAN_VAT_DS//[[:space:]]/}" ]; then
+            KPAH_NHAN_VAT_DS=$(printf '%s\n' \
+              "Vạn Xuân|0" \
+              "Vạn Xuân|1" \
+              "Tràng An|0" \
+              "Hoàng Vương|0" \
+              "Tràng An|1")
+            # Vạn Xuân 0: Pháp sư, Vạn Xuân 1: Kiếm khách, Tràng An 0: Đấu sĩ (búa),
+            # Hoàng Vương 0: Cung thủ, Tràng An 1: Chiến binh (đao).
+          fi
           mapfile -t targets < <(printf '%s\n' "$KPAH_NHAN_VAT_DS" | sed 's/\r$//' | grep -v '^[[:space:]]*$')
 
           # Một tài khoản chỉ đăng nhập được một nhân vật tại một thời điểm: chạy tuần tự, mỗi

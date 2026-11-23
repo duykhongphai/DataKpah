@@ -42,16 +42,19 @@ Tạo repository secret:
 
 - `KPAH_TAIKHOAN`: `tài_khoản|mật_khẩu`
 
+Mặc định workflow lần lượt đăng nhập 5 nhân vật, mỗi phái một nhân vật, bằng cùng tài khoản:
+
+| Máy chủ | Slot | Phái |
+|---|---|---|
+| Vạn Xuân | 0 | Pháp sư |
+| Vạn Xuân | 1 | Kiếm khách |
+| Tràng An | 0 | Đấu sĩ (búa) |
+| Hoàng Vương | 0 | Cung thủ |
+| Tràng An | 1 | Chiến binh (đao) |
+
 Repository variables (không bắt buộc):
 
-- `KPAH_NHAN_VAT`: danh sách nhân vật, mỗi dòng `Máy chủ|slot`; mặc định `Vạn Xuân|0`. Ví dụ:
-
-  ```text
-  Vạn Xuân|0
-  Vạn Xuân|1
-  Kinh Môn|0
-  ```
-
+- `KPAH_NHAN_VAT`: thay danh sách trên, mỗi dòng `Máy chủ|slot`, ví dụ `Vạn Xuân|0`.
 - `KPAH_THUMUC`: thư mục kho dùng chung; mặc định `DuLieu`.
 
 Tên máy chủ có thể viết có dấu hoặc không dấu. Danh sách máy chủ: Vạn Xuân, Cổ Loa, Thăng Long,
