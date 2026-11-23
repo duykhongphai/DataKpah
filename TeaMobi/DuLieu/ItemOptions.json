@@ -1,0 +1,1130 @@
+[
+  {
+    "id": 0,
+    "ten": "Tấn công",
+    "laPhanTram": 0,
+    "mau": 0
+  },
+  {
+    "id": 1,
+    "ten": "Thủ vật",
+    "laPhanTram": 0,
+    "mau": 0
+  },
+  {
+    "id": 2,
+    "ten": "Né tránh",
+    "laPhanTram": 2,
+    "mau": 0
+  },
+  {
+    "id": 3,
+    "ten": "Chính xác",
+    "laPhanTram": 2,
+    "mau": 0
+  },
+  {
+    "id": 4,
+    "ten": "Chí mạng",
+    "laPhanTram": 2,
+    "mau": 0
+  },
+  {
+    "id": 5,
+    "ten": "Sức khỏe",
+    "laPhanTram": 0,
+    "mau": 0
+  },
+  {
+    "id": 6,
+    "ten": "Thủ ma",
+    "laPhanTram": 0,
+    "mau": 0
+  },
+  {
+    "id": 7,
+    "ten": "chỉ số 7",
+    "laPhanTram": 0,
+    "mau": 0
+  },
+  {
+    "id": 8,
+    "ten": "chỉ số 8",
+    "laPhanTram": 0,
+    "mau": 0
+  },
+  {
+    "id": 9,
+    "ten": "chỉ số 9",
+    "laPhanTram": 0,
+    "mau": 0
+  },
+  {
+    "id": 10,
+    "ten": "Tăng sức mạnh",
+    "laPhanTram": 0,
+    "mau": 3
+  },
+  {
+    "id": 11,
+    "ten": "Tăng nhanh nhẹn",
+    "laPhanTram": 0,
+    "mau": 3
+  },
+  {
+    "id": 12,
+    "ten": "Tăng tinh thần",
+    "laPhanTram": 0,
+    "mau": 3
+  },
+  {
+    "id": 13,
+    "ten": "Tăng sức khoẻ",
+    "laPhanTram": 0,
+    "mau": 3
+  },
+  {
+    "id": 14,
+    "ten": "Gây mù",
+    "laPhanTram": 1,
+    "mau": 3
+  },
+  {
+    "id": 15,
+    "ten": "Đóng băng",
+    "laPhanTram": 1,
+    "mau": 3
+  },
+  {
+    "id": 16,
+    "ten": "Trúng độc",
+    "laPhanTram": 1,
+    "mau": 3
+  },
+  {
+    "id": 17,
+    "ten": "Gây choáng",
+    "laPhanTram": 1,
+    "mau": 3
+  },
+  {
+    "id": 18,
+    "ten": "Hoá thạch",
+    "laPhanTram": 1,
+    "mau": 3
+  },
+  {
+    "id": 19,
+    "ten": "Giảm tốc",
+    "laPhanTram": 1,
+    "mau": 3
+  },
+  {
+    "id": 20,
+    "ten": "Kháng giảm tốc",
+    "laPhanTram": 1,
+    "mau": 3
+  },
+  {
+    "id": 21,
+    "ten": "Kháng trúng độc",
+    "laPhanTram": 1,
+    "mau": 3
+  },
+  {
+    "id": 22,
+    "ten": "Kháng gây mù",
+    "laPhanTram": 1,
+    "mau": 3
+  },
+  {
+    "id": 23,
+    "ten": "Kháng đóng băng",
+    "laPhanTram": 1,
+    "mau": 3
+  },
+  {
+    "id": 24,
+    "ten": "Kháng gây choáng",
+    "laPhanTram": 1,
+    "mau": 3
+  },
+  {
+    "id": 25,
+    "ten": "Kháng hoá thạch",
+    "laPhanTram": 1,
+    "mau": 3
+  },
+  {
+    "id": 26,
+    "ten": "Tăng x2 mỗi lần đánh",
+    "laPhanTram": 1,
+    "mau": 3
+  },
+  {
+    "id": 27,
+    "ten": "Tăng tỷ lệ rớt bảo vật",
+    "laPhanTram": 1,
+    "mau": 3
+  },
+  {
+    "id": 28,
+    "ten": "Giảm st vật",
+    "laPhanTram": 1,
+    "mau": 1
+  },
+  {
+    "id": 29,
+    "ten": "Giảm st ma",
+    "laPhanTram": 1,
+    "mau": 1
+  },
+  {
+    "id": 30,
+    "ten": "Tăng tấn công",
+    "laPhanTram": 1,
+    "mau": 1
+  },
+  {
+    "id": 31,
+    "ten": "Xuyên giáp",
+    "laPhanTram": 1,
+    "mau": 1
+  },
+  {
+    "id": 32,
+    "ten": "Phản st",
+    "laPhanTram": 1,
+    "mau": 1
+  },
+  {
+    "id": 33,
+    "ten": "Tăng HP",
+    "laPhanTram": 0,
+    "mau": 0
+  },
+  {
+    "id": 34,
+    "ten": "Tăng MP",
+    "laPhanTram": 0,
+    "mau": 0
+  },
+  {
+    "id": 35,
+    "ten": "Cộng sức mạnh",
+    "laPhanTram": 0,
+    "mau": 0
+  },
+  {
+    "id": 36,
+    "ten": "Cộng khéo léo",
+    "laPhanTram": 0,
+    "mau": 0
+  },
+  {
+    "id": 37,
+    "ten": "Cộng tinh thần",
+    "laPhanTram": 0,
+    "mau": 0
+  },
+  {
+    "id": 38,
+    "ten": "Cộng sức khoẻ",
+    "laPhanTram": 0,
+    "mau": 0
+  },
+  {
+    "id": 39,
+    "ten": "Cộng kỹ năng",
+    "laPhanTram": 0,
+    "mau": 0
+  },
+  {
+    "id": 40,
+    "ten": "Tăng chí mạng",
+    "laPhanTram": 0,
+    "mau": 0
+  },
+  {
+    "id": 41,
+    "ten": "Tăng st chí mạng",
+    "laPhanTram": 0,
+    "mau": 0
+  },
+  {
+    "id": 42,
+    "ten": "chưa dùng",
+    "laPhanTram": 0,
+    "mau": 0
+  },
+  {
+    "id": 43,
+    "ten": "kỹ năng 1 cộng thêm",
+    "laPhanTram": 0,
+    "mau": 0
+  },
+  {
+    "id": 44,
+    "ten": "kỹ năng 2 cộng thêm",
+    "laPhanTram": 0,
+    "mau": 0
+  },
+  {
+    "id": 45,
+    "ten": "kỹ năng 3 cộng thêm",
+    "laPhanTram": 0,
+    "mau": 0
+  },
+  {
+    "id": 46,
+    "ten": "kỹ năng 4 cộng thêm",
+    "laPhanTram": 0,
+    "mau": 0
+  },
+  {
+    "id": 47,
+    "ten": "kỹ năng 5 cộng thêm",
+    "laPhanTram": 0,
+    "mau": 0
+  },
+  {
+    "id": 48,
+    "ten": "kỹ năng 6 cộng thêm",
+    "laPhanTram": 0,
+    "mau": 0
+  },
+  {
+    "id": 49,
+    "ten": "kỹ năng 7 cộng thêm",
+    "laPhanTram": 0,
+    "mau": 0
+  },
+  {
+    "id": 50,
+    "ten": "kỹ năng 8 cộng thêm",
+    "laPhanTram": 0,
+    "mau": 0
+  },
+  {
+    "id": 51,
+    "ten": "kỹ năng 9 cộng thêm",
+    "laPhanTram": 0,
+    "mau": 0
+  },
+  {
+    "id": 52,
+    "ten": "kỹ năng 10 cộng thêm",
+    "laPhanTram": 0,
+    "mau": 0
+  },
+  {
+    "id": 53,
+    "ten": "kỹ năng 11 cộng thêm",
+    "laPhanTram": 0,
+    "mau": 0
+  },
+  {
+    "id": 54,
+    "ten": "kỹ năng 12 cộng thêm",
+    "laPhanTram": 0,
+    "mau": 0
+  },
+  {
+    "id": 55,
+    "ten": "kỹ năng 13 cộng thêm",
+    "laPhanTram": 0,
+    "mau": 0
+  },
+  {
+    "id": 56,
+    "ten": "kỹ năng 14 cộng thêm",
+    "laPhanTram": 0,
+    "mau": 0
+  },
+  {
+    "id": 57,
+    "ten": "kỹ năng 15 cộng thêm",
+    "laPhanTram": 0,
+    "mau": 0
+  },
+  {
+    "id": 58,
+    "ten": "Tăng công",
+    "laPhanTram": 1,
+    "mau": 0
+  },
+  {
+    "id": 59,
+    "ten": "Tăng thủ ma",
+    "laPhanTram": 1,
+    "mau": 0
+  },
+  {
+    "id": 60,
+    "ten": "Tăng thủ vật",
+    "laPhanTram": 1,
+    "mau": 0
+  },
+  {
+    "id": 61,
+    "ten": "Bỏ qua tc ma",
+    "laPhanTram": 1,
+    "mau": 1
+  },
+  {
+    "id": 62,
+    "ten": "Bỏ qua tc vật",
+    "laPhanTram": 1,
+    "mau": 1
+  },
+  {
+    "id": 63,
+    "ten": "Tăng thủ ma trang bị",
+    "laPhanTram": 1,
+    "mau": 0
+  },
+  {
+    "id": 64,
+    "ten": "Tăng thủ vật trang bị",
+    "laPhanTram": 1,
+    "mau": 0
+  },
+  {
+    "id": 65,
+    "ten": "Bạo kích",
+    "laPhanTram": 2,
+    "mau": 0
+  },
+  {
+    "id": 66,
+    "ten": "Sét lan",
+    "laPhanTram": 2,
+    "mau": 2
+  },
+  {
+    "id": 67,
+    "ten": "Độc lan",
+    "laPhanTram": 2,
+    "mau": 2
+  },
+  {
+    "id": 68,
+    "ten": "Băng lan",
+    "laPhanTram": 2,
+    "mau": 2
+  },
+  {
+    "id": 69,
+    "ten": "Tăng sét lan",
+    "laPhanTram": 2,
+    "mau": 0
+  },
+  {
+    "id": 70,
+    "ten": "Tăng độc lan",
+    "laPhanTram": 2,
+    "mau": 0
+  },
+  {
+    "id": 71,
+    "ten": "Tăng băng lan",
+    "laPhanTram": 2,
+    "mau": 0
+  },
+  {
+    "id": 72,
+    "ten": "Tăng st băng lan",
+    "laPhanTram": 1,
+    "mau": 0
+  },
+  {
+    "id": 73,
+    "ten": "Tăng st sét lan",
+    "laPhanTram": 1,
+    "mau": 0
+  },
+  {
+    "id": 74,
+    "ten": "Tăng st độc lan",
+    "laPhanTram": 1,
+    "mau": 0
+  },
+  {
+    "id": 75,
+    "ten": "Hoá người tuyết",
+    "laPhanTram": 2,
+    "mau": 0
+  },
+  {
+    "id": 76,
+    "ten": "Kháng bạo kích",
+    "laPhanTram": 0,
+    "mau": 0
+  },
+  {
+    "id": 77,
+    "ten": "Hút máu",
+    "laPhanTram": 0,
+    "mau": 0
+  },
+  {
+    "id": 78,
+    "ten": "Hồi HP",
+    "laPhanTram": 0,
+    "mau": 0
+  },
+  {
+    "id": 79,
+    "ten": "Hồi MP",
+    "laPhanTram": 0,
+    "mau": 0
+  },
+  {
+    "id": 80,
+    "ten": "Tàn phế",
+    "laPhanTram": 2,
+    "mau": 0
+  },
+  {
+    "id": 81,
+    "ten": "Hấp thu sát thương",
+    "laPhanTram": 0,
+    "mau": 0
+  },
+  {
+    "id": 82,
+    "ten": "Câm lặng",
+    "laPhanTram": 2,
+    "mau": 0
+  },
+  {
+    "id": 83,
+    "ten": "Tăng tỷ lệ rớt vật phẩm",
+    "laPhanTram": 2,
+    "mau": 0
+  },
+  {
+    "id": 84,
+    "ten": "Tăng tỷ lệ rớt xu",
+    "laPhanTram": 2,
+    "mau": 0
+  },
+  {
+    "id": 85,
+    "ten": "Kháng băng lan",
+    "laPhanTram": 2,
+    "mau": 0
+  },
+  {
+    "id": 86,
+    "ten": "Kháng sét lan",
+    "laPhanTram": 2,
+    "mau": 0
+  },
+  {
+    "id": 87,
+    "ten": "Kháng độc lan",
+    "laPhanTram": 2,
+    "mau": 0
+  },
+  {
+    "id": 88,
+    "ten": "Tăng thủ trang bị",
+    "laPhanTram": 2,
+    "mau": 0
+  },
+  {
+    "id": 89,
+    "ten": "Lửa lan",
+    "laPhanTram": 2,
+    "mau": 2
+  },
+  {
+    "id": 90,
+    "ten": "Tăng lửa lan",
+    "laPhanTram": 2,
+    "mau": 0
+  },
+  {
+    "id": 91,
+    "ten": "Tăng st lửa lan",
+    "laPhanTram": 1,
+    "mau": 0
+  },
+  {
+    "id": 92,
+    "ten": "Kháng lửa lan",
+    "laPhanTram": 2,
+    "mau": 0
+  },
+  {
+    "id": 93,
+    "ten": "St hắc ám",
+    "laPhanTram": 0,
+    "mau": 0
+  },
+  {
+    "id": 94,
+    "ten": "St ánh sáng",
+    "laPhanTram": 0,
+    "mau": 0
+  },
+  {
+    "id": 95,
+    "ten": "Xh hắc ám",
+    "laPhanTram": 2,
+    "mau": 0
+  },
+  {
+    "id": 96,
+    "ten": "Xh ánh sáng",
+    "laPhanTram": 2,
+    "mau": 0
+  },
+  {
+    "id": 97,
+    "ten": "Gây hoảng sợ:",
+    "laPhanTram": 0,
+    "mau": 0
+  },
+  {
+    "id": 98,
+    "ten": "Xh hoảng sợ",
+    "laPhanTram": 1,
+    "mau": 0
+  },
+  {
+    "id": 99,
+    "ten": "St theo chủ",
+    "laPhanTram": 1,
+    "mau": 0
+  },
+  {
+    "id": 100,
+    "ten": "Sức khoẻ",
+    "laPhanTram": 0,
+    "mau": 0
+  },
+  {
+    "id": 101,
+    "ten": "St max Hp",
+    "laPhanTram": 1,
+    "mau": 0
+  },
+  {
+    "id": 102,
+    "ten": "Ru ngủ",
+    "laPhanTram": 2,
+    "mau": 0
+  },
+  {
+    "id": 103,
+    "ten": "Choáng",
+    "laPhanTram": 2,
+    "mau": 0
+  },
+  {
+    "id": 104,
+    "ten": "Bỏng",
+    "laPhanTram": 2,
+    "mau": 0
+  },
+  {
+    "id": 105,
+    "ten": "Trúng độc",
+    "laPhanTram": 2,
+    "mau": 0
+  },
+  {
+    "id": 106,
+    "ten": "Suy yếu",
+    "laPhanTram": 2,
+    "mau": 0
+  },
+  {
+    "id": 107,
+    "ten": "Chuyển st qua mp",
+    "laPhanTram": 0,
+    "mau": 0
+  },
+  {
+    "id": 108,
+    "ten": "Gia tăng tc",
+    "laPhanTram": 0,
+    "mau": 0
+  },
+  {
+    "id": 109,
+    "ten": "Hút hp",
+    "laPhanTram": 0,
+    "mau": 0
+  },
+  {
+    "id": 110,
+    "ten": "Sát thương độc",
+    "laPhanTram": 0,
+    "mau": 0
+  },
+  {
+    "id": 111,
+    "ten": "Tăng exp",
+    "laPhanTram": 1,
+    "mau": 0
+  },
+  {
+    "id": 112,
+    "ten": "Tác động suy yếu",
+    "laPhanTram": 1,
+    "mau": 0
+  },
+  {
+    "id": 113,
+    "ten": "Tl hút hp",
+    "laPhanTram": 2,
+    "mau": 0
+  },
+  {
+    "id": 114,
+    "ten": "Nhân thêm st khi bỏng",
+    "laPhanTram": 1,
+    "mau": 0
+  },
+  {
+    "id": 115,
+    "ten": "Sát thương chuẩn",
+    "laPhanTram": 2,
+    "mau": 1
+  },
+  {
+    "id": 116,
+    "ten": "Chỉ số vũ khí tăng",
+    "laPhanTram": 2,
+    "mau": 1
+  },
+  {
+    "id": 117,
+    "ten": "Tỷ lệ gây sát thương chuẩn",
+    "laPhanTram": 2,
+    "mau": 1
+  },
+  {
+    "id": 118,
+    "ten": "Giảm sát thương cuối",
+    "laPhanTram": 2,
+    "mau": 2
+  },
+  {
+    "id": 119,
+    "ten": "Nguyệt ảnh gây st(10%-15%) tl xuất hiện",
+    "laPhanTram": 2,
+    "mau": 2
+  },
+  {
+    "id": 120,
+    "ten": "Kháng hoả",
+    "laPhanTram": 2,
+    "mau": 1
+  },
+  {
+    "id": 121,
+    "ten": "Kháng thuỷ",
+    "laPhanTram": 2,
+    "mau": 1
+  },
+  {
+    "id": 122,
+    "ten": "Kháng mộc",
+    "laPhanTram": 2,
+    "mau": 1
+  },
+  {
+    "id": 123,
+    "ten": "Kháng kim",
+    "laPhanTram": 2,
+    "mau": 1
+  },
+  {
+    "id": 124,
+    "ten": "Kháng thổ",
+    "laPhanTram": 2,
+    "mau": 1
+  },
+  {
+    "id": 125,
+    "ten": "Giá lượng",
+    "laPhanTram": 0,
+    "mau": 2
+  },
+  {
+    "id": 126,
+    "ten": "Số lượng",
+    "laPhanTram": 0,
+    "mau": 2
+  },
+  {
+    "id": 127,
+    "ten": "Kháng st lan",
+    "laPhanTram": 2,
+    "mau": 0
+  },
+  {
+    "id": 128,
+    "ten": "Hồi hp theo maxhp",
+    "laPhanTram": 2,
+    "mau": 0
+  },
+  {
+    "id": 129,
+    "ten": "Chuyển sát thương thành hp",
+    "laPhanTram": 2,
+    "mau": 0
+  },
+  {
+    "id": 130,
+    "ten": "Giảm thủ đối phương",
+    "laPhanTram": 2,
+    "mau": 0
+  },
+  {
+    "id": 131,
+    "ten": "Né tránh",
+    "laPhanTram": 2,
+    "mau": 0
+  },
+  {
+    "id": 132,
+    "ten": "Hoá giải kỹ năng pet",
+    "laPhanTram": 2,
+    "mau": 0
+  },
+  {
+    "id": 133,
+    "ten": "Tăng hiệu quả bình hp mp khi hp dưới 30%",
+    "laPhanTram": 2,
+    "mau": 0
+  },
+  {
+    "id": 134,
+    "ten": "Sát thương theo hp",
+    "laPhanTram": 2,
+    "mau": 1
+  },
+  {
+    "id": 135,
+    "ten": "Điều kiện chủ nhận đủ 500k st từ hvl",
+    "laPhanTram": 0,
+    "mau": 1
+  },
+  {
+    "id": 136,
+    "ten": "Hấp thu sát thương",
+    "laPhanTram": 2,
+    "mau": 1
+  },
+  {
+    "id": 137,
+    "ten": "Tăng tốc",
+    "laPhanTram": 2,
+    "mau": 1
+  },
+  {
+    "id": 138,
+    "ten": "Tiềm năng",
+    "laPhanTram": 0,
+    "mau": 1
+  },
+  {
+    "id": 139,
+    "ten": "Sát thương ma",
+    "laPhanTram": 0,
+    "mau": 0
+  },
+  {
+    "id": 140,
+    "ten": "Sát thương vật",
+    "laPhanTram": 0,
+    "mau": 0
+  },
+  {
+    "id": 141,
+    "ten": "Sát thương chí mạng",
+    "laPhanTram": 2,
+    "mau": 0
+  },
+  {
+    "id": 142,
+    "ten": "Sát thương theo hp",
+    "laPhanTram": 2,
+    "mau": 0
+  },
+  {
+    "id": 143,
+    "ten": "Sát thương theo mp",
+    "laPhanTram": 2,
+    "mau": 0
+  },
+  {
+    "id": 144,
+    "ten": "Sát thương vật",
+    "laPhanTram": 2,
+    "mau": 0
+  },
+  {
+    "id": 145,
+    "ten": "Sát thương ma",
+    "laPhanTram": 2,
+    "mau": 0
+  },
+  {
+    "id": 146,
+    "ten": "Xuyên thủ ma",
+    "laPhanTram": 2,
+    "mau": 0
+  },
+  {
+    "id": 147,
+    "ten": "Xuyên thủ vật",
+    "laPhanTram": 2,
+    "mau": 0
+  },
+  {
+    "id": 148,
+    "ten": "Tăng sát thương boss",
+    "laPhanTram": 2,
+    "mau": 0
+  },
+  {
+    "id": 149,
+    "ten": "Tăng sát thương quái ",
+    "laPhanTram": 2,
+    "mau": 0
+  },
+  {
+    "id": 150,
+    "ten": "Giảm sát thương boss",
+    "laPhanTram": 0,
+    "mau": 0
+  },
+  {
+    "id": 151,
+    "ten": "Tăng thủ cơ bản",
+    "laPhanTram": 0,
+    "mau": 0
+  },
+  {
+    "id": 152,
+    "ten": "Kháng kim",
+    "laPhanTram": 0,
+    "mau": 0
+  },
+  {
+    "id": 153,
+    "ten": "Kháng mộc",
+    "laPhanTram": 0,
+    "mau": 0
+  },
+  {
+    "id": 154,
+    "ten": "Kháng thuỷ",
+    "laPhanTram": 0,
+    "mau": 0
+  },
+  {
+    "id": 155,
+    "ten": "Kháng hoả",
+    "laPhanTram": 0,
+    "mau": 0
+  },
+  {
+    "id": 156,
+    "ten": "Kháng thổ",
+    "laPhanTram": 0,
+    "mau": 0
+  },
+  {
+    "id": 157,
+    "ten": "Tăng kháng khi party",
+    "laPhanTram": 0,
+    "mau": 0
+  },
+  {
+    "id": 158,
+    "ten": "Phả đòn",
+    "laPhanTram": 0,
+    "mau": 0
+  },
+  {
+    "id": 159,
+    "ten": "Chuyển sát thương thành mp",
+    "laPhanTram": 0,
+    "mau": 0
+  },
+  {
+    "id": 160,
+    "ten": "Giảm cooldown",
+    "laPhanTram": 1,
+    "mau": 0
+  },
+  {
+    "id": 161,
+    "ten": "Tốc độ",
+    "laPhanTram": 0,
+    "mau": 0
+  },
+  {
+    "id": 162,
+    "ten": "Tăng câm lặng",
+    "laPhanTram": 1,
+    "mau": 0
+  },
+  {
+    "id": 163,
+    "ten": "Sát thương hệ kim",
+    "laPhanTram": 0,
+    "mau": 0
+  },
+  {
+    "id": 164,
+    "ten": "Sát thương hệ mộc",
+    "laPhanTram": 0,
+    "mau": 0
+  },
+  {
+    "id": 165,
+    "ten": "Sát thương hệ thuỷ",
+    "laPhanTram": 0,
+    "mau": 0
+  },
+  {
+    "id": 166,
+    "ten": "Sát thương hệ hoả",
+    "laPhanTram": 0,
+    "mau": 0
+  },
+  {
+    "id": 167,
+    "ten": "Sát thương hệ thổ",
+    "laPhanTram": 0,
+    "mau": 0
+  },
+  {
+    "id": 168,
+    "ten": "Số dòng",
+    "laPhanTram": 0,
+    "mau": 0
+  },
+  {
+    "id": 169,
+    "ten": "vải",
+    "laPhanTram": 0,
+    "mau": 0
+  },
+  {
+    "id": 170,
+    "ten": "Sắt",
+    "laPhanTram": 0,
+    "mau": 0
+  },
+  {
+    "id": 171,
+    "ten": "Ngọc",
+    "laPhanTram": 0,
+    "mau": 0
+  },
+  {
+    "id": 172,
+    "ten": "Gỗ thường",
+    "laPhanTram": 0,
+    "mau": 0
+  },
+  {
+    "id": 173,
+    "ten": "Da mềm",
+    "laPhanTram": 0,
+    "mau": 0
+  },
+  {
+    "id": 174,
+    "ten": "Tơ lụa",
+    "laPhanTram": 0,
+    "mau": 0
+  },
+  {
+    "id": 175,
+    "ten": "Bạc",
+    "laPhanTram": 0,
+    "mau": 0
+  },
+  {
+    "id": 176,
+    "ten": "Thuỷ tinh",
+    "laPhanTram": 0,
+    "mau": 0
+  },
+  {
+    "id": 177,
+    "ten": "Gỗ sưa",
+    "laPhanTram": 0,
+    "mau": 0
+  },
+  {
+    "id": 178,
+    "ten": "Da cứng",
+    "laPhanTram": 0,
+    "mau": 0
+  },
+  {
+    "id": 179,
+    "ten": "Đá ngũ hợp",
+    "laPhanTram": 0,
+    "mau": 0
+  },
+  {
+    "id": 180,
+    "ten": "Giảm sát thương cuối",
+    "laPhanTram": 2,
+    "mau": 0
+  },
+  {
+    "id": 181,
+    "ten": "Hút mp",
+    "laPhanTram": 2,
+    "mau": 0
+  },
+  {
+    "id": 182,
+    "ten": "Hút hp",
+    "laPhanTram": 2,
+    "mau": 0
+  },
+  {
+    "id": 183,
+    "ten": "Tăng né tránh",
+    "laPhanTram": 2,
+    "mau": 0
+  },
+  {
+    "id": 184,
+    "ten": "Giảm st và thủ",
+    "laPhanTram": 2,
+    "mau": 0
+  },
+  {
+    "id": 185,
+    "ten": "Phản đòn",
+    "laPhanTram": 2,
+    "mau": 0
+  },
+  {
+    "id": 186,
+    "ten": "Kháng tất cả",
+    "laPhanTram": 2,
+    "mau": 0
+  },
+  {
+    "id": 187,
+    "ten": "Cải tạo",
+    "laPhanTram": 2,
+    "mau": 0
+  }
+]

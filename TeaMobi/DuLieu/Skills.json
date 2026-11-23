@@ -1,0 +1,3053 @@
+[
+  {
+    "lop": 0,
+    "id": 0,
+    "ten": "Chém",
+    "moTa": "",
+    "giaHoc": 0,
+    "tamDanh": 0,
+    "danhLan": false,
+    "cacCap": []
+  },
+  {
+    "lop": 0,
+    "id": 1,
+    "ten": "Kim tinh pháp",
+    "moTa": "",
+    "giaHoc": 0,
+    "tamDanh": 0,
+    "danhLan": false,
+    "cacCap": []
+  },
+  {
+    "lop": 0,
+    "id": 2,
+    "ten": "Lôi điện pháp",
+    "moTa": "",
+    "giaHoc": 0,
+    "tamDanh": 0,
+    "danhLan": false,
+    "cacCap": []
+  },
+  {
+    "lop": 0,
+    "id": 3,
+    "ten": "Kinh lôi bát thủ",
+    "moTa": "",
+    "giaHoc": 0,
+    "tamDanh": 0,
+    "danhLan": false,
+    "cacCap": []
+  },
+  {
+    "lop": 0,
+    "id": 4,
+    "ten": "Hộ sát tiến",
+    "moTa": "",
+    "giaHoc": 0,
+    "tamDanh": 0,
+    "danhLan": false,
+    "cacCap": []
+  },
+  {
+    "lop": 0,
+    "id": 5,
+    "ten": "Dĩ lực đáo công",
+    "moTa": "",
+    "giaHoc": 0,
+    "tamDanh": 0,
+    "danhLan": false,
+    "cacCap": []
+  },
+  {
+    "lop": 0,
+    "id": 6,
+    "ten": "Thiên lôi điện trảm",
+    "moTa": "Dùng sức mạnh của sấm sét tấn công nhiều mục tiêu trong 1 phạm vi nhất định",
+    "giaHoc": 30000,
+    "tamDanh": 0,
+    "danhLan": false,
+    "cacCap": []
+  },
+  {
+    "lop": 0,
+    "id": 7,
+    "ten": "Sấm động dương gian",
+    "moTa": " Dùng vũ khí làm cầu nối dẫn truyền sấm sét vào cơ thể đối thủ, tia sét sẽ di chuyển thành một chuỗi liên hoàn vào các đối tượng tập trung gần nhau.",
+    "giaHoc": 60000,
+    "tamDanh": 0,
+    "danhLan": false,
+    "cacCap": []
+  },
+  {
+    "lop": 0,
+    "id": 8,
+    "ten": "Kiếm phi kinh thiên",
+    "moTa": "Vận kình lực tạo thành những thanh kiếm khổng lồ giáng từ trên trời xuống đối phương",
+    "giaHoc": 150000,
+    "tamDanh": 0,
+    "danhLan": false,
+    "cacCap": []
+  },
+  {
+    "lop": 1,
+    "id": 0,
+    "ten": "Chém",
+    "moTa": "",
+    "giaHoc": 0,
+    "tamDanh": 30,
+    "danhLan": false,
+    "cacCap": [
+      {
+        "cap": 0,
+        "satThuongPhanTram": 80,
+        "hoiChieuMs": 700,
+        "mp": 0,
+        "thoiGianBuff": 50,
+        "capCongThem": 1
+      },
+      {
+        "cap": 1,
+        "satThuongPhanTram": 90,
+        "hoiChieuMs": 700,
+        "mp": 0,
+        "thoiGianBuff": 60,
+        "capCongThem": 2
+      },
+      {
+        "cap": 2,
+        "satThuongPhanTram": 95,
+        "hoiChieuMs": 700,
+        "mp": 0,
+        "thoiGianBuff": 80,
+        "capCongThem": 3
+      },
+      {
+        "cap": 3,
+        "satThuongPhanTram": 100,
+        "hoiChieuMs": 700,
+        "mp": 0,
+        "thoiGianBuff": 100,
+        "capCongThem": 4
+      },
+      {
+        "cap": 4,
+        "satThuongPhanTram": 105,
+        "hoiChieuMs": 700,
+        "mp": 0,
+        "thoiGianBuff": 120,
+        "capCongThem": 5
+      },
+      {
+        "cap": 5,
+        "satThuongPhanTram": 110,
+        "hoiChieuMs": 700,
+        "mp": 0,
+        "thoiGianBuff": 140,
+        "capCongThem": 6
+      },
+      {
+        "cap": 6,
+        "satThuongPhanTram": 115,
+        "hoiChieuMs": 700,
+        "mp": 0,
+        "thoiGianBuff": 160,
+        "capCongThem": 7
+      },
+      {
+        "cap": 7,
+        "satThuongPhanTram": 120,
+        "hoiChieuMs": 700,
+        "mp": 0,
+        "thoiGianBuff": 180,
+        "capCongThem": 8
+      },
+      {
+        "cap": 8,
+        "satThuongPhanTram": 125,
+        "hoiChieuMs": 700,
+        "mp": 0,
+        "thoiGianBuff": 190,
+        "capCongThem": 9
+      },
+      {
+        "cap": 9,
+        "satThuongPhanTram": 130,
+        "hoiChieuMs": 700,
+        "mp": 0,
+        "thoiGianBuff": 200,
+        "capCongThem": 10
+      },
+      {
+        "cap": 10,
+        "satThuongPhanTram": 135,
+        "hoiChieuMs": 700,
+        "mp": 0,
+        "thoiGianBuff": 210,
+        "capCongThem": 10
+      }
+    ]
+  },
+  {
+    "lop": 1,
+    "id": 1,
+    "ten": "Hỏa kinh thiên",
+    "moTa": "",
+    "giaHoc": 0,
+    "tamDanh": 50,
+    "danhLan": false,
+    "cacCap": [
+      {
+        "cap": 0,
+        "satThuongPhanTram": 140,
+        "hoiChieuMs": 1300,
+        "mp": 2,
+        "thoiGianBuff": 50,
+        "capCongThem": 6
+      },
+      {
+        "cap": 1,
+        "satThuongPhanTram": 150,
+        "hoiChieuMs": 1300,
+        "mp": 2,
+        "thoiGianBuff": 60,
+        "capCongThem": 7
+      },
+      {
+        "cap": 2,
+        "satThuongPhanTram": 155,
+        "hoiChieuMs": 1300,
+        "mp": 3,
+        "thoiGianBuff": 70,
+        "capCongThem": 8
+      },
+      {
+        "cap": 3,
+        "satThuongPhanTram": 160,
+        "hoiChieuMs": 1300,
+        "mp": 3,
+        "thoiGianBuff": 80,
+        "capCongThem": 9
+      },
+      {
+        "cap": 4,
+        "satThuongPhanTram": 165,
+        "hoiChieuMs": 1600,
+        "mp": 4,
+        "thoiGianBuff": 90,
+        "capCongThem": 10
+      },
+      {
+        "cap": 5,
+        "satThuongPhanTram": 170,
+        "hoiChieuMs": 1600,
+        "mp": 4,
+        "thoiGianBuff": 100,
+        "capCongThem": 11
+      },
+      {
+        "cap": 6,
+        "satThuongPhanTram": 175,
+        "hoiChieuMs": 1600,
+        "mp": 5,
+        "thoiGianBuff": 120,
+        "capCongThem": 12
+      },
+      {
+        "cap": 7,
+        "satThuongPhanTram": 180,
+        "hoiChieuMs": 1800,
+        "mp": 5,
+        "thoiGianBuff": 140,
+        "capCongThem": 13
+      },
+      {
+        "cap": 8,
+        "satThuongPhanTram": 190,
+        "hoiChieuMs": 1800,
+        "mp": 6,
+        "thoiGianBuff": 160,
+        "capCongThem": 14
+      },
+      {
+        "cap": 9,
+        "satThuongPhanTram": 200,
+        "hoiChieuMs": 1800,
+        "mp": 6,
+        "thoiGianBuff": 170,
+        "capCongThem": 15
+      },
+      {
+        "cap": 10,
+        "satThuongPhanTram": 205,
+        "hoiChieuMs": 1800,
+        "mp": 6,
+        "thoiGianBuff": 180,
+        "capCongThem": 15
+      }
+    ]
+  },
+  {
+    "lop": 1,
+    "id": 2,
+    "ten": "Nhất hỏa long",
+    "moTa": "",
+    "giaHoc": 0,
+    "tamDanh": 60,
+    "danhLan": false,
+    "cacCap": [
+      {
+        "cap": 0,
+        "satThuongPhanTram": 160,
+        "hoiChieuMs": 1700,
+        "mp": 3,
+        "thoiGianBuff": 50,
+        "capCongThem": 11
+      },
+      {
+        "cap": 1,
+        "satThuongPhanTram": 210,
+        "hoiChieuMs": 1700,
+        "mp": 3,
+        "thoiGianBuff": 60,
+        "capCongThem": 12
+      },
+      {
+        "cap": 2,
+        "satThuongPhanTram": 215,
+        "hoiChieuMs": 1700,
+        "mp": 4,
+        "thoiGianBuff": 70,
+        "capCongThem": 13
+      },
+      {
+        "cap": 3,
+        "satThuongPhanTram": 220,
+        "hoiChieuMs": 1700,
+        "mp": 4,
+        "thoiGianBuff": 80,
+        "capCongThem": 14
+      },
+      {
+        "cap": 4,
+        "satThuongPhanTram": 225,
+        "hoiChieuMs": 1900,
+        "mp": 5,
+        "thoiGianBuff": 90,
+        "capCongThem": 15
+      },
+      {
+        "cap": 5,
+        "satThuongPhanTram": 230,
+        "hoiChieuMs": 1900,
+        "mp": 5,
+        "thoiGianBuff": 100,
+        "capCongThem": 16
+      },
+      {
+        "cap": 6,
+        "satThuongPhanTram": 235,
+        "hoiChieuMs": 1900,
+        "mp": 6,
+        "thoiGianBuff": 120,
+        "capCongThem": 17
+      },
+      {
+        "cap": 7,
+        "satThuongPhanTram": 240,
+        "hoiChieuMs": 2100,
+        "mp": 6,
+        "thoiGianBuff": 140,
+        "capCongThem": 18
+      },
+      {
+        "cap": 8,
+        "satThuongPhanTram": 250,
+        "hoiChieuMs": 2100,
+        "mp": 7,
+        "thoiGianBuff": 160,
+        "capCongThem": 19
+      },
+      {
+        "cap": 9,
+        "satThuongPhanTram": 260,
+        "hoiChieuMs": 2100,
+        "mp": 7,
+        "thoiGianBuff": 170,
+        "capCongThem": 20
+      },
+      {
+        "cap": 10,
+        "satThuongPhanTram": 265,
+        "hoiChieuMs": 2100,
+        "mp": 7,
+        "thoiGianBuff": 180,
+        "capCongThem": 20
+      }
+    ]
+  },
+  {
+    "lop": 1,
+    "id": 3,
+    "ten": "Bát đại hỏa long",
+    "moTa": "",
+    "giaHoc": 0,
+    "tamDanh": 70,
+    "danhLan": false,
+    "cacCap": [
+      {
+        "cap": 0,
+        "satThuongPhanTram": 20,
+        "hoiChieuMs": 1900,
+        "mp": 2,
+        "thoiGianBuff": 50,
+        "capCongThem": 17
+      },
+      {
+        "cap": 1,
+        "satThuongPhanTram": 240,
+        "hoiChieuMs": 1900,
+        "mp": 2,
+        "thoiGianBuff": 60,
+        "capCongThem": 20
+      },
+      {
+        "cap": 2,
+        "satThuongPhanTram": 245,
+        "hoiChieuMs": 1900,
+        "mp": 3,
+        "thoiGianBuff": 70,
+        "capCongThem": 22
+      },
+      {
+        "cap": 3,
+        "satThuongPhanTram": 250,
+        "hoiChieuMs": 1900,
+        "mp": 3,
+        "thoiGianBuff": 80,
+        "capCongThem": 24
+      },
+      {
+        "cap": 4,
+        "satThuongPhanTram": 255,
+        "hoiChieuMs": 2400,
+        "mp": 4,
+        "thoiGianBuff": 90,
+        "capCongThem": 26
+      },
+      {
+        "cap": 5,
+        "satThuongPhanTram": 260,
+        "hoiChieuMs": 2400,
+        "mp": 4,
+        "thoiGianBuff": 100,
+        "capCongThem": 30
+      },
+      {
+        "cap": 6,
+        "satThuongPhanTram": 265,
+        "hoiChieuMs": 2400,
+        "mp": 5,
+        "thoiGianBuff": 120,
+        "capCongThem": 33
+      },
+      {
+        "cap": 7,
+        "satThuongPhanTram": 270,
+        "hoiChieuMs": 2700,
+        "mp": 5,
+        "thoiGianBuff": 140,
+        "capCongThem": 36
+      },
+      {
+        "cap": 8,
+        "satThuongPhanTram": 285,
+        "hoiChieuMs": 2700,
+        "mp": 6,
+        "thoiGianBuff": 160,
+        "capCongThem": 39
+      },
+      {
+        "cap": 9,
+        "satThuongPhanTram": 295,
+        "hoiChieuMs": 2700,
+        "mp": 6,
+        "thoiGianBuff": 170,
+        "capCongThem": 42
+      },
+      {
+        "cap": 10,
+        "satThuongPhanTram": 300,
+        "hoiChieuMs": 2700,
+        "mp": 6,
+        "thoiGianBuff": 180,
+        "capCongThem": 42
+      }
+    ]
+  },
+  {
+    "lop": 1,
+    "id": 4,
+    "ten": "Cường thân giáp",
+    "moTa": "",
+    "giaHoc": 0,
+    "tamDanh": 80,
+    "danhLan": false,
+    "cacCap": [
+      {
+        "cap": 0,
+        "satThuongPhanTram": 10,
+        "hoiChieuMs": 5000,
+        "mp": 3,
+        "thoiGianBuff": 50,
+        "capCongThem": 3
+      },
+      {
+        "cap": 1,
+        "satThuongPhanTram": 15,
+        "hoiChieuMs": 60000,
+        "mp": 3,
+        "thoiGianBuff": 60,
+        "capCongThem": 6
+      },
+      {
+        "cap": 2,
+        "satThuongPhanTram": 20,
+        "hoiChieuMs": 70000,
+        "mp": 4,
+        "thoiGianBuff": 70,
+        "capCongThem": 9
+      },
+      {
+        "cap": 3,
+        "satThuongPhanTram": 25,
+        "hoiChieuMs": 80000,
+        "mp": 4,
+        "thoiGianBuff": 80,
+        "capCongThem": 12
+      },
+      {
+        "cap": 4,
+        "satThuongPhanTram": 30,
+        "hoiChieuMs": 90000,
+        "mp": 5,
+        "thoiGianBuff": 90,
+        "capCongThem": 18
+      },
+      {
+        "cap": 5,
+        "satThuongPhanTram": 40,
+        "hoiChieuMs": 100000,
+        "mp": 5,
+        "thoiGianBuff": 100,
+        "capCongThem": 24
+      },
+      {
+        "cap": 6,
+        "satThuongPhanTram": 50,
+        "hoiChieuMs": 120000,
+        "mp": 6,
+        "thoiGianBuff": 120,
+        "capCongThem": 26
+      },
+      {
+        "cap": 7,
+        "satThuongPhanTram": 60,
+        "hoiChieuMs": 140000,
+        "mp": 6,
+        "thoiGianBuff": 140,
+        "capCongThem": 28
+      },
+      {
+        "cap": 8,
+        "satThuongPhanTram": 70,
+        "hoiChieuMs": 160000,
+        "mp": 7,
+        "thoiGianBuff": 160,
+        "capCongThem": 30
+      },
+      {
+        "cap": 9,
+        "satThuongPhanTram": 80,
+        "hoiChieuMs": 170000,
+        "mp": 7,
+        "thoiGianBuff": 170,
+        "capCongThem": 32
+      },
+      {
+        "cap": 10,
+        "satThuongPhanTram": 85,
+        "hoiChieuMs": 170000,
+        "mp": 7,
+        "thoiGianBuff": 180,
+        "capCongThem": 32
+      }
+    ]
+  },
+  {
+    "lop": 1,
+    "id": 5,
+    "ten": "Hộ công tiến",
+    "moTa": "",
+    "giaHoc": 0,
+    "tamDanh": 80,
+    "danhLan": false,
+    "cacCap": [
+      {
+        "cap": 0,
+        "satThuongPhanTram": 10,
+        "hoiChieuMs": 5000,
+        "mp": 10,
+        "thoiGianBuff": 50,
+        "capCongThem": 6
+      },
+      {
+        "cap": 1,
+        "satThuongPhanTram": 15,
+        "hoiChieuMs": 60000,
+        "mp": 15,
+        "thoiGianBuff": 60,
+        "capCongThem": 9
+      },
+      {
+        "cap": 2,
+        "satThuongPhanTram": 20,
+        "hoiChieuMs": 70000,
+        "mp": 20,
+        "thoiGianBuff": 70,
+        "capCongThem": 12
+      },
+      {
+        "cap": 3,
+        "satThuongPhanTram": 25,
+        "hoiChieuMs": 80000,
+        "mp": 25,
+        "thoiGianBuff": 80,
+        "capCongThem": 14
+      },
+      {
+        "cap": 4,
+        "satThuongPhanTram": 30,
+        "hoiChieuMs": 90000,
+        "mp": 30,
+        "thoiGianBuff": 90,
+        "capCongThem": 16
+      },
+      {
+        "cap": 5,
+        "satThuongPhanTram": 35,
+        "hoiChieuMs": 100000,
+        "mp": 35,
+        "thoiGianBuff": 100,
+        "capCongThem": 18
+      },
+      {
+        "cap": 6,
+        "satThuongPhanTram": 40,
+        "hoiChieuMs": 120000,
+        "mp": 40,
+        "thoiGianBuff": 120,
+        "capCongThem": 20
+      },
+      {
+        "cap": 7,
+        "satThuongPhanTram": 45,
+        "hoiChieuMs": 140000,
+        "mp": 45,
+        "thoiGianBuff": 140,
+        "capCongThem": 22
+      },
+      {
+        "cap": 8,
+        "satThuongPhanTram": 50,
+        "hoiChieuMs": 160000,
+        "mp": 50,
+        "thoiGianBuff": 160,
+        "capCongThem": 24
+      },
+      {
+        "cap": 9,
+        "satThuongPhanTram": 55,
+        "hoiChieuMs": 170000,
+        "mp": 55,
+        "thoiGianBuff": 170,
+        "capCongThem": 26
+      },
+      {
+        "cap": 10,
+        "satThuongPhanTram": 60,
+        "hoiChieuMs": 170000,
+        "mp": 55,
+        "thoiGianBuff": 180,
+        "capCongThem": 26
+      }
+    ]
+  },
+  {
+    "lop": 1,
+    "id": 6,
+    "ten": "Thiên long bạo kích",
+    "moTa": "Dùng sức mạnh của rồng lửa tấn công nhiều mục tiêu trong 1 phạm vi nhất định",
+    "giaHoc": 30000,
+    "tamDanh": 80,
+    "danhLan": true,
+    "cacCap": [
+      {
+        "cap": 0,
+        "satThuongPhanTram": 5,
+        "hoiChieuMs": 1900,
+        "mp": 10,
+        "thoiGianBuff": 3,
+        "capCongThem": 25
+      },
+      {
+        "cap": 1,
+        "satThuongPhanTram": 270,
+        "hoiChieuMs": 2800,
+        "mp": 15,
+        "thoiGianBuff": 3,
+        "capCongThem": 27
+      },
+      {
+        "cap": 2,
+        "satThuongPhanTram": 285,
+        "hoiChieuMs": 2800,
+        "mp": 20,
+        "thoiGianBuff": 3,
+        "capCongThem": 29
+      },
+      {
+        "cap": 3,
+        "satThuongPhanTram": 290,
+        "hoiChieuMs": 2800,
+        "mp": 25,
+        "thoiGianBuff": 3,
+        "capCongThem": 31
+      },
+      {
+        "cap": 4,
+        "satThuongPhanTram": 295,
+        "hoiChieuMs": 3000,
+        "mp": 30,
+        "thoiGianBuff": 3,
+        "capCongThem": 33
+      },
+      {
+        "cap": 5,
+        "satThuongPhanTram": 300,
+        "hoiChieuMs": 3000,
+        "mp": 35,
+        "thoiGianBuff": 3,
+        "capCongThem": 35
+      },
+      {
+        "cap": 6,
+        "satThuongPhanTram": 305,
+        "hoiChieuMs": 3200,
+        "mp": 40,
+        "thoiGianBuff": 3,
+        "capCongThem": 37
+      },
+      {
+        "cap": 7,
+        "satThuongPhanTram": 315,
+        "hoiChieuMs": 3200,
+        "mp": 45,
+        "thoiGianBuff": 3,
+        "capCongThem": 39
+      },
+      {
+        "cap": 8,
+        "satThuongPhanTram": 325,
+        "hoiChieuMs": 3600,
+        "mp": 50,
+        "thoiGianBuff": 3,
+        "capCongThem": 41
+      },
+      {
+        "cap": 9,
+        "satThuongPhanTram": 335,
+        "hoiChieuMs": 3600,
+        "mp": 55,
+        "thoiGianBuff": 3,
+        "capCongThem": 43
+      },
+      {
+        "cap": 10,
+        "satThuongPhanTram": 340,
+        "hoiChieuMs": 3600,
+        "mp": 55,
+        "thoiGianBuff": 3,
+        "capCongThem": 43
+      }
+    ]
+  },
+  {
+    "lop": 1,
+    "id": 7,
+    "ten": "Liệt hỏa bạo kích",
+    "moTa": "Vận nội kình tạo ra liệt hỏa phát tán ra xung quanh, đốt cháy bất kỳ đối tượng nào trên đường đi của liệt hỏa.",
+    "giaHoc": 60000,
+    "tamDanh": 80,
+    "danhLan": true,
+    "cacCap": [
+      {
+        "cap": 0,
+        "satThuongPhanTram": 10,
+        "hoiChieuMs": 1900,
+        "mp": 10,
+        "thoiGianBuff": 3,
+        "capCongThem": 30
+      },
+      {
+        "cap": 1,
+        "satThuongPhanTram": 330,
+        "hoiChieuMs": 2800,
+        "mp": 15,
+        "thoiGianBuff": 3,
+        "capCongThem": 32
+      },
+      {
+        "cap": 2,
+        "satThuongPhanTram": 335,
+        "hoiChieuMs": 2800,
+        "mp": 20,
+        "thoiGianBuff": 3,
+        "capCongThem": 34
+      },
+      {
+        "cap": 3,
+        "satThuongPhanTram": 340,
+        "hoiChieuMs": 2800,
+        "mp": 25,
+        "thoiGianBuff": 3,
+        "capCongThem": 36
+      },
+      {
+        "cap": 4,
+        "satThuongPhanTram": 345,
+        "hoiChieuMs": 3000,
+        "mp": 30,
+        "thoiGianBuff": 3,
+        "capCongThem": 38
+      },
+      {
+        "cap": 5,
+        "satThuongPhanTram": 350,
+        "hoiChieuMs": 3000,
+        "mp": 35,
+        "thoiGianBuff": 3,
+        "capCongThem": 40
+      },
+      {
+        "cap": 6,
+        "satThuongPhanTram": 355,
+        "hoiChieuMs": 3200,
+        "mp": 40,
+        "thoiGianBuff": 3,
+        "capCongThem": 42
+      },
+      {
+        "cap": 7,
+        "satThuongPhanTram": 360,
+        "hoiChieuMs": 3200,
+        "mp": 45,
+        "thoiGianBuff": 3,
+        "capCongThem": 44
+      },
+      {
+        "cap": 8,
+        "satThuongPhanTram": 375,
+        "hoiChieuMs": 3600,
+        "mp": 50,
+        "thoiGianBuff": 3,
+        "capCongThem": 46
+      },
+      {
+        "cap": 9,
+        "satThuongPhanTram": 395,
+        "hoiChieuMs": 3600,
+        "mp": 55,
+        "thoiGianBuff": 3,
+        "capCongThem": 48
+      },
+      {
+        "cap": 10,
+        "satThuongPhanTram": 400,
+        "hoiChieuMs": 3600,
+        "mp": 55,
+        "thoiGianBuff": 3,
+        "capCongThem": 48
+      }
+    ]
+  },
+  {
+    "lop": 1,
+    "id": 8,
+    "ten": "Sao băng giáng thế",
+    "moTa": " Khuấy động bầu trời, tạo ra những cơn mưa sao băng trút xuống mặt đất",
+    "giaHoc": 150000,
+    "tamDanh": 80,
+    "danhLan": true,
+    "cacCap": [
+      {
+        "cap": 0,
+        "satThuongPhanTram": 10,
+        "hoiChieuMs": 5000,
+        "mp": 10,
+        "thoiGianBuff": 3,
+        "capCongThem": 45
+      },
+      {
+        "cap": 1,
+        "satThuongPhanTram": 360,
+        "hoiChieuMs": 5000,
+        "mp": 40,
+        "thoiGianBuff": 3,
+        "capCongThem": 45
+      },
+      {
+        "cap": 2,
+        "satThuongPhanTram": 365,
+        "hoiChieuMs": 5000,
+        "mp": 45,
+        "thoiGianBuff": 3,
+        "capCongThem": 47
+      },
+      {
+        "cap": 3,
+        "satThuongPhanTram": 370,
+        "hoiChieuMs": 5000,
+        "mp": 50,
+        "thoiGianBuff": 3,
+        "capCongThem": 49
+      },
+      {
+        "cap": 4,
+        "satThuongPhanTram": 375,
+        "hoiChieuMs": 5000,
+        "mp": 55,
+        "thoiGianBuff": 3,
+        "capCongThem": 51
+      },
+      {
+        "cap": 5,
+        "satThuongPhanTram": 380,
+        "hoiChieuMs": 5000,
+        "mp": 60,
+        "thoiGianBuff": 3,
+        "capCongThem": 53
+      },
+      {
+        "cap": 6,
+        "satThuongPhanTram": 385,
+        "hoiChieuMs": 5000,
+        "mp": 65,
+        "thoiGianBuff": 3,
+        "capCongThem": 55
+      },
+      {
+        "cap": 7,
+        "satThuongPhanTram": 390,
+        "hoiChieuMs": 5000,
+        "mp": 70,
+        "thoiGianBuff": 3,
+        "capCongThem": 57
+      },
+      {
+        "cap": 8,
+        "satThuongPhanTram": 405,
+        "hoiChieuMs": 5000,
+        "mp": 75,
+        "thoiGianBuff": 3,
+        "capCongThem": 59
+      },
+      {
+        "cap": 9,
+        "satThuongPhanTram": 415,
+        "hoiChieuMs": 5000,
+        "mp": 80,
+        "thoiGianBuff": 3,
+        "capCongThem": 61
+      },
+      {
+        "cap": 10,
+        "satThuongPhanTram": 420,
+        "hoiChieuMs": 5000,
+        "mp": 80,
+        "thoiGianBuff": 3,
+        "capCongThem": 61
+      }
+    ]
+  },
+  {
+    "lop": 2,
+    "id": 0,
+    "ten": "Đánh",
+    "moTa": "",
+    "giaHoc": 0,
+    "tamDanh": 80,
+    "danhLan": false,
+    "cacCap": [
+      {
+        "cap": 0,
+        "satThuongPhanTram": 80,
+        "hoiChieuMs": 700,
+        "mp": 0,
+        "thoiGianBuff": 50,
+        "capCongThem": 1
+      },
+      {
+        "cap": 1,
+        "satThuongPhanTram": 90,
+        "hoiChieuMs": 700,
+        "mp": 0,
+        "thoiGianBuff": 60,
+        "capCongThem": 2
+      },
+      {
+        "cap": 2,
+        "satThuongPhanTram": 95,
+        "hoiChieuMs": 700,
+        "mp": 0,
+        "thoiGianBuff": 80,
+        "capCongThem": 3
+      },
+      {
+        "cap": 3,
+        "satThuongPhanTram": 100,
+        "hoiChieuMs": 700,
+        "mp": 0,
+        "thoiGianBuff": 100,
+        "capCongThem": 4
+      },
+      {
+        "cap": 4,
+        "satThuongPhanTram": 105,
+        "hoiChieuMs": 700,
+        "mp": 0,
+        "thoiGianBuff": 120,
+        "capCongThem": 5
+      },
+      {
+        "cap": 5,
+        "satThuongPhanTram": 110,
+        "hoiChieuMs": 700,
+        "mp": 0,
+        "thoiGianBuff": 140,
+        "capCongThem": 6
+      },
+      {
+        "cap": 6,
+        "satThuongPhanTram": 115,
+        "hoiChieuMs": 700,
+        "mp": 0,
+        "thoiGianBuff": 160,
+        "capCongThem": 7
+      },
+      {
+        "cap": 7,
+        "satThuongPhanTram": 120,
+        "hoiChieuMs": 700,
+        "mp": 0,
+        "thoiGianBuff": 180,
+        "capCongThem": 8
+      },
+      {
+        "cap": 8,
+        "satThuongPhanTram": 125,
+        "hoiChieuMs": 700,
+        "mp": 0,
+        "thoiGianBuff": 190,
+        "capCongThem": 9
+      },
+      {
+        "cap": 9,
+        "satThuongPhanTram": 130,
+        "hoiChieuMs": 700,
+        "mp": 0,
+        "thoiGianBuff": 200,
+        "capCongThem": 10
+      },
+      {
+        "cap": 10,
+        "satThuongPhanTram": 135,
+        "hoiChieuMs": 700,
+        "mp": 0,
+        "thoiGianBuff": 210,
+        "capCongThem": 10
+      }
+    ]
+  },
+  {
+    "lop": 2,
+    "id": 1,
+    "ten": "Thủy giáng minh",
+    "moTa": "",
+    "giaHoc": 0,
+    "tamDanh": 90,
+    "danhLan": false,
+    "cacCap": [
+      {
+        "cap": 0,
+        "satThuongPhanTram": 140,
+        "hoiChieuMs": 1200,
+        "mp": 4,
+        "thoiGianBuff": 50,
+        "capCongThem": 6
+      },
+      {
+        "cap": 1,
+        "satThuongPhanTram": 150,
+        "hoiChieuMs": 1200,
+        "mp": 4,
+        "thoiGianBuff": 60,
+        "capCongThem": 7
+      },
+      {
+        "cap": 2,
+        "satThuongPhanTram": 155,
+        "hoiChieuMs": 1200,
+        "mp": 6,
+        "thoiGianBuff": 70,
+        "capCongThem": 8
+      },
+      {
+        "cap": 3,
+        "satThuongPhanTram": 160,
+        "hoiChieuMs": 1200,
+        "mp": 6,
+        "thoiGianBuff": 80,
+        "capCongThem": 9
+      },
+      {
+        "cap": 4,
+        "satThuongPhanTram": 165,
+        "hoiChieuMs": 1500,
+        "mp": 8,
+        "thoiGianBuff": 90,
+        "capCongThem": 10
+      },
+      {
+        "cap": 5,
+        "satThuongPhanTram": 170,
+        "hoiChieuMs": 1500,
+        "mp": 8,
+        "thoiGianBuff": 100,
+        "capCongThem": 11
+      },
+      {
+        "cap": 6,
+        "satThuongPhanTram": 175,
+        "hoiChieuMs": 1500,
+        "mp": 10,
+        "thoiGianBuff": 120,
+        "capCongThem": 12
+      },
+      {
+        "cap": 7,
+        "satThuongPhanTram": 180,
+        "hoiChieuMs": 1700,
+        "mp": 10,
+        "thoiGianBuff": 140,
+        "capCongThem": 13
+      },
+      {
+        "cap": 8,
+        "satThuongPhanTram": 190,
+        "hoiChieuMs": 1700,
+        "mp": 12,
+        "thoiGianBuff": 160,
+        "capCongThem": 14
+      },
+      {
+        "cap": 9,
+        "satThuongPhanTram": 200,
+        "hoiChieuMs": 1700,
+        "mp": 12,
+        "thoiGianBuff": 170,
+        "capCongThem": 15
+      },
+      {
+        "cap": 10,
+        "satThuongPhanTram": 205,
+        "hoiChieuMs": 1700,
+        "mp": 12,
+        "thoiGianBuff": 180,
+        "capCongThem": 15
+      }
+    ]
+  },
+  {
+    "lop": 2,
+    "id": 2,
+    "ten": "Thần long thủy",
+    "moTa": "",
+    "giaHoc": 0,
+    "tamDanh": 100,
+    "danhLan": false,
+    "cacCap": [
+      {
+        "cap": 0,
+        "satThuongPhanTram": 160,
+        "hoiChieuMs": 1600,
+        "mp": 12,
+        "thoiGianBuff": 50,
+        "capCongThem": 11
+      },
+      {
+        "cap": 1,
+        "satThuongPhanTram": 210,
+        "hoiChieuMs": 1600,
+        "mp": 12,
+        "thoiGianBuff": 60,
+        "capCongThem": 12
+      },
+      {
+        "cap": 2,
+        "satThuongPhanTram": 215,
+        "hoiChieuMs": 1600,
+        "mp": 14,
+        "thoiGianBuff": 70,
+        "capCongThem": 13
+      },
+      {
+        "cap": 3,
+        "satThuongPhanTram": 220,
+        "hoiChieuMs": 1600,
+        "mp": 15,
+        "thoiGianBuff": 80,
+        "capCongThem": 14
+      },
+      {
+        "cap": 4,
+        "satThuongPhanTram": 225,
+        "hoiChieuMs": 1800,
+        "mp": 18,
+        "thoiGianBuff": 90,
+        "capCongThem": 15
+      },
+      {
+        "cap": 5,
+        "satThuongPhanTram": 230,
+        "hoiChieuMs": 1800,
+        "mp": 20,
+        "thoiGianBuff": 100,
+        "capCongThem": 16
+      },
+      {
+        "cap": 6,
+        "satThuongPhanTram": 235,
+        "hoiChieuMs": 1800,
+        "mp": 22,
+        "thoiGianBuff": 120,
+        "capCongThem": 17
+      },
+      {
+        "cap": 7,
+        "satThuongPhanTram": 240,
+        "hoiChieuMs": 2000,
+        "mp": 24,
+        "thoiGianBuff": 140,
+        "capCongThem": 18
+      },
+      {
+        "cap": 8,
+        "satThuongPhanTram": 250,
+        "hoiChieuMs": 2000,
+        "mp": 26,
+        "thoiGianBuff": 160,
+        "capCongThem": 19
+      },
+      {
+        "cap": 9,
+        "satThuongPhanTram": 260,
+        "hoiChieuMs": 2000,
+        "mp": 28,
+        "thoiGianBuff": 170,
+        "capCongThem": 20
+      },
+      {
+        "cap": 10,
+        "satThuongPhanTram": 265,
+        "hoiChieuMs": 2000,
+        "mp": 28,
+        "thoiGianBuff": 180,
+        "capCongThem": 20
+      }
+    ]
+  },
+  {
+    "lop": 2,
+    "id": 3,
+    "ten": "Bát đại hải long",
+    "moTa": "",
+    "giaHoc": 0,
+    "tamDanh": 110,
+    "danhLan": false,
+    "cacCap": [
+      {
+        "cap": 0,
+        "satThuongPhanTram": 20,
+        "hoiChieuMs": 1800,
+        "mp": 15,
+        "thoiGianBuff": 50,
+        "capCongThem": 17
+      },
+      {
+        "cap": 1,
+        "satThuongPhanTram": 240,
+        "hoiChieuMs": 1800,
+        "mp": 15,
+        "thoiGianBuff": 60,
+        "capCongThem": 20
+      },
+      {
+        "cap": 2,
+        "satThuongPhanTram": 245,
+        "hoiChieuMs": 1800,
+        "mp": 20,
+        "thoiGianBuff": 70,
+        "capCongThem": 22
+      },
+      {
+        "cap": 3,
+        "satThuongPhanTram": 250,
+        "hoiChieuMs": 1800,
+        "mp": 25,
+        "thoiGianBuff": 80,
+        "capCongThem": 24
+      },
+      {
+        "cap": 4,
+        "satThuongPhanTram": 255,
+        "hoiChieuMs": 2300,
+        "mp": 30,
+        "thoiGianBuff": 90,
+        "capCongThem": 26
+      },
+      {
+        "cap": 5,
+        "satThuongPhanTram": 260,
+        "hoiChieuMs": 2300,
+        "mp": 35,
+        "thoiGianBuff": 100,
+        "capCongThem": 30
+      },
+      {
+        "cap": 6,
+        "satThuongPhanTram": 265,
+        "hoiChieuMs": 2300,
+        "mp": 40,
+        "thoiGianBuff": 120,
+        "capCongThem": 33
+      },
+      {
+        "cap": 7,
+        "satThuongPhanTram": 270,
+        "hoiChieuMs": 2600,
+        "mp": 45,
+        "thoiGianBuff": 140,
+        "capCongThem": 36
+      },
+      {
+        "cap": 8,
+        "satThuongPhanTram": 285,
+        "hoiChieuMs": 2600,
+        "mp": 50,
+        "thoiGianBuff": 160,
+        "capCongThem": 39
+      },
+      {
+        "cap": 9,
+        "satThuongPhanTram": 295,
+        "hoiChieuMs": 2600,
+        "mp": 55,
+        "thoiGianBuff": 170,
+        "capCongThem": 42
+      },
+      {
+        "cap": 10,
+        "satThuongPhanTram": 300,
+        "hoiChieuMs": 2600,
+        "mp": 55,
+        "thoiGianBuff": 180,
+        "capCongThem": 42
+      }
+    ]
+  },
+  {
+    "lop": 2,
+    "id": 4,
+    "ten": "Hồi công lực đan",
+    "moTa": "",
+    "giaHoc": 0,
+    "tamDanh": 112,
+    "danhLan": false,
+    "cacCap": [
+      {
+        "cap": 0,
+        "satThuongPhanTram": 10,
+        "hoiChieuMs": 5000,
+        "mp": 8,
+        "thoiGianBuff": 50,
+        "capCongThem": 3
+      },
+      {
+        "cap": 1,
+        "satThuongPhanTram": 15,
+        "hoiChieuMs": 60000,
+        "mp": 8,
+        "thoiGianBuff": 60,
+        "capCongThem": 6
+      },
+      {
+        "cap": 2,
+        "satThuongPhanTram": 20,
+        "hoiChieuMs": 70000,
+        "mp": 9,
+        "thoiGianBuff": 70,
+        "capCongThem": 9
+      },
+      {
+        "cap": 3,
+        "satThuongPhanTram": 25,
+        "hoiChieuMs": 80000,
+        "mp": 9,
+        "thoiGianBuff": 80,
+        "capCongThem": 12
+      },
+      {
+        "cap": 4,
+        "satThuongPhanTram": 30,
+        "hoiChieuMs": 90000,
+        "mp": 10,
+        "thoiGianBuff": 90,
+        "capCongThem": 18
+      },
+      {
+        "cap": 5,
+        "satThuongPhanTram": 35,
+        "hoiChieuMs": 100000,
+        "mp": 10,
+        "thoiGianBuff": 100,
+        "capCongThem": 24
+      },
+      {
+        "cap": 6,
+        "satThuongPhanTram": 45,
+        "hoiChieuMs": 120000,
+        "mp": 11,
+        "thoiGianBuff": 120,
+        "capCongThem": 26
+      },
+      {
+        "cap": 7,
+        "satThuongPhanTram": 60,
+        "hoiChieuMs": 140000,
+        "mp": 11,
+        "thoiGianBuff": 140,
+        "capCongThem": 28
+      },
+      {
+        "cap": 8,
+        "satThuongPhanTram": 70,
+        "hoiChieuMs": 160000,
+        "mp": 12,
+        "thoiGianBuff": 160,
+        "capCongThem": 30
+      },
+      {
+        "cap": 9,
+        "satThuongPhanTram": 80,
+        "hoiChieuMs": 170000,
+        "mp": 12,
+        "thoiGianBuff": 170,
+        "capCongThem": 32
+      },
+      {
+        "cap": 10,
+        "satThuongPhanTram": 85,
+        "hoiChieuMs": 170000,
+        "mp": 12,
+        "thoiGianBuff": 180,
+        "capCongThem": 32
+      }
+    ]
+  },
+  {
+    "lop": 2,
+    "id": 5,
+    "ten": "Hồi lực tiến",
+    "moTa": "",
+    "giaHoc": 0,
+    "tamDanh": 112,
+    "danhLan": false,
+    "cacCap": [
+      {
+        "cap": 0,
+        "satThuongPhanTram": 4,
+        "hoiChieuMs": 5000,
+        "mp": 10,
+        "thoiGianBuff": 50,
+        "capCongThem": 3
+      },
+      {
+        "cap": 1,
+        "satThuongPhanTram": 5,
+        "hoiChieuMs": 60000,
+        "mp": 15,
+        "thoiGianBuff": 60,
+        "capCongThem": 6
+      },
+      {
+        "cap": 2,
+        "satThuongPhanTram": 10,
+        "hoiChieuMs": 70000,
+        "mp": 20,
+        "thoiGianBuff": 70,
+        "capCongThem": 9
+      },
+      {
+        "cap": 3,
+        "satThuongPhanTram": 15,
+        "hoiChieuMs": 80000,
+        "mp": 25,
+        "thoiGianBuff": 80,
+        "capCongThem": 12
+      },
+      {
+        "cap": 4,
+        "satThuongPhanTram": 20,
+        "hoiChieuMs": 90000,
+        "mp": 30,
+        "thoiGianBuff": 90,
+        "capCongThem": 18
+      },
+      {
+        "cap": 5,
+        "satThuongPhanTram": 25,
+        "hoiChieuMs": 100000,
+        "mp": 35,
+        "thoiGianBuff": 100,
+        "capCongThem": 24
+      },
+      {
+        "cap": 6,
+        "satThuongPhanTram": 30,
+        "hoiChieuMs": 120000,
+        "mp": 40,
+        "thoiGianBuff": 120,
+        "capCongThem": 26
+      },
+      {
+        "cap": 7,
+        "satThuongPhanTram": 35,
+        "hoiChieuMs": 140000,
+        "mp": 45,
+        "thoiGianBuff": 140,
+        "capCongThem": 28
+      },
+      {
+        "cap": 8,
+        "satThuongPhanTram": 40,
+        "hoiChieuMs": 160000,
+        "mp": 50,
+        "thoiGianBuff": 160,
+        "capCongThem": 30
+      },
+      {
+        "cap": 9,
+        "satThuongPhanTram": 45,
+        "hoiChieuMs": 170000,
+        "mp": 55,
+        "thoiGianBuff": 170,
+        "capCongThem": 32
+      },
+      {
+        "cap": 10,
+        "satThuongPhanTram": 50,
+        "hoiChieuMs": 170000,
+        "mp": 55,
+        "thoiGianBuff": 180,
+        "capCongThem": 32
+      }
+    ]
+  },
+  {
+    "lop": 2,
+    "id": 6,
+    "ten": "Hồi sinh",
+    "moTa": "",
+    "giaHoc": 0,
+    "tamDanh": 112,
+    "danhLan": false,
+    "cacCap": [
+      {
+        "cap": 0,
+        "satThuongPhanTram": 30,
+        "hoiChieuMs": 20000,
+        "mp": 10,
+        "thoiGianBuff": 3,
+        "capCongThem": 4
+      },
+      {
+        "cap": 1,
+        "satThuongPhanTram": 30,
+        "hoiChieuMs": 20000,
+        "mp": 15,
+        "thoiGianBuff": 3,
+        "capCongThem": 5
+      },
+      {
+        "cap": 2,
+        "satThuongPhanTram": 35,
+        "hoiChieuMs": 20000,
+        "mp": 20,
+        "thoiGianBuff": 3,
+        "capCongThem": 6
+      },
+      {
+        "cap": 3,
+        "satThuongPhanTram": 40,
+        "hoiChieuMs": 20000,
+        "mp": 25,
+        "thoiGianBuff": 3,
+        "capCongThem": 7
+      },
+      {
+        "cap": 4,
+        "satThuongPhanTram": 45,
+        "hoiChieuMs": 20000,
+        "mp": 30,
+        "thoiGianBuff": 3,
+        "capCongThem": 8
+      },
+      {
+        "cap": 5,
+        "satThuongPhanTram": 50,
+        "hoiChieuMs": 20000,
+        "mp": 35,
+        "thoiGianBuff": 3,
+        "capCongThem": 9
+      },
+      {
+        "cap": 6,
+        "satThuongPhanTram": 60,
+        "hoiChieuMs": 20000,
+        "mp": 40,
+        "thoiGianBuff": 3,
+        "capCongThem": 10
+      },
+      {
+        "cap": 7,
+        "satThuongPhanTram": 70,
+        "hoiChieuMs": 20000,
+        "mp": 45,
+        "thoiGianBuff": 3,
+        "capCongThem": 11
+      },
+      {
+        "cap": 8,
+        "satThuongPhanTram": 80,
+        "hoiChieuMs": 20000,
+        "mp": 50,
+        "thoiGianBuff": 3,
+        "capCongThem": 12
+      },
+      {
+        "cap": 9,
+        "satThuongPhanTram": 100,
+        "hoiChieuMs": 20000,
+        "mp": 55,
+        "thoiGianBuff": 3,
+        "capCongThem": 13
+      },
+      {
+        "cap": 10,
+        "satThuongPhanTram": 100,
+        "hoiChieuMs": 20000,
+        "mp": 55,
+        "thoiGianBuff": 3,
+        "capCongThem": 13
+      }
+    ]
+  },
+  {
+    "lop": 2,
+    "id": 7,
+    "ten": "Song hộ công thủ",
+    "moTa": "",
+    "giaHoc": 0,
+    "tamDanh": 112,
+    "danhLan": false,
+    "cacCap": [
+      {
+        "cap": 0,
+        "satThuongPhanTram": 30,
+        "hoiChieuMs": 5000,
+        "mp": 10,
+        "thoiGianBuff": 3,
+        "capCongThem": 3
+      },
+      {
+        "cap": 1,
+        "satThuongPhanTram": 30,
+        "hoiChieuMs": 60000,
+        "mp": 15,
+        "thoiGianBuff": 3,
+        "capCongThem": 6
+      },
+      {
+        "cap": 2,
+        "satThuongPhanTram": 40,
+        "hoiChieuMs": 70000,
+        "mp": 20,
+        "thoiGianBuff": 3,
+        "capCongThem": 9
+      },
+      {
+        "cap": 3,
+        "satThuongPhanTram": 50,
+        "hoiChieuMs": 80000,
+        "mp": 25,
+        "thoiGianBuff": 3,
+        "capCongThem": 12
+      },
+      {
+        "cap": 4,
+        "satThuongPhanTram": 55,
+        "hoiChieuMs": 90000,
+        "mp": 30,
+        "thoiGianBuff": 3,
+        "capCongThem": 18
+      },
+      {
+        "cap": 5,
+        "satThuongPhanTram": 60,
+        "hoiChieuMs": 100000,
+        "mp": 35,
+        "thoiGianBuff": 3,
+        "capCongThem": 24
+      },
+      {
+        "cap": 6,
+        "satThuongPhanTram": 65,
+        "hoiChieuMs": 120000,
+        "mp": 40,
+        "thoiGianBuff": 3,
+        "capCongThem": 26
+      },
+      {
+        "cap": 7,
+        "satThuongPhanTram": 70,
+        "hoiChieuMs": 140000,
+        "mp": 45,
+        "thoiGianBuff": 3,
+        "capCongThem": 28
+      },
+      {
+        "cap": 8,
+        "satThuongPhanTram": 80,
+        "hoiChieuMs": 160000,
+        "mp": 50,
+        "thoiGianBuff": 3,
+        "capCongThem": 30
+      },
+      {
+        "cap": 9,
+        "satThuongPhanTram": 90,
+        "hoiChieuMs": 170000,
+        "mp": 55,
+        "thoiGianBuff": 3,
+        "capCongThem": 32
+      },
+      {
+        "cap": 10,
+        "satThuongPhanTram": 95,
+        "hoiChieuMs": 170000,
+        "mp": 55,
+        "thoiGianBuff": 3,
+        "capCongThem": 32
+      }
+    ]
+  },
+  {
+    "lop": 2,
+    "id": 8,
+    "ten": "Hải long xuất thế",
+    "moTa": "Dùng sức mạnh của rồng nước tấn công nhiều mục tiêu trong 1 phạm vi nhất định",
+    "giaHoc": 30000,
+    "tamDanh": 112,
+    "danhLan": true,
+    "cacCap": [
+      {
+        "cap": 0,
+        "satThuongPhanTram": 10,
+        "hoiChieuMs": 1900,
+        "mp": 10,
+        "thoiGianBuff": 3,
+        "capCongThem": 25
+      },
+      {
+        "cap": 1,
+        "satThuongPhanTram": 330,
+        "hoiChieuMs": 2800,
+        "mp": 15,
+        "thoiGianBuff": 3,
+        "capCongThem": 27
+      },
+      {
+        "cap": 2,
+        "satThuongPhanTram": 335,
+        "hoiChieuMs": 2800,
+        "mp": 20,
+        "thoiGianBuff": 3,
+        "capCongThem": 29
+      },
+      {
+        "cap": 3,
+        "satThuongPhanTram": 340,
+        "hoiChieuMs": 2800,
+        "mp": 25,
+        "thoiGianBuff": 3,
+        "capCongThem": 31
+      },
+      {
+        "cap": 4,
+        "satThuongPhanTram": 345,
+        "hoiChieuMs": 3000,
+        "mp": 30,
+        "thoiGianBuff": 3,
+        "capCongThem": 33
+      },
+      {
+        "cap": 5,
+        "satThuongPhanTram": 350,
+        "hoiChieuMs": 3000,
+        "mp": 35,
+        "thoiGianBuff": 3,
+        "capCongThem": 35
+      },
+      {
+        "cap": 6,
+        "satThuongPhanTram": 355,
+        "hoiChieuMs": 3200,
+        "mp": 40,
+        "thoiGianBuff": 3,
+        "capCongThem": 37
+      },
+      {
+        "cap": 7,
+        "satThuongPhanTram": 360,
+        "hoiChieuMs": 3200,
+        "mp": 45,
+        "thoiGianBuff": 3,
+        "capCongThem": 39
+      },
+      {
+        "cap": 8,
+        "satThuongPhanTram": 375,
+        "hoiChieuMs": 3600,
+        "mp": 50,
+        "thoiGianBuff": 3,
+        "capCongThem": 41
+      },
+      {
+        "cap": 9,
+        "satThuongPhanTram": 395,
+        "hoiChieuMs": 3600,
+        "mp": 55,
+        "thoiGianBuff": 3,
+        "capCongThem": 43
+      },
+      {
+        "cap": 10,
+        "satThuongPhanTram": 400,
+        "hoiChieuMs": 3600,
+        "mp": 55,
+        "thoiGianBuff": 3,
+        "capCongThem": 43
+      }
+    ]
+  },
+  {
+    "lop": 2,
+    "id": 9,
+    "ten": "Song long thị uy",
+    "moTa": " Vận nội kình vào hai tay đánh ra hai con rồng theo hình trôn ốc, tạo nên một lực công phá khủng khiếp.",
+    "giaHoc": 60000,
+    "tamDanh": 112,
+    "danhLan": true,
+    "cacCap": [
+      {
+        "cap": 0,
+        "satThuongPhanTram": 10,
+        "hoiChieuMs": 1900,
+        "mp": 10,
+        "thoiGianBuff": 3,
+        "capCongThem": 30
+      },
+      {
+        "cap": 1,
+        "satThuongPhanTram": 360,
+        "hoiChieuMs": 2800,
+        "mp": 15,
+        "thoiGianBuff": 3,
+        "capCongThem": 32
+      },
+      {
+        "cap": 2,
+        "satThuongPhanTram": 365,
+        "hoiChieuMs": 2800,
+        "mp": 20,
+        "thoiGianBuff": 3,
+        "capCongThem": 34
+      },
+      {
+        "cap": 3,
+        "satThuongPhanTram": 370,
+        "hoiChieuMs": 2800,
+        "mp": 25,
+        "thoiGianBuff": 3,
+        "capCongThem": 36
+      },
+      {
+        "cap": 4,
+        "satThuongPhanTram": 375,
+        "hoiChieuMs": 3000,
+        "mp": 30,
+        "thoiGianBuff": 3,
+        "capCongThem": 38
+      },
+      {
+        "cap": 5,
+        "satThuongPhanTram": 380,
+        "hoiChieuMs": 3000,
+        "mp": 35,
+        "thoiGianBuff": 3,
+        "capCongThem": 40
+      },
+      {
+        "cap": 6,
+        "satThuongPhanTram": 385,
+        "hoiChieuMs": 3200,
+        "mp": 40,
+        "thoiGianBuff": 3,
+        "capCongThem": 42
+      },
+      {
+        "cap": 7,
+        "satThuongPhanTram": 390,
+        "hoiChieuMs": 3200,
+        "mp": 45,
+        "thoiGianBuff": 3,
+        "capCongThem": 44
+      },
+      {
+        "cap": 8,
+        "satThuongPhanTram": 405,
+        "hoiChieuMs": 3600,
+        "mp": 50,
+        "thoiGianBuff": 3,
+        "capCongThem": 46
+      },
+      {
+        "cap": 9,
+        "satThuongPhanTram": 415,
+        "hoiChieuMs": 3600,
+        "mp": 55,
+        "thoiGianBuff": 3,
+        "capCongThem": 48
+      },
+      {
+        "cap": 10,
+        "satThuongPhanTram": 420,
+        "hoiChieuMs": 3600,
+        "mp": 55,
+        "thoiGianBuff": 3,
+        "capCongThem": 48
+      }
+    ]
+  },
+  {
+    "lop": 2,
+    "id": 10,
+    "ten": "Hàn băng vũ",
+    "moTa": " Gọi gió hô mưa rồi truyền vào đó một luồng hàn băng cực mạnh tạo nên những trận mưa băng khủng khiếp",
+    "giaHoc": 150000,
+    "tamDanh": 112,
+    "danhLan": true,
+    "cacCap": [
+      {
+        "cap": 0,
+        "satThuongPhanTram": 10,
+        "hoiChieuMs": 5000,
+        "mp": 10,
+        "thoiGianBuff": 3,
+        "capCongThem": 45
+      },
+      {
+        "cap": 1,
+        "satThuongPhanTram": 390,
+        "hoiChieuMs": 5000,
+        "mp": 50,
+        "thoiGianBuff": 3,
+        "capCongThem": 45
+      },
+      {
+        "cap": 2,
+        "satThuongPhanTram": 395,
+        "hoiChieuMs": 5000,
+        "mp": 55,
+        "thoiGianBuff": 3,
+        "capCongThem": 47
+      },
+      {
+        "cap": 3,
+        "satThuongPhanTram": 400,
+        "hoiChieuMs": 5000,
+        "mp": 60,
+        "thoiGianBuff": 3,
+        "capCongThem": 49
+      },
+      {
+        "cap": 4,
+        "satThuongPhanTram": 405,
+        "hoiChieuMs": 5000,
+        "mp": 65,
+        "thoiGianBuff": 3,
+        "capCongThem": 51
+      },
+      {
+        "cap": 5,
+        "satThuongPhanTram": 410,
+        "hoiChieuMs": 5000,
+        "mp": 70,
+        "thoiGianBuff": 3,
+        "capCongThem": 53
+      },
+      {
+        "cap": 6,
+        "satThuongPhanTram": 415,
+        "hoiChieuMs": 5000,
+        "mp": 75,
+        "thoiGianBuff": 3,
+        "capCongThem": 55
+      },
+      {
+        "cap": 7,
+        "satThuongPhanTram": 420,
+        "hoiChieuMs": 5000,
+        "mp": 80,
+        "thoiGianBuff": 3,
+        "capCongThem": 57
+      },
+      {
+        "cap": 8,
+        "satThuongPhanTram": 435,
+        "hoiChieuMs": 5000,
+        "mp": 85,
+        "thoiGianBuff": 3,
+        "capCongThem": 59
+      },
+      {
+        "cap": 9,
+        "satThuongPhanTram": 445,
+        "hoiChieuMs": 5000,
+        "mp": 90,
+        "thoiGianBuff": 3,
+        "capCongThem": 61
+      },
+      {
+        "cap": 10,
+        "satThuongPhanTram": 450,
+        "hoiChieuMs": 5000,
+        "mp": 90,
+        "thoiGianBuff": 3,
+        "capCongThem": 61
+      }
+    ]
+  },
+  {
+    "lop": 3,
+    "id": 0,
+    "ten": "Đập",
+    "moTa": "",
+    "giaHoc": 0,
+    "tamDanh": 0,
+    "danhLan": false,
+    "cacCap": []
+  },
+  {
+    "lop": 3,
+    "id": 1,
+    "ten": "Thổ Tú",
+    "moTa": "",
+    "giaHoc": 0,
+    "tamDanh": 0,
+    "danhLan": false,
+    "cacCap": []
+  },
+  {
+    "lop": 3,
+    "id": 2,
+    "ten": "Kim sơn thủy",
+    "moTa": "",
+    "giaHoc": 0,
+    "tamDanh": 0,
+    "danhLan": false,
+    "cacCap": []
+  },
+  {
+    "lop": 3,
+    "id": 3,
+    "ten": "Khổng kình bát vĩ",
+    "moTa": "",
+    "giaHoc": 0,
+    "tamDanh": 0,
+    "danhLan": false,
+    "cacCap": []
+  },
+  {
+    "lop": 3,
+    "id": 4,
+    "ten": "Bất di biến",
+    "moTa": "",
+    "giaHoc": 0,
+    "tamDanh": 0,
+    "danhLan": false,
+    "cacCap": []
+  },
+  {
+    "lop": 3,
+    "id": 5,
+    "ten": "Hộ thủ tiến",
+    "moTa": "",
+    "giaHoc": 0,
+    "tamDanh": 0,
+    "danhLan": false,
+    "cacCap": []
+  },
+  {
+    "lop": 3,
+    "id": 6,
+    "ten": "Kinh thiên động địa",
+    "moTa": "Tạo ra những cơn địa chấn tấn công nhiều mục tiêu trong phạm vi nhất định",
+    "giaHoc": 30000,
+    "tamDanh": 0,
+    "danhLan": false,
+    "cacCap": []
+  },
+  {
+    "lop": 3,
+    "id": 7,
+    "ten": "Sơn Tinh bộ thiên",
+    "moTa": "Dùng búa tạo ra những trận mưa đá tảng tấn công tới tấp vào đối thủ.",
+    "giaHoc": 60000,
+    "tamDanh": 0,
+    "danhLan": false,
+    "cacCap": []
+  },
+  {
+    "lop": 3,
+    "id": 8,
+    "ten": "Thạch nhũ công tâm",
+    "moTa": "Giáng một búa mạnh xuống đất tạo nên những cột thạch nhũ lao lên khỏi mặt đất công kích đối phương",
+    "giaHoc": 150000,
+    "tamDanh": 0,
+    "danhLan": false,
+    "cacCap": []
+  },
+  {
+    "lop": 4,
+    "id": 0,
+    "ten": "Bắn",
+    "moTa": "",
+    "giaHoc": 0,
+    "tamDanh": 90,
+    "danhLan": false,
+    "cacCap": [
+      {
+        "cap": 0,
+        "satThuongPhanTram": 100,
+        "hoiChieuMs": 700,
+        "mp": 0,
+        "thoiGianBuff": 50,
+        "capCongThem": 1
+      },
+      {
+        "cap": 1,
+        "satThuongPhanTram": 110,
+        "hoiChieuMs": 700,
+        "mp": 0,
+        "thoiGianBuff": 60,
+        "capCongThem": 2
+      },
+      {
+        "cap": 2,
+        "satThuongPhanTram": 115,
+        "hoiChieuMs": 700,
+        "mp": 0,
+        "thoiGianBuff": 80,
+        "capCongThem": 3
+      },
+      {
+        "cap": 3,
+        "satThuongPhanTram": 120,
+        "hoiChieuMs": 700,
+        "mp": 0,
+        "thoiGianBuff": 100,
+        "capCongThem": 4
+      },
+      {
+        "cap": 4,
+        "satThuongPhanTram": 125,
+        "hoiChieuMs": 700,
+        "mp": 0,
+        "thoiGianBuff": 120,
+        "capCongThem": 5
+      },
+      {
+        "cap": 5,
+        "satThuongPhanTram": 130,
+        "hoiChieuMs": 700,
+        "mp": 0,
+        "thoiGianBuff": 140,
+        "capCongThem": 6
+      },
+      {
+        "cap": 6,
+        "satThuongPhanTram": 135,
+        "hoiChieuMs": 700,
+        "mp": 0,
+        "thoiGianBuff": 160,
+        "capCongThem": 7
+      },
+      {
+        "cap": 7,
+        "satThuongPhanTram": 140,
+        "hoiChieuMs": 700,
+        "mp": 0,
+        "thoiGianBuff": 180,
+        "capCongThem": 8
+      },
+      {
+        "cap": 8,
+        "satThuongPhanTram": 145,
+        "hoiChieuMs": 700,
+        "mp": 0,
+        "thoiGianBuff": 190,
+        "capCongThem": 9
+      },
+      {
+        "cap": 9,
+        "satThuongPhanTram": 150,
+        "hoiChieuMs": 700,
+        "mp": 0,
+        "thoiGianBuff": 200,
+        "capCongThem": 10
+      },
+      {
+        "cap": 10,
+        "satThuongPhanTram": 155,
+        "hoiChieuMs": 700,
+        "mp": 0,
+        "thoiGianBuff": 210,
+        "capCongThem": 10
+      }
+    ]
+  },
+  {
+    "lop": 4,
+    "id": 1,
+    "ten": "Nhất hồn tiễn",
+    "moTa": "",
+    "giaHoc": 0,
+    "tamDanh": 100,
+    "danhLan": false,
+    "cacCap": [
+      {
+        "cap": 0,
+        "satThuongPhanTram": 140,
+        "hoiChieuMs": 1000,
+        "mp": 4,
+        "thoiGianBuff": 50,
+        "capCongThem": 6
+      },
+      {
+        "cap": 1,
+        "satThuongPhanTram": 150,
+        "hoiChieuMs": 1000,
+        "mp": 4,
+        "thoiGianBuff": 60,
+        "capCongThem": 7
+      },
+      {
+        "cap": 2,
+        "satThuongPhanTram": 155,
+        "hoiChieuMs": 1000,
+        "mp": 4,
+        "thoiGianBuff": 70,
+        "capCongThem": 8
+      },
+      {
+        "cap": 3,
+        "satThuongPhanTram": 160,
+        "hoiChieuMs": 1000,
+        "mp": 4,
+        "thoiGianBuff": 80,
+        "capCongThem": 9
+      },
+      {
+        "cap": 4,
+        "satThuongPhanTram": 165,
+        "hoiChieuMs": 1300,
+        "mp": 5,
+        "thoiGianBuff": 90,
+        "capCongThem": 10
+      },
+      {
+        "cap": 5,
+        "satThuongPhanTram": 170,
+        "hoiChieuMs": 1300,
+        "mp": 5,
+        "thoiGianBuff": 100,
+        "capCongThem": 11
+      },
+      {
+        "cap": 6,
+        "satThuongPhanTram": 175,
+        "hoiChieuMs": 1300,
+        "mp": 5,
+        "thoiGianBuff": 120,
+        "capCongThem": 12
+      },
+      {
+        "cap": 7,
+        "satThuongPhanTram": 180,
+        "hoiChieuMs": 1500,
+        "mp": 5,
+        "thoiGianBuff": 140,
+        "capCongThem": 13
+      },
+      {
+        "cap": 8,
+        "satThuongPhanTram": 190,
+        "hoiChieuMs": 1500,
+        "mp": 6,
+        "thoiGianBuff": 160,
+        "capCongThem": 14
+      },
+      {
+        "cap": 9,
+        "satThuongPhanTram": 200,
+        "hoiChieuMs": 1500,
+        "mp": 6,
+        "thoiGianBuff": 170,
+        "capCongThem": 15
+      },
+      {
+        "cap": 10,
+        "satThuongPhanTram": 205,
+        "hoiChieuMs": 1500,
+        "mp": 6,
+        "thoiGianBuff": 180,
+        "capCongThem": 15
+      }
+    ]
+  },
+  {
+    "lop": 4,
+    "id": 2,
+    "ten": "Phi thiên tiễn",
+    "moTa": "",
+    "giaHoc": 0,
+    "tamDanh": 110,
+    "danhLan": false,
+    "cacCap": [
+      {
+        "cap": 0,
+        "satThuongPhanTram": 160,
+        "hoiChieuMs": 1500,
+        "mp": 7,
+        "thoiGianBuff": 50,
+        "capCongThem": 11
+      },
+      {
+        "cap": 1,
+        "satThuongPhanTram": 210,
+        "hoiChieuMs": 1500,
+        "mp": 7,
+        "thoiGianBuff": 60,
+        "capCongThem": 12
+      },
+      {
+        "cap": 2,
+        "satThuongPhanTram": 215,
+        "hoiChieuMs": 1500,
+        "mp": 7,
+        "thoiGianBuff": 70,
+        "capCongThem": 13
+      },
+      {
+        "cap": 3,
+        "satThuongPhanTram": 220,
+        "hoiChieuMs": 1500,
+        "mp": 8,
+        "thoiGianBuff": 80,
+        "capCongThem": 14
+      },
+      {
+        "cap": 4,
+        "satThuongPhanTram": 225,
+        "hoiChieuMs": 1700,
+        "mp": 8,
+        "thoiGianBuff": 90,
+        "capCongThem": 15
+      },
+      {
+        "cap": 5,
+        "satThuongPhanTram": 230,
+        "hoiChieuMs": 1700,
+        "mp": 8,
+        "thoiGianBuff": 100,
+        "capCongThem": 16
+      },
+      {
+        "cap": 6,
+        "satThuongPhanTram": 235,
+        "hoiChieuMs": 1700,
+        "mp": 9,
+        "thoiGianBuff": 120,
+        "capCongThem": 17
+      },
+      {
+        "cap": 7,
+        "satThuongPhanTram": 240,
+        "hoiChieuMs": 1900,
+        "mp": 9,
+        "thoiGianBuff": 140,
+        "capCongThem": 18
+      },
+      {
+        "cap": 8,
+        "satThuongPhanTram": 250,
+        "hoiChieuMs": 1900,
+        "mp": 9,
+        "thoiGianBuff": 160,
+        "capCongThem": 19
+      },
+      {
+        "cap": 9,
+        "satThuongPhanTram": 260,
+        "hoiChieuMs": 1900,
+        "mp": 9,
+        "thoiGianBuff": 170,
+        "capCongThem": 20
+      },
+      {
+        "cap": 10,
+        "satThuongPhanTram": 265,
+        "hoiChieuMs": 1900,
+        "mp": 9,
+        "thoiGianBuff": 180,
+        "capCongThem": 20
+      }
+    ]
+  },
+  {
+    "lop": 4,
+    "id": 3,
+    "ten": "Bát kim tễn đáo",
+    "moTa": "",
+    "giaHoc": 0,
+    "tamDanh": 120,
+    "danhLan": false,
+    "cacCap": [
+      {
+        "cap": 0,
+        "satThuongPhanTram": 20,
+        "hoiChieuMs": 1900,
+        "mp": 4,
+        "thoiGianBuff": 50,
+        "capCongThem": 17
+      },
+      {
+        "cap": 1,
+        "satThuongPhanTram": 240,
+        "hoiChieuMs": 1900,
+        "mp": 4,
+        "thoiGianBuff": 60,
+        "capCongThem": 20
+      },
+      {
+        "cap": 2,
+        "satThuongPhanTram": 245,
+        "hoiChieuMs": 1900,
+        "mp": 4,
+        "thoiGianBuff": 70,
+        "capCongThem": 22
+      },
+      {
+        "cap": 3,
+        "satThuongPhanTram": 250,
+        "hoiChieuMs": 1900,
+        "mp": 4,
+        "thoiGianBuff": 80,
+        "capCongThem": 24
+      },
+      {
+        "cap": 4,
+        "satThuongPhanTram": 255,
+        "hoiChieuMs": 2000,
+        "mp": 5,
+        "thoiGianBuff": 90,
+        "capCongThem": 26
+      },
+      {
+        "cap": 5,
+        "satThuongPhanTram": 260,
+        "hoiChieuMs": 2000,
+        "mp": 5,
+        "thoiGianBuff": 100,
+        "capCongThem": 30
+      },
+      {
+        "cap": 6,
+        "satThuongPhanTram": 265,
+        "hoiChieuMs": 2000,
+        "mp": 5,
+        "thoiGianBuff": 120,
+        "capCongThem": 33
+      },
+      {
+        "cap": 7,
+        "satThuongPhanTram": 270,
+        "hoiChieuMs": 2000,
+        "mp": 5,
+        "thoiGianBuff": 140,
+        "capCongThem": 36
+      },
+      {
+        "cap": 8,
+        "satThuongPhanTram": 285,
+        "hoiChieuMs": 2000,
+        "mp": 6,
+        "thoiGianBuff": 160,
+        "capCongThem": 39
+      },
+      {
+        "cap": 9,
+        "satThuongPhanTram": 295,
+        "hoiChieuMs": 2000,
+        "mp": 6,
+        "thoiGianBuff": 170,
+        "capCongThem": 42
+      },
+      {
+        "cap": 10,
+        "satThuongPhanTram": 300,
+        "hoiChieuMs": 2000,
+        "mp": 6,
+        "thoiGianBuff": 180,
+        "capCongThem": 42
+      }
+    ]
+  },
+  {
+    "lop": 4,
+    "id": 4,
+    "ten": "Độc lưu tiễn",
+    "moTa": "",
+    "giaHoc": 0,
+    "tamDanh": 128,
+    "danhLan": false,
+    "cacCap": [
+      {
+        "cap": 0,
+        "satThuongPhanTram": 10,
+        "hoiChieuMs": 5000,
+        "mp": 7,
+        "thoiGianBuff": 50,
+        "capCongThem": 3
+      },
+      {
+        "cap": 1,
+        "satThuongPhanTram": 80,
+        "hoiChieuMs": 60000,
+        "mp": 7,
+        "thoiGianBuff": 60,
+        "capCongThem": 6
+      },
+      {
+        "cap": 2,
+        "satThuongPhanTram": 160,
+        "hoiChieuMs": 70000,
+        "mp": 7,
+        "thoiGianBuff": 70,
+        "capCongThem": 9
+      },
+      {
+        "cap": 3,
+        "satThuongPhanTram": 240,
+        "hoiChieuMs": 80000,
+        "mp": 8,
+        "thoiGianBuff": 80,
+        "capCongThem": 12
+      },
+      {
+        "cap": 4,
+        "satThuongPhanTram": 320,
+        "hoiChieuMs": 90000,
+        "mp": 8,
+        "thoiGianBuff": 90,
+        "capCongThem": 18
+      },
+      {
+        "cap": 5,
+        "satThuongPhanTram": 400,
+        "hoiChieuMs": 100000,
+        "mp": 8,
+        "thoiGianBuff": 100,
+        "capCongThem": 24
+      },
+      {
+        "cap": 6,
+        "satThuongPhanTram": 800,
+        "hoiChieuMs": 120000,
+        "mp": 9,
+        "thoiGianBuff": 120,
+        "capCongThem": 26
+      },
+      {
+        "cap": 7,
+        "satThuongPhanTram": 1200,
+        "hoiChieuMs": 140000,
+        "mp": 9,
+        "thoiGianBuff": 140,
+        "capCongThem": 28
+      },
+      {
+        "cap": 8,
+        "satThuongPhanTram": 1600,
+        "hoiChieuMs": 160000,
+        "mp": 9,
+        "thoiGianBuff": 160,
+        "capCongThem": 30
+      },
+      {
+        "cap": 9,
+        "satThuongPhanTram": 1600,
+        "hoiChieuMs": 170000,
+        "mp": 9,
+        "thoiGianBuff": 170,
+        "capCongThem": 32
+      },
+      {
+        "cap": 10,
+        "satThuongPhanTram": 1620,
+        "hoiChieuMs": 170000,
+        "mp": 9,
+        "thoiGianBuff": 180,
+        "capCongThem": 32
+      }
+    ]
+  },
+  {
+    "lop": 4,
+    "id": 5,
+    "ten": "Hộ độc tiễn",
+    "moTa": "",
+    "giaHoc": 0,
+    "tamDanh": 128,
+    "danhLan": false,
+    "cacCap": [
+      {
+        "cap": 0,
+        "satThuongPhanTram": 10,
+        "hoiChieuMs": 5000,
+        "mp": 10,
+        "thoiGianBuff": 50,
+        "capCongThem": 3
+      },
+      {
+        "cap": 1,
+        "satThuongPhanTram": 5,
+        "hoiChieuMs": 60000,
+        "mp": 15,
+        "thoiGianBuff": 60,
+        "capCongThem": 6
+      },
+      {
+        "cap": 2,
+        "satThuongPhanTram": 10,
+        "hoiChieuMs": 70000,
+        "mp": 20,
+        "thoiGianBuff": 70,
+        "capCongThem": 9
+      },
+      {
+        "cap": 3,
+        "satThuongPhanTram": 15,
+        "hoiChieuMs": 80000,
+        "mp": 25,
+        "thoiGianBuff": 80,
+        "capCongThem": 12
+      },
+      {
+        "cap": 4,
+        "satThuongPhanTram": 17,
+        "hoiChieuMs": 90000,
+        "mp": 30,
+        "thoiGianBuff": 90,
+        "capCongThem": 18
+      },
+      {
+        "cap": 5,
+        "satThuongPhanTram": 19,
+        "hoiChieuMs": 100000,
+        "mp": 35,
+        "thoiGianBuff": 100,
+        "capCongThem": 24
+      },
+      {
+        "cap": 6,
+        "satThuongPhanTram": 21,
+        "hoiChieuMs": 120000,
+        "mp": 40,
+        "thoiGianBuff": 120,
+        "capCongThem": 26
+      },
+      {
+        "cap": 7,
+        "satThuongPhanTram": 23,
+        "hoiChieuMs": 140000,
+        "mp": 45,
+        "thoiGianBuff": 140,
+        "capCongThem": 28
+      },
+      {
+        "cap": 8,
+        "satThuongPhanTram": 25,
+        "hoiChieuMs": 160000,
+        "mp": 50,
+        "thoiGianBuff": 160,
+        "capCongThem": 30
+      },
+      {
+        "cap": 9,
+        "satThuongPhanTram": 30,
+        "hoiChieuMs": 170000,
+        "mp": 55,
+        "thoiGianBuff": 170,
+        "capCongThem": 32
+      },
+      {
+        "cap": 10,
+        "satThuongPhanTram": 35,
+        "hoiChieuMs": 170000,
+        "mp": 55,
+        "thoiGianBuff": 180,
+        "capCongThem": 32
+      }
+    ]
+  },
+  {
+    "lop": 4,
+    "id": 6,
+    "ten": "Thập diện tâm tiễn",
+    "moTa": "Tẩm cực độc vào mũi tên và triệt hạ nhiều mục tiêu cùng lúc",
+    "giaHoc": 30000,
+    "tamDanh": 128,
+    "danhLan": true,
+    "cacCap": [
+      {
+        "cap": 0,
+        "satThuongPhanTram": 10,
+        "hoiChieuMs": 1900,
+        "mp": 10,
+        "thoiGianBuff": 3,
+        "capCongThem": 25
+      },
+      {
+        "cap": 1,
+        "satThuongPhanTram": 330,
+        "hoiChieuMs": 2200,
+        "mp": 15,
+        "thoiGianBuff": 3,
+        "capCongThem": 27
+      },
+      {
+        "cap": 2,
+        "satThuongPhanTram": 335,
+        "hoiChieuMs": 2200,
+        "mp": 20,
+        "thoiGianBuff": 3,
+        "capCongThem": 29
+      },
+      {
+        "cap": 3,
+        "satThuongPhanTram": 340,
+        "hoiChieuMs": 2200,
+        "mp": 25,
+        "thoiGianBuff": 3,
+        "capCongThem": 31
+      },
+      {
+        "cap": 4,
+        "satThuongPhanTram": 345,
+        "hoiChieuMs": 2400,
+        "mp": 30,
+        "thoiGianBuff": 3,
+        "capCongThem": 33
+      },
+      {
+        "cap": 5,
+        "satThuongPhanTram": 350,
+        "hoiChieuMs": 2400,
+        "mp": 35,
+        "thoiGianBuff": 3,
+        "capCongThem": 35
+      },
+      {
+        "cap": 6,
+        "satThuongPhanTram": 355,
+        "hoiChieuMs": 2600,
+        "mp": 40,
+        "thoiGianBuff": 3,
+        "capCongThem": 37
+      },
+      {
+        "cap": 7,
+        "satThuongPhanTram": 360,
+        "hoiChieuMs": 2600,
+        "mp": 45,
+        "thoiGianBuff": 3,
+        "capCongThem": 39
+      },
+      {
+        "cap": 8,
+        "satThuongPhanTram": 375,
+        "hoiChieuMs": 3000,
+        "mp": 50,
+        "thoiGianBuff": 3,
+        "capCongThem": 41
+      },
+      {
+        "cap": 9,
+        "satThuongPhanTram": 395,
+        "hoiChieuMs": 3000,
+        "mp": 55,
+        "thoiGianBuff": 3,
+        "capCongThem": 43
+      },
+      {
+        "cap": 10,
+        "satThuongPhanTram": 400,
+        "hoiChieuMs": 3000,
+        "mp": 55,
+        "thoiGianBuff": 3,
+        "capCongThem": 43
+      }
+    ]
+  },
+  {
+    "lop": 4,
+    "id": 7,
+    "ten": "Thăng thiên loạn tiễn",
+    "moTa": "Hất tung đối phương lên không trung và bắn liên hoàn năm mũi tên vào đối thủ dẫn đến tử vong.",
+    "giaHoc": 60000,
+    "tamDanh": 128,
+    "danhLan": true,
+    "cacCap": [
+      {
+        "cap": 0,
+        "satThuongPhanTram": 10,
+        "hoiChieuMs": 1900,
+        "mp": 10,
+        "thoiGianBuff": 3,
+        "capCongThem": 30
+      },
+      {
+        "cap": 1,
+        "satThuongPhanTram": 360,
+        "hoiChieuMs": 2200,
+        "mp": 15,
+        "thoiGianBuff": 3,
+        "capCongThem": 32
+      },
+      {
+        "cap": 2,
+        "satThuongPhanTram": 365,
+        "hoiChieuMs": 2200,
+        "mp": 20,
+        "thoiGianBuff": 3,
+        "capCongThem": 34
+      },
+      {
+        "cap": 3,
+        "satThuongPhanTram": 370,
+        "hoiChieuMs": 2200,
+        "mp": 25,
+        "thoiGianBuff": 3,
+        "capCongThem": 36
+      },
+      {
+        "cap": 4,
+        "satThuongPhanTram": 375,
+        "hoiChieuMs": 2400,
+        "mp": 30,
+        "thoiGianBuff": 3,
+        "capCongThem": 38
+      },
+      {
+        "cap": 5,
+        "satThuongPhanTram": 380,
+        "hoiChieuMs": 2400,
+        "mp": 35,
+        "thoiGianBuff": 3,
+        "capCongThem": 40
+      },
+      {
+        "cap": 6,
+        "satThuongPhanTram": 385,
+        "hoiChieuMs": 2600,
+        "mp": 40,
+        "thoiGianBuff": 3,
+        "capCongThem": 42
+      },
+      {
+        "cap": 7,
+        "satThuongPhanTram": 390,
+        "hoiChieuMs": 2600,
+        "mp": 45,
+        "thoiGianBuff": 3,
+        "capCongThem": 44
+      },
+      {
+        "cap": 8,
+        "satThuongPhanTram": 405,
+        "hoiChieuMs": 3000,
+        "mp": 50,
+        "thoiGianBuff": 3,
+        "capCongThem": 46
+      },
+      {
+        "cap": 9,
+        "satThuongPhanTram": 415,
+        "hoiChieuMs": 3000,
+        "mp": 55,
+        "thoiGianBuff": 3,
+        "capCongThem": 48
+      },
+      {
+        "cap": 10,
+        "satThuongPhanTram": 420,
+        "hoiChieuMs": 3000,
+        "mp": 55,
+        "thoiGianBuff": 3,
+        "capCongThem": 48
+      }
+    ]
+  },
+  {
+    "lop": 4,
+    "id": 8,
+    "ten": "Vạn tiễn quy tâm",
+    "moTa": "Mo ta skill moi",
+    "giaHoc": 150000,
+    "tamDanh": 128,
+    "danhLan": true,
+    "cacCap": [
+      {
+        "cap": 0,
+        "satThuongPhanTram": 10,
+        "hoiChieuMs": 5000,
+        "mp": 10,
+        "thoiGianBuff": 3,
+        "capCongThem": 45
+      },
+      {
+        "cap": 1,
+        "satThuongPhanTram": 390,
+        "hoiChieuMs": 5000,
+        "mp": 40,
+        "thoiGianBuff": 3,
+        "capCongThem": 45
+      },
+      {
+        "cap": 2,
+        "satThuongPhanTram": 395,
+        "hoiChieuMs": 5000,
+        "mp": 45,
+        "thoiGianBuff": 3,
+        "capCongThem": 47
+      },
+      {
+        "cap": 3,
+        "satThuongPhanTram": 400,
+        "hoiChieuMs": 5000,
+        "mp": 50,
+        "thoiGianBuff": 3,
+        "capCongThem": 49
+      },
+      {
+        "cap": 4,
+        "satThuongPhanTram": 405,
+        "hoiChieuMs": 5000,
+        "mp": 55,
+        "thoiGianBuff": 3,
+        "capCongThem": 51
+      },
+      {
+        "cap": 5,
+        "satThuongPhanTram": 410,
+        "hoiChieuMs": 5000,
+        "mp": 60,
+        "thoiGianBuff": 3,
+        "capCongThem": 53
+      },
+      {
+        "cap": 6,
+        "satThuongPhanTram": 415,
+        "hoiChieuMs": 5000,
+        "mp": 65,
+        "thoiGianBuff": 3,
+        "capCongThem": 55
+      },
+      {
+        "cap": 7,
+        "satThuongPhanTram": 420,
+        "hoiChieuMs": 5000,
+        "mp": 70,
+        "thoiGianBuff": 3,
+        "capCongThem": 57
+      },
+      {
+        "cap": 8,
+        "satThuongPhanTram": 435,
+        "hoiChieuMs": 5000,
+        "mp": 75,
+        "thoiGianBuff": 3,
+        "capCongThem": 59
+      },
+      {
+        "cap": 9,
+        "satThuongPhanTram": 445,
+        "hoiChieuMs": 5000,
+        "mp": 80,
+        "thoiGianBuff": 3,
+        "capCongThem": 61
+      },
+      {
+        "cap": 10,
+        "satThuongPhanTram": 450,
+        "hoiChieuMs": 5000,
+        "mp": 80,
+        "thoiGianBuff": 3,
+        "capCongThem": 61
+      }
+    ]
+  }
+]

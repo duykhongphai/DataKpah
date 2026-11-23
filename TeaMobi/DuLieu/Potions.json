@@ -1,0 +1,1882 @@
+[
+  {
+    "id": 0,
+    "iconId": 5500,
+    "ten": "Xu",
+    "moTa": "xu",
+    "hoiChieuMs": 0,
+    "coTheGiaoDich": false,
+    "gia": 0,
+    "hoiPhuc": 0
+  },
+  {
+    "id": 1,
+    "iconId": 5501,
+    "ten": "HP nhỏ",
+    "moTa": "hpnho",
+    "hoiChieuMs": 350,
+    "coTheGiaoDich": true,
+    "gia": 100,
+    "hoiPhuc": 80
+  },
+  {
+    "id": 2,
+    "iconId": 5502,
+    "ten": "HP vừa",
+    "moTa": "hpvua",
+    "hoiChieuMs": 350,
+    "coTheGiaoDich": true,
+    "gia": 500,
+    "hoiPhuc": 300
+  },
+  {
+    "id": 3,
+    "iconId": 5503,
+    "ten": "HP to",
+    "moTa": "hpto",
+    "hoiChieuMs": 350,
+    "coTheGiaoDich": true,
+    "gia": 800,
+    "hoiPhuc": 1000
+  },
+  {
+    "id": 4,
+    "iconId": 5504,
+    "ten": "MP nhỏ",
+    "moTa": "mpnho",
+    "hoiChieuMs": 350,
+    "coTheGiaoDich": true,
+    "gia": 50,
+    "hoiPhuc": 160
+  },
+  {
+    "id": 5,
+    "iconId": 5505,
+    "ten": "MP vừa",
+    "moTa": "mpvua",
+    "hoiChieuMs": 350,
+    "coTheGiaoDich": true,
+    "gia": 150,
+    "hoiPhuc": 600
+  },
+  {
+    "id": 6,
+    "iconId": 5506,
+    "ten": "MP to",
+    "moTa": "mpto",
+    "hoiChieuMs": 350,
+    "coTheGiaoDich": true,
+    "gia": 500,
+    "hoiPhuc": 2000
+  },
+  {
+    "id": 7,
+    "iconId": 5522,
+    "ten": "Bình tăng tốc thường",
+    "moTa": "binhtangtocthuong",
+    "hoiChieuMs": 350,
+    "coTheGiaoDich": false,
+    "gia": 500,
+    "hoiPhuc": 1
+  },
+  {
+    "id": 8,
+    "iconId": 5588,
+    "ten": "Bình tăng tốc vàng.\nGiảm 20% thời gian chín của trái vàng",
+    "moTa": "binhtangtocvanggiamthoigianchincuatraivang",
+    "hoiChieuMs": 350,
+    "coTheGiaoDich": false,
+    "gia": 500,
+    "hoiPhuc": 2
+  },
+  {
+    "id": 9,
+    "iconId": 5526,
+    "ten": "Nhân sâm",
+    "moTa": "nhansam",
+    "hoiChieuMs": 350,
+    "coTheGiaoDich": false,
+    "gia": 500,
+    "hoiPhuc": 1
+  },
+  {
+    "id": 10,
+    "iconId": 5562,
+    "ten": "Tiên dược thường: cộng 100k exp",
+    "moTa": "tienduocthuongcongkexp",
+    "hoiChieuMs": 350,
+    "coTheGiaoDich": false,
+    "gia": 500,
+    "hoiPhuc": 2
+  },
+  {
+    "id": 11,
+    "iconId": 5540,
+    "ten": "Tiên dược cao cấp: cộng 500k exp",
+    "moTa": "tienduoccaocapcongkexp",
+    "hoiChieuMs": 0,
+    "coTheGiaoDich": false,
+    "gia": 500,
+    "hoiPhuc": 1
+  },
+  {
+    "id": 12,
+    "iconId": 5536,
+    "ten": "Tiên dược đặc biệt: cộng 1t exp",
+    "moTa": "tienduocdacbietcongtexp",
+    "hoiChieuMs": 0,
+    "coTheGiaoDich": false,
+    "gia": 500,
+    "hoiPhuc": 0
+  },
+  {
+    "id": 13,
+    "iconId": 5523,
+    "ten": "Bình tăng tốc bạc.\nGiảm 20% thời gian chín của trái bạc",
+    "moTa": "binhtangtocbacgiamthoigianchincuatraibac",
+    "hoiChieuMs": 0,
+    "coTheGiaoDich": false,
+    "gia": 500,
+    "hoiPhuc": 0
+  },
+  {
+    "id": 14,
+    "iconId": 5515,
+    "ten": "Khăn đỏ",
+    "moTa": "khando",
+    "hoiChieuMs": 0,
+    "coTheGiaoDich": false,
+    "gia": 500,
+    "hoiPhuc": 0
+  },
+  {
+    "id": 15,
+    "iconId": 5516,
+    "ten": "Khăn xanh",
+    "moTa": "khanxanh",
+    "hoiChieuMs": 0,
+    "coTheGiaoDich": false,
+    "gia": 500,
+    "hoiPhuc": 0
+  },
+  {
+    "id": 16,
+    "iconId": 5517,
+    "ten": "Khăn vàng",
+    "moTa": "khanvang",
+    "hoiChieuMs": 0,
+    "coTheGiaoDich": false,
+    "gia": 500,
+    "hoiPhuc": 0
+  },
+  {
+    "id": 17,
+    "iconId": 5518,
+    "ten": "Khăn xanh lá",
+    "moTa": "khanxanhla",
+    "hoiChieuMs": 0,
+    "coTheGiaoDich": false,
+    "gia": 500,
+    "hoiPhuc": 0
+  },
+  {
+    "id": 18,
+    "iconId": 5519,
+    "ten": "Khăn tím",
+    "moTa": "khantim",
+    "hoiChieuMs": 0,
+    "coTheGiaoDich": false,
+    "gia": 500,
+    "hoiPhuc": 0
+  },
+  {
+    "id": 19,
+    "iconId": 5513,
+    "ten": "Thổ địa phù",
+    "moTa": "thodiaphu",
+    "hoiChieuMs": 0,
+    "coTheGiaoDich": false,
+    "gia": 1000,
+    "hoiPhuc": -1
+  },
+  {
+    "id": 20,
+    "iconId": 5513,
+    "ten": "Vé tàu",
+    "moTa": "vetau",
+    "hoiChieuMs": 0,
+    "coTheGiaoDich": false,
+    "gia": 15000,
+    "hoiPhuc": -1
+  },
+  {
+    "id": 21,
+    "iconId": 5509,
+    "ten": "HP đ.biệt vừa",
+    "moTa": "hpdbietvua",
+    "hoiChieuMs": 350,
+    "coTheGiaoDich": true,
+    "gia": 0,
+    "hoiPhuc": 0
+  },
+  {
+    "id": 22,
+    "iconId": 5510,
+    "ten": "HP đ.biệt to",
+    "moTa": "hpdbietto",
+    "hoiChieuMs": 350,
+    "coTheGiaoDich": true,
+    "gia": 0,
+    "hoiPhuc": 0
+  },
+  {
+    "id": 23,
+    "iconId": 5507,
+    "ten": "MP đ.biệt vừa",
+    "moTa": "mpdbietvua",
+    "hoiChieuMs": 350,
+    "coTheGiaoDich": true,
+    "gia": 0,
+    "hoiPhuc": 0
+  },
+  {
+    "id": 24,
+    "iconId": 5508,
+    "ten": "MP đ.biệt to",
+    "moTa": "mpdbietto",
+    "hoiChieuMs": 350,
+    "coTheGiaoDich": true,
+    "gia": 0,
+    "hoiPhuc": 0
+  },
+  {
+    "id": 25,
+    "iconId": 5520,
+    "ten": "Thuốc khôi phục tiềm năng",
+    "moTa": "thuockhoiphuctiemnang",
+    "hoiChieuMs": 350,
+    "coTheGiaoDich": false,
+    "gia": 0,
+    "hoiPhuc": 0
+  },
+  {
+    "id": 26,
+    "iconId": 5521,
+    "ten": "Thuốc khôi phục",
+    "moTa": "thuockhoiphuc",
+    "hoiChieuMs": 350,
+    "coTheGiaoDich": false,
+    "gia": 0,
+    "hoiPhuc": 0
+  },
+  {
+    "id": 27,
+    "iconId": 5532,
+    "ten": "Thần hành phù",
+    "moTa": "thanhanhphu",
+    "hoiChieuMs": 0,
+    "coTheGiaoDich": false,
+    "gia": 0,
+    "hoiPhuc": 0
+  },
+  {
+    "id": 28,
+    "iconId": 5532,
+    "ten": "Thẻ cấm chat",
+    "moTa": "thecamchat",
+    "hoiChieuMs": 0,
+    "coTheGiaoDich": false,
+    "gia": 0,
+    "hoiPhuc": 0
+  },
+  {
+    "id": 29,
+    "iconId": 5532,
+    "ten": "Phiếu công ích",
+    "moTa": "phieucongich",
+    "hoiChieuMs": 0,
+    "coTheGiaoDich": false,
+    "gia": 0,
+    "hoiPhuc": 0
+  },
+  {
+    "id": 30,
+    "iconId": 5527,
+    "ten": "Thiên lý mã",
+    "moTa": "thienlyma",
+    "hoiChieuMs": 0,
+    "coTheGiaoDich": true,
+    "gia": 0,
+    "hoiPhuc": 0
+  },
+  {
+    "id": 31,
+    "iconId": 5533,
+    "ten": "Kim bài",
+    "moTa": "kimbai",
+    "hoiChieuMs": 0,
+    "coTheGiaoDich": false,
+    "gia": 0,
+    "hoiPhuc": 0
+  },
+  {
+    "id": 32,
+    "iconId": 5513,
+    "ten": "Thẻ đấu trường",
+    "moTa": "thedautruong",
+    "hoiChieuMs": 0,
+    "coTheGiaoDich": false,
+    "gia": 0,
+    "hoiPhuc": 0
+  },
+  {
+    "id": 33,
+    "iconId": 5539,
+    "ten": "Thẻ chiếm thành",
+    "moTa": "thechiemthanh",
+    "hoiChieuMs": 0,
+    "coTheGiaoDich": false,
+    "gia": 0,
+    "hoiPhuc": 0
+  },
+  {
+    "id": 34,
+    "iconId": 5537,
+    "ten": "Xích thố",
+    "moTa": "xichtho",
+    "hoiChieuMs": 0,
+    "coTheGiaoDich": false,
+    "gia": 0,
+    "hoiPhuc": 0
+  },
+  {
+    "id": 35,
+    "iconId": 5511,
+    "ten": "Vé giờ vàng 100, x2 kinh nghiệm trong một giờ chơi. Tính theo thời gian chơi",
+    "moTa": "vegiovangxkinhnghiemtrongmotgiochoitinhtheothoigianchoi",
+    "hoiChieuMs": 0,
+    "coTheGiaoDich": false,
+    "gia": 0,
+    "hoiPhuc": 0
+  },
+  {
+    "id": 36,
+    "iconId": 5535,
+    "ten": "Tuần lộc",
+    "moTa": "tuanloc",
+    "hoiChieuMs": 0,
+    "coTheGiaoDich": false,
+    "gia": 0,
+    "hoiPhuc": 0
+  },
+  {
+    "id": 37,
+    "iconId": 5613,
+    "ten": "Đầu đinh",
+    "moTa": "daudinh",
+    "hoiChieuMs": 0,
+    "coTheGiaoDich": true,
+    "gia": 0,
+    "hoiPhuc": 0
+  },
+  {
+    "id": 38,
+    "iconId": 5614,
+    "ten": "Tóc búi",
+    "moTa": "tocbui",
+    "hoiChieuMs": 0,
+    "coTheGiaoDich": true,
+    "gia": 0,
+    "hoiPhuc": 0
+  },
+  {
+    "id": 39,
+    "iconId": 5615,
+    "ten": "Tóc cột cao",
+    "moTa": "toccotcao",
+    "hoiChieuMs": 0,
+    "coTheGiaoDich": true,
+    "gia": 0,
+    "hoiPhuc": 0
+  },
+  {
+    "id": 40,
+    "iconId": 5616,
+    "ten": "Tóc chéo",
+    "moTa": "toccheo",
+    "hoiChieuMs": 0,
+    "coTheGiaoDich": true,
+    "gia": 0,
+    "hoiPhuc": 0
+  },
+  {
+    "id": 41,
+    "iconId": 5617,
+    "ten": "Tóc xù",
+    "moTa": "tocxu",
+    "hoiChieuMs": 0,
+    "coTheGiaoDich": true,
+    "gia": 0,
+    "hoiPhuc": 0
+  },
+  {
+    "id": 42,
+    "iconId": 5618,
+    "ten": "Tóc ngang vai",
+    "moTa": "tocngangvai",
+    "hoiChieuMs": 0,
+    "coTheGiaoDich": true,
+    "gia": 0,
+    "hoiPhuc": 0
+  },
+  {
+    "id": 43,
+    "iconId": 5619,
+    "ten": "Tóc đinh so le",
+    "moTa": "tocdinhsole",
+    "hoiChieuMs": 0,
+    "coTheGiaoDich": true,
+    "gia": 0,
+    "hoiPhuc": 0
+  },
+  {
+    "id": 44,
+    "iconId": 5620,
+    "ten": "Tóc so le",
+    "moTa": "tocsole",
+    "hoiChieuMs": 0,
+    "coTheGiaoDich": true,
+    "gia": 0,
+    "hoiPhuc": 0
+  },
+  {
+    "id": 45,
+    "iconId": 5621,
+    "ten": "Tóc thư sinh",
+    "moTa": "tocthusinh",
+    "hoiChieuMs": 0,
+    "coTheGiaoDich": true,
+    "gia": 0,
+    "hoiPhuc": 0
+  },
+  {
+    "id": 46,
+    "iconId": 5622,
+    "ten": "Tóc cài hoa",
+    "moTa": "toccaihoa",
+    "hoiChieuMs": 0,
+    "coTheGiaoDich": true,
+    "gia": 0,
+    "hoiPhuc": 0
+  },
+  {
+    "id": 47,
+    "iconId": 5623,
+    "ten": "Tóc bờm ngựa",
+    "moTa": "tocbomngua",
+    "hoiChieuMs": 0,
+    "coTheGiaoDich": true,
+    "gia": 0,
+    "hoiPhuc": 0
+  },
+  {
+    "id": 48,
+    "iconId": 5624,
+    "ten": "Tóc tiên đồng",
+    "moTa": "toctiendong",
+    "hoiChieuMs": 0,
+    "coTheGiaoDich": true,
+    "gia": 0,
+    "hoiPhuc": 0
+  },
+  {
+    "id": 49,
+    "iconId": 5625,
+    "ten": "Tóc dựng đứng",
+    "moTa": "tocdungdung",
+    "hoiChieuMs": 0,
+    "coTheGiaoDich": true,
+    "gia": 0,
+    "hoiPhuc": 0
+  },
+  {
+    "id": 50,
+    "iconId": 5543,
+    "ten": "Hoa mai",
+    "moTa": "hoamai",
+    "hoiChieuMs": 0,
+    "coTheGiaoDich": false,
+    "gia": 0,
+    "hoiPhuc": 0
+  },
+  {
+    "id": 51,
+    "iconId": 5543,
+    "ten": "Hoa mai",
+    "moTa": "hoamai",
+    "hoiChieuMs": 0,
+    "coTheGiaoDich": false,
+    "gia": 0,
+    "hoiPhuc": 0
+  },
+  {
+    "id": 52,
+    "iconId": 5543,
+    "ten": "Hoa mai",
+    "moTa": "hoamai",
+    "hoiChieuMs": 0,
+    "coTheGiaoDich": false,
+    "gia": 0,
+    "hoiPhuc": 0
+  },
+  {
+    "id": 53,
+    "iconId": 5543,
+    "ten": "Hoa mai",
+    "moTa": "hoamai",
+    "hoiChieuMs": 0,
+    "coTheGiaoDich": false,
+    "gia": 0,
+    "hoiPhuc": 0
+  },
+  {
+    "id": 54,
+    "iconId": 5544,
+    "ten": "Hoa đào",
+    "moTa": "hoadao",
+    "hoiChieuMs": 0,
+    "coTheGiaoDich": false,
+    "gia": 0,
+    "hoiPhuc": 0
+  },
+  {
+    "id": 55,
+    "iconId": 5544,
+    "ten": "Hoa đào",
+    "moTa": "hoadao",
+    "hoiChieuMs": 0,
+    "coTheGiaoDich": false,
+    "gia": 0,
+    "hoiPhuc": 0
+  },
+  {
+    "id": 56,
+    "iconId": 5544,
+    "ten": "Hoa đào",
+    "moTa": "hoadao",
+    "hoiChieuMs": 0,
+    "coTheGiaoDich": false,
+    "gia": 0,
+    "hoiPhuc": 0
+  },
+  {
+    "id": 57,
+    "iconId": 5544,
+    "ten": "Hoa đào",
+    "moTa": "hoadao",
+    "hoiChieuMs": 0,
+    "coTheGiaoDich": false,
+    "gia": 0,
+    "hoiPhuc": 0
+  },
+  {
+    "id": 58,
+    "iconId": 5545,
+    "ten": "Hoa hồng",
+    "moTa": "hoahong",
+    "hoiChieuMs": 0,
+    "coTheGiaoDich": false,
+    "gia": 0,
+    "hoiPhuc": 0
+  },
+  {
+    "id": 59,
+    "iconId": 5545,
+    "ten": "Hoa hồng",
+    "moTa": "hoahong",
+    "hoiChieuMs": 0,
+    "coTheGiaoDich": false,
+    "gia": 0,
+    "hoiPhuc": 0
+  },
+  {
+    "id": 60,
+    "iconId": 5545,
+    "ten": "Hoa hồng",
+    "moTa": "hoahong",
+    "hoiChieuMs": 0,
+    "coTheGiaoDich": false,
+    "gia": 0,
+    "hoiPhuc": 0
+  },
+  {
+    "id": 61,
+    "iconId": 5545,
+    "ten": "Hoa hồng",
+    "moTa": "hoahong",
+    "hoiChieuMs": 0,
+    "coTheGiaoDich": false,
+    "gia": 0,
+    "hoiPhuc": 0
+  },
+  {
+    "id": 62,
+    "iconId": 5540,
+    "ten": "Bí ma",
+    "moTa": "bima",
+    "hoiChieuMs": 0,
+    "coTheGiaoDich": false,
+    "gia": 0,
+    "hoiPhuc": 0
+  },
+  {
+    "id": 63,
+    "iconId": 5542,
+    "ten": "Hộp may mắn",
+    "moTa": "hopmayman",
+    "hoiChieuMs": 0,
+    "coTheGiaoDich": false,
+    "gia": 0,
+    "hoiPhuc": 0
+  },
+  {
+    "id": 64,
+    "iconId": 5547,
+    "ten": "Hắc Ngưu",
+    "moTa": "hacnguu",
+    "hoiChieuMs": 0,
+    "coTheGiaoDich": true,
+    "gia": 0,
+    "hoiPhuc": 0
+  },
+  {
+    "id": 65,
+    "iconId": 5546,
+    "ten": "Mãnh hổ",
+    "moTa": "manhho",
+    "hoiChieuMs": 0,
+    "coTheGiaoDich": true,
+    "gia": 0,
+    "hoiPhuc": 0
+  },
+  {
+    "id": 66,
+    "iconId": 5548,
+    "ten": "Sói xám",
+    "moTa": "soixam",
+    "hoiChieuMs": 0,
+    "coTheGiaoDich": true,
+    "gia": 0,
+    "hoiPhuc": 0
+  },
+  {
+    "id": 67,
+    "iconId": 5549,
+    "ten": "Tiên Hạc",
+    "moTa": "tienhac",
+    "hoiChieuMs": 0,
+    "coTheGiaoDich": true,
+    "gia": 0,
+    "hoiPhuc": 0
+  },
+  {
+    "id": 68,
+    "iconId": 5538,
+    "ten": "Bạch mã",
+    "moTa": "bachma",
+    "hoiChieuMs": 0,
+    "coTheGiaoDich": true,
+    "gia": 0,
+    "hoiPhuc": 0
+  },
+  {
+    "id": 69,
+    "iconId": 5532,
+    "ten": "Vé quay số",
+    "moTa": "vequayso",
+    "hoiChieuMs": 0,
+    "coTheGiaoDich": false,
+    "gia": 0,
+    "hoiPhuc": 0
+  },
+  {
+    "id": 70,
+    "iconId": 5524,
+    "ten": "Trứng phượng hoàng băng",
+    "moTa": "trungphuonghoangbang",
+    "hoiChieuMs": 0,
+    "coTheGiaoDich": true,
+    "gia": 0,
+    "hoiPhuc": 0
+  },
+  {
+    "id": 71,
+    "iconId": 5727,
+    "ten": "Trứng Hoả kỳ lân",
+    "moTa": "trunghoakylan",
+    "hoiChieuMs": 0,
+    "coTheGiaoDich": true,
+    "gia": 0,
+    "hoiPhuc": 0
+  },
+  {
+    "id": 72,
+    "iconId": 5646,
+    "ten": "Trứng đương khang",
+    "moTa": "trungduongkhang",
+    "hoiChieuMs": 1000,
+    "coTheGiaoDich": true,
+    "gia": 0,
+    "hoiPhuc": 0
+  },
+  {
+    "id": 73,
+    "iconId": 5641,
+    "ten": "Túi nhặt ngọc",
+    "moTa": "tuinhatngoc",
+    "hoiChieuMs": 0,
+    "coTheGiaoDich": false,
+    "gia": 0,
+    "hoiPhuc": 0
+  },
+  {
+    "id": 74,
+    "iconId": 5645,
+    "ten": "Trứng bạch cốt",
+    "moTa": "trungbachcot",
+    "hoiChieuMs": 0,
+    "coTheGiaoDich": true,
+    "gia": 0,
+    "hoiPhuc": 0
+  },
+  {
+    "id": 75,
+    "iconId": 5511,
+    "ten": "Vé giờ vàng 100, x2 kinh nghiệm trong 3 giờ chơi. Tính theo thời gian chơi",
+    "moTa": "vegiovangxkinhnghiemtronggiochoitinhtheothoigianchoi",
+    "hoiChieuMs": 0,
+    "coTheGiaoDich": false,
+    "gia": 0,
+    "hoiPhuc": 0
+  },
+  {
+    "id": 76,
+    "iconId": 5532,
+    "ten": "Vé quay số đặc biệt",
+    "moTa": "vequaysodacbiet",
+    "hoiChieuMs": 0,
+    "coTheGiaoDich": false,
+    "gia": 0,
+    "hoiPhuc": 0
+  },
+  {
+    "id": 77,
+    "iconId": 5713,
+    "ten": "Mảnh bản đồ 1",
+    "moTa": "manhbando",
+    "hoiChieuMs": 0,
+    "coTheGiaoDich": false,
+    "gia": 0,
+    "hoiPhuc": 0
+  },
+  {
+    "id": 78,
+    "iconId": 5532,
+    "ten": "Thẻ liên hoa",
+    "moTa": "thelienhoa",
+    "hoiChieuMs": 0,
+    "coTheGiaoDich": false,
+    "gia": 0,
+    "hoiPhuc": 0
+  },
+  {
+    "id": 79,
+    "iconId": 5542,
+    "ten": "Hộp thần kỳ",
+    "moTa": "hopthanky",
+    "hoiChieuMs": 0,
+    "coTheGiaoDich": false,
+    "gia": 0,
+    "hoiPhuc": 0
+  },
+  {
+    "id": 80,
+    "iconId": 5560,
+    "ten": "Bình tăng lực 5%/n. Tăng 5% các chỉ số trong 3 ngày",
+    "moTa": "binhtanglucntangcacchisotrongngay",
+    "hoiChieuMs": 0,
+    "coTheGiaoDich": false,
+    "gia": 0,
+    "hoiPhuc": 0
+  },
+  {
+    "id": 81,
+    "iconId": 5511,
+    "ten": "Vé giờ vàng tăng 150% kinh nghiệm.",
+    "moTa": "vegiovangtangkinhnghiem",
+    "hoiChieuMs": 0,
+    "coTheGiaoDich": false,
+    "gia": 0,
+    "hoiPhuc": 0
+  },
+  {
+    "id": 82,
+    "iconId": 5607,
+    "ten": "Thẻ vận tiêu. Thêm một lượt vận tiêu khi sử dụng",
+    "moTa": "thevantieuthemmotluotvantieukhisudung",
+    "hoiChieuMs": 0,
+    "coTheGiaoDich": false,
+    "gia": 0,
+    "hoiPhuc": 0
+  },
+  {
+    "id": 83,
+    "iconId": 5745,
+    "ten": "Tụ hồn đan. Tăng 1% kinh nghiệm cho thú nuôi khi cho ăn.",
+    "moTa": "tuhondantangkinhnghiemchothunuoikhichoan",
+    "hoiChieuMs": 0,
+    "coTheGiaoDich": false,
+    "gia": 0,
+    "hoiPhuc": 0
+  },
+  {
+    "id": 84,
+    "iconId": 5531,
+    "ten": "Thuốc cường hoá",
+    "moTa": "thuoccuonghoa",
+    "hoiChieuMs": 0,
+    "coTheGiaoDich": false,
+    "gia": 0,
+    "hoiPhuc": 0
+  },
+  {
+    "id": 85,
+    "iconId": 5532,
+    "ten": "Thẻ triệu hồi",
+    "moTa": "thetrieuhoi",
+    "hoiChieuMs": 0,
+    "coTheGiaoDich": false,
+    "gia": 0,
+    "hoiPhuc": 0
+  },
+  {
+    "id": 86,
+    "iconId": 5565,
+    "ten": "Phượng hoàng",
+    "moTa": "phuonghoang",
+    "hoiChieuMs": 0,
+    "coTheGiaoDich": true,
+    "gia": 0,
+    "hoiPhuc": 0
+  },
+  {
+    "id": 87,
+    "iconId": 5532,
+    "ten": "Thẻ bài phong chức",
+    "moTa": "thebaiphongchuc",
+    "hoiChieuMs": 0,
+    "coTheGiaoDich": false,
+    "gia": 0,
+    "hoiPhuc": 0
+  },
+  {
+    "id": 88,
+    "iconId": 5573,
+    "ten": "Nhẫn Bách niên giai lão 2%pt",
+    "moTa": "nhanbachniengiailaopt",
+    "hoiChieuMs": 0,
+    "coTheGiaoDich": false,
+    "gia": 0,
+    "hoiPhuc": 0
+  },
+  {
+    "id": 89,
+    "iconId": 5574,
+    "ten": "Nhẫn Vĩnh kết đồng tâm 4%pt",
+    "moTa": "nhanvinhketdongtampt",
+    "hoiChieuMs": 0,
+    "coTheGiaoDich": false,
+    "gia": 0,
+    "hoiPhuc": 0
+  },
+  {
+    "id": 90,
+    "iconId": 5575,
+    "ten": "Nhẫn Loan phụng hòa minh 7%pt",
+    "moTa": "nhanloanphunghoaminhpt",
+    "hoiChieuMs": 0,
+    "coTheGiaoDich": false,
+    "gia": 0,
+    "hoiPhuc": 0
+  },
+  {
+    "id": 91,
+    "iconId": 5532,
+    "ten": "Vé vào mỏ",
+    "moTa": "vevaomo",
+    "hoiChieuMs": 0,
+    "coTheGiaoDich": false,
+    "gia": 0,
+    "hoiPhuc": 0
+  },
+  {
+    "id": 92,
+    "iconId": 5576,
+    "ten": "Thiệp cưới",
+    "moTa": "thiepcuoi",
+    "hoiChieuMs": 0,
+    "coTheGiaoDich": false,
+    "gia": 0,
+    "hoiPhuc": 0
+  },
+  {
+    "id": 93,
+    "iconId": 5510,
+    "ten": "HP7k",
+    "moTa": "hpk",
+    "hoiChieuMs": 350,
+    "coTheGiaoDich": true,
+    "gia": 0,
+    "hoiPhuc": 0
+  },
+  {
+    "id": 94,
+    "iconId": 5510,
+    "ten": "HP15k",
+    "moTa": "hpk",
+    "hoiChieuMs": 350,
+    "coTheGiaoDich": true,
+    "gia": 0,
+    "hoiPhuc": 0
+  },
+  {
+    "id": 95,
+    "iconId": 5508,
+    "ten": "MP7k",
+    "moTa": "mpk",
+    "hoiChieuMs": 350,
+    "coTheGiaoDich": true,
+    "gia": 0,
+    "hoiPhuc": 0
+  },
+  {
+    "id": 96,
+    "iconId": 5508,
+    "ten": "MP15k",
+    "moTa": "mpk",
+    "hoiChieuMs": 350,
+    "coTheGiaoDich": true,
+    "gia": 0,
+    "hoiPhuc": 0
+  },
+  {
+    "id": 97,
+    "iconId": 5605,
+    "ten": "Lệnh bài đổi tiêu",
+    "moTa": "lenhbaidoitieu",
+    "hoiChieuMs": 0,
+    "coTheGiaoDich": false,
+    "gia": 0,
+    "hoiPhuc": 0
+  },
+  {
+    "id": 98,
+    "iconId": 5593,
+    "ten": "Phù phu thê",
+    "moTa": "phuphuthe",
+    "hoiChieuMs": 0,
+    "coTheGiaoDich": false,
+    "gia": 0,
+    "hoiPhuc": 0
+  },
+  {
+    "id": 99,
+    "iconId": 5564,
+    "ten": "Pháo hoa",
+    "moTa": "phaohoa",
+    "hoiChieuMs": 0,
+    "coTheGiaoDich": false,
+    "gia": 0,
+    "hoiPhuc": 0
+  },
+  {
+    "id": 100,
+    "iconId": 5577,
+    "ten": "loa",
+    "moTa": "loa",
+    "hoiChieuMs": 0,
+    "coTheGiaoDich": false,
+    "gia": 0,
+    "hoiPhuc": 0
+  },
+  {
+    "id": 101,
+    "iconId": 5567,
+    "ten": "Rương vàng",
+    "moTa": "ruongvang",
+    "hoiChieuMs": 0,
+    "coTheGiaoDich": false,
+    "gia": 0,
+    "hoiPhuc": 0
+  },
+  {
+    "id": 102,
+    "iconId": 5568,
+    "ten": "Rương bạc",
+    "moTa": "ruongbac",
+    "hoiChieuMs": 0,
+    "coTheGiaoDich": false,
+    "gia": 0,
+    "hoiPhuc": 0
+  },
+  {
+    "id": 103,
+    "iconId": 5543,
+    "ten": "Lá vàng",
+    "moTa": "lavang",
+    "hoiChieuMs": 0,
+    "coTheGiaoDich": false,
+    "gia": 0,
+    "hoiPhuc": 0
+  },
+  {
+    "id": 104,
+    "iconId": 5746,
+    "ten": "Dây thừng. Dùng để bắt thú nuôi",
+    "moTa": "daythungdungdebatthunuoi",
+    "hoiChieuMs": 0,
+    "coTheGiaoDich": false,
+    "gia": 0,
+    "hoiPhuc": 0
+  },
+  {
+    "id": 105,
+    "iconId": 5714,
+    "ten": "Mảnh bản đồ 2",
+    "moTa": "manhbando",
+    "hoiChieuMs": 0,
+    "coTheGiaoDich": false,
+    "gia": 0,
+    "hoiPhuc": 0
+  },
+  {
+    "id": 106,
+    "iconId": 5500,
+    "ten": "",
+    "moTa": "",
+    "hoiChieuMs": 0,
+    "coTheGiaoDich": false,
+    "gia": 0,
+    "hoiPhuc": 0
+  },
+  {
+    "id": 107,
+    "iconId": 5500,
+    "ten": "",
+    "moTa": "",
+    "hoiChieuMs": 0,
+    "coTheGiaoDich": false,
+    "gia": 0,
+    "hoiPhuc": 0
+  },
+  {
+    "id": 108,
+    "iconId": 5500,
+    "ten": "",
+    "moTa": "",
+    "hoiChieuMs": 0,
+    "coTheGiaoDich": false,
+    "gia": 0,
+    "hoiPhuc": 0
+  },
+  {
+    "id": 109,
+    "iconId": 5583,
+    "ten": "",
+    "moTa": "",
+    "hoiChieuMs": 0,
+    "coTheGiaoDich": false,
+    "gia": 0,
+    "hoiPhuc": 0
+  },
+  {
+    "id": 110,
+    "iconId": 5500,
+    "ten": "",
+    "moTa": "",
+    "hoiChieuMs": 0,
+    "coTheGiaoDich": false,
+    "gia": 0,
+    "hoiPhuc": 0
+  },
+  {
+    "id": 111,
+    "iconId": 5500,
+    "ten": "",
+    "moTa": "",
+    "hoiChieuMs": 0,
+    "coTheGiaoDich": false,
+    "gia": 0,
+    "hoiPhuc": 0
+  },
+  {
+    "id": 112,
+    "iconId": 5585,
+    "ten": "Thức ăn tươi",
+    "moTa": "thucantuoi",
+    "hoiChieuMs": 0,
+    "coTheGiaoDich": false,
+    "gia": 0,
+    "hoiPhuc": 0
+  },
+  {
+    "id": 113,
+    "iconId": 5586,
+    "ten": "Thức ăn khô",
+    "moTa": "thucankho",
+    "hoiChieuMs": 0,
+    "coTheGiaoDich": false,
+    "gia": 0,
+    "hoiPhuc": 0
+  },
+  {
+    "id": 114,
+    "iconId": 5587,
+    "ten": "Thức ăn tổng hợp",
+    "moTa": "thucantonghop",
+    "hoiChieuMs": 0,
+    "coTheGiaoDich": false,
+    "gia": 0,
+    "hoiPhuc": 0
+  },
+  {
+    "id": 115,
+    "iconId": 5666,
+    "ten": "Trứng Lân sư tử",
+    "moTa": "trunglansutu",
+    "hoiChieuMs": 0,
+    "coTheGiaoDich": true,
+    "gia": 0,
+    "hoiPhuc": 0
+  },
+  {
+    "id": 116,
+    "iconId": 5606,
+    "ten": "Lệnh bài đổi tiêu cao cấp",
+    "moTa": "lenhbaidoitieucaocap",
+    "hoiChieuMs": 0,
+    "coTheGiaoDich": false,
+    "gia": 0,
+    "hoiPhuc": 0
+  },
+  {
+    "id": 117,
+    "iconId": 5715,
+    "ten": "Mảnh bản đồ 3",
+    "moTa": "manhbando",
+    "hoiChieuMs": 0,
+    "coTheGiaoDich": false,
+    "gia": 0,
+    "hoiPhuc": 0
+  },
+  {
+    "id": 118,
+    "iconId": 5532,
+    "ten": "Vé phượng hoàng.\nDùng quay số phượng hoàng",
+    "moTa": "vephuonghoangdungquaysophuonghoang",
+    "hoiChieuMs": 0,
+    "coTheGiaoDich": false,
+    "gia": 0,
+    "hoiPhuc": 0
+  },
+  {
+    "id": 119,
+    "iconId": 5652,
+    "ten": "Tiên đan\nHồi sinh bản thân.",
+    "moTa": "tiendanhoisinhbanthan",
+    "hoiChieuMs": 0,
+    "coTheGiaoDich": false,
+    "gia": 0,
+    "hoiPhuc": 0
+  },
+  {
+    "id": 120,
+    "iconId": 5591,
+    "ten": "Thịt",
+    "moTa": "thit",
+    "hoiChieuMs": 0,
+    "coTheGiaoDich": true,
+    "gia": 0,
+    "hoiPhuc": 0
+  },
+  {
+    "id": 121,
+    "iconId": 5589,
+    "ten": "Trứng",
+    "moTa": "trung",
+    "hoiChieuMs": 0,
+    "coTheGiaoDich": true,
+    "gia": 0,
+    "hoiPhuc": 0
+  },
+  {
+    "id": 122,
+    "iconId": 5699,
+    "ten": "Đậu xanh",
+    "moTa": "dauxanh",
+    "hoiChieuMs": 0,
+    "coTheGiaoDich": true,
+    "gia": 0,
+    "hoiPhuc": 0
+  },
+  {
+    "id": 123,
+    "iconId": 5531,
+    "ten": "Thuốc cường hóa siêu cấp",
+    "moTa": "thuoccuonghoasieucap",
+    "hoiChieuMs": 0,
+    "coTheGiaoDich": false,
+    "gia": 0,
+    "hoiPhuc": 0
+  },
+  {
+    "id": 124,
+    "iconId": 5566,
+    "ten": "Bánh dẻo",
+    "moTa": "banhdeo",
+    "hoiChieuMs": 0,
+    "coTheGiaoDich": false,
+    "gia": 0,
+    "hoiPhuc": 0
+  },
+  {
+    "id": 125,
+    "iconId": 5592,
+    "ten": "Bánh nướng",
+    "moTa": "banhnuong",
+    "hoiChieuMs": 0,
+    "coTheGiaoDich": false,
+    "gia": 0,
+    "hoiPhuc": 0
+  },
+  {
+    "id": 126,
+    "iconId": 5662,
+    "ten": "Hp chiến trường.\nHồi 10.000 hp",
+    "moTa": "hpchientruonghoihp",
+    "hoiChieuMs": 0,
+    "coTheGiaoDich": false,
+    "gia": 0,
+    "hoiPhuc": 0
+  },
+  {
+    "id": 127,
+    "iconId": 5674,
+    "ten": "Đoạn cốt.\nHồi 10.000 mp",
+    "moTa": "doancothoimp",
+    "hoiChieuMs": 0,
+    "coTheGiaoDich": false,
+    "gia": 0,
+    "hoiPhuc": 0
+  },
+  {
+    "id": 128,
+    "iconId": 5663,
+    "ten": "Thuốc cường hoá chiến trường",
+    "moTa": "thuoccuonghoachientruong",
+    "hoiChieuMs": 0,
+    "coTheGiaoDich": false,
+    "gia": 0,
+    "hoiPhuc": 0
+  },
+  {
+    "id": 129,
+    "iconId": 5656,
+    "ten": "Hỗn độn.\nTăng 20% giáp trong 90s",
+    "moTa": "hondontanggiaptrongs",
+    "hoiChieuMs": 0,
+    "coTheGiaoDich": false,
+    "gia": 0,
+    "hoiPhuc": 0
+  },
+  {
+    "id": 130,
+    "iconId": 5658,
+    "ten": "Hỗn Nguyên.\nTăng 20% sát thương.",
+    "moTa": "honnguyentangsatthuong",
+    "hoiChieuMs": 0,
+    "coTheGiaoDich": false,
+    "gia": 0,
+    "hoiPhuc": 0
+  },
+  {
+    "id": 131,
+    "iconId": 5659,
+    "ten": "Hoá công.\nTăng 50% sát thương boss.",
+    "moTa": "hoacongtangsatthuongboss",
+    "hoiChieuMs": 0,
+    "coTheGiaoDich": false,
+    "gia": 0,
+    "hoiPhuc": 0
+  },
+  {
+    "id": 132,
+    "iconId": 5657,
+    "ten": "Hoả dược. Gây sát thương theo x10% nội lực bản thân lên toàn bộ mục tiêu trong bán kính 5m.",
+    "moTa": "hoaduocgaysatthuongtheoxnoilucbanthanlentoanbomuctieutrongbankinhm",
+    "hoiChieuMs": 0,
+    "coTheGiaoDich": false,
+    "gia": 0,
+    "hoiPhuc": 0
+  },
+  {
+    "id": 133,
+    "iconId": 5752,
+    "ten": "Hộp bánh thập cẩm",
+    "moTa": "hopbanhthapcam",
+    "hoiChieuMs": 0,
+    "coTheGiaoDich": false,
+    "gia": 0,
+    "hoiPhuc": 0
+  },
+  {
+    "id": 134,
+    "iconId": 5753,
+    "ten": "Hộp bánh đặc biệt",
+    "moTa": "hopbanhdacbiet",
+    "hoiChieuMs": 0,
+    "coTheGiaoDich": false,
+    "gia": 0,
+    "hoiPhuc": 0
+  },
+  {
+    "id": 135,
+    "iconId": 5608,
+    "ten": "Hạt mầm",
+    "moTa": "hatmam",
+    "hoiChieuMs": 0,
+    "coTheGiaoDich": false,
+    "gia": 0,
+    "hoiPhuc": 0
+  },
+  {
+    "id": 136,
+    "iconId": 5528,
+    "ten": "Nến",
+    "moTa": "nen",
+    "hoiChieuMs": 0,
+    "coTheGiaoDich": false,
+    "gia": 0,
+    "hoiPhuc": 0
+  },
+  {
+    "id": 137,
+    "iconId": 5708,
+    "ten": "Kẹo",
+    "moTa": "keo",
+    "hoiChieuMs": 0,
+    "coTheGiaoDich": true,
+    "gia": 0,
+    "hoiPhuc": 0
+  },
+  {
+    "id": 138,
+    "iconId": 5707,
+    "ten": "Bí ngô",
+    "moTa": "bingo",
+    "hoiChieuMs": 0,
+    "coTheGiaoDich": true,
+    "gia": 0,
+    "hoiPhuc": 0
+  },
+  {
+    "id": 139,
+    "iconId": 5535,
+    "ten": "Hộp quà",
+    "moTa": "hopqua",
+    "hoiChieuMs": 0,
+    "coTheGiaoDich": false,
+    "gia": 0,
+    "hoiPhuc": 0
+  },
+  {
+    "id": 140,
+    "iconId": 5722,
+    "ten": "Hộp quà halloween",
+    "moTa": "hopquahalloween",
+    "hoiChieuMs": 0,
+    "coTheGiaoDich": false,
+    "gia": 0,
+    "hoiPhuc": 0
+  },
+  {
+    "id": 141,
+    "iconId": 5723,
+    "ten": "Hộp quà tặng halloween",
+    "moTa": "hopquatanghalloween",
+    "hoiChieuMs": 0,
+    "coTheGiaoDich": false,
+    "gia": 0,
+    "hoiPhuc": 0
+  },
+  {
+    "id": 142,
+    "iconId": 5530,
+    "ten": "Bột mỳ",
+    "moTa": "botmy",
+    "hoiChieuMs": 0,
+    "coTheGiaoDich": true,
+    "gia": 0,
+    "hoiPhuc": 0
+  },
+  {
+    "id": 143,
+    "iconId": 5535,
+    "ten": "Hộp quà bí mật",
+    "moTa": "hopquabimat",
+    "hoiChieuMs": 0,
+    "coTheGiaoDich": false,
+    "gia": 0,
+    "hoiPhuc": 0
+  },
+  {
+    "id": 144,
+    "iconId": 5730,
+    "ten": "Sao vàng",
+    "moTa": "saovang",
+    "hoiChieuMs": 0,
+    "coTheGiaoDich": false,
+    "gia": 0,
+    "hoiPhuc": 0
+  },
+  {
+    "id": 145,
+    "iconId": 5678,
+    "ten": "Dưa Hấu",
+    "moTa": "duahau",
+    "hoiChieuMs": 0,
+    "coTheGiaoDich": false,
+    "gia": 0,
+    "hoiPhuc": 0
+  },
+  {
+    "id": 146,
+    "iconId": 5599,
+    "ten": "Kem",
+    "moTa": "kem",
+    "hoiChieuMs": 0,
+    "coTheGiaoDich": false,
+    "gia": 0,
+    "hoiPhuc": 0
+  },
+  {
+    "id": 147,
+    "iconId": 5720,
+    "ten": "Túi quà may mắn",
+    "moTa": "tuiquamayman",
+    "hoiChieuMs": 0,
+    "coTheGiaoDich": false,
+    "gia": 0,
+    "hoiPhuc": 0
+  },
+  {
+    "id": 148,
+    "iconId": 5677,
+    "ten": "Gạo nếp",
+    "moTa": "gaonep",
+    "hoiChieuMs": 0,
+    "coTheGiaoDich": true,
+    "gia": 0,
+    "hoiPhuc": 0
+  },
+  {
+    "id": 149,
+    "iconId": 5733,
+    "ten": "Thịt mỡ",
+    "moTa": "thitmo",
+    "hoiChieuMs": 0,
+    "coTheGiaoDich": true,
+    "gia": 0,
+    "hoiPhuc": 0
+  },
+  {
+    "id": 150,
+    "iconId": 5672,
+    "ten": "Lá dong",
+    "moTa": "ladong",
+    "hoiChieuMs": 0,
+    "coTheGiaoDich": true,
+    "gia": 0,
+    "hoiPhuc": 0
+  },
+  {
+    "id": 151,
+    "iconId": 5680,
+    "ten": "Bánh chưng",
+    "moTa": "banhchung",
+    "hoiChieuMs": 0,
+    "coTheGiaoDich": true,
+    "gia": 0,
+    "hoiPhuc": 0
+  },
+  {
+    "id": 152,
+    "iconId": 5675,
+    "ten": "Bánh tét",
+    "moTa": "banhtet",
+    "hoiChieuMs": 0,
+    "coTheGiaoDich": true,
+    "gia": 0,
+    "hoiPhuc": 0
+  },
+  {
+    "id": 153,
+    "iconId": 5670,
+    "ten": "Giấy",
+    "moTa": "giay",
+    "hoiChieuMs": 0,
+    "coTheGiaoDich": false,
+    "gia": 0,
+    "hoiPhuc": 0
+  },
+  {
+    "id": 154,
+    "iconId": 5674,
+    "ten": "Thuốc pháo",
+    "moTa": "thuocphao",
+    "hoiChieuMs": 0,
+    "coTheGiaoDich": false,
+    "gia": 0,
+    "hoiPhuc": 0
+  },
+  {
+    "id": 155,
+    "iconId": 5564,
+    "ten": "Pháo hoa tết",
+    "moTa": "phaohoatet",
+    "hoiChieuMs": 0,
+    "coTheGiaoDich": true,
+    "gia": 0,
+    "hoiPhuc": 0
+  },
+  {
+    "id": 156,
+    "iconId": 5700,
+    "ten": "Lửa thường",
+    "moTa": "luathuong",
+    "hoiChieuMs": 0,
+    "coTheGiaoDich": false,
+    "gia": 0,
+    "hoiPhuc": 0
+  },
+  {
+    "id": 157,
+    "iconId": 5701,
+    "ten": "Lửa vừa",
+    "moTa": "luavua",
+    "hoiChieuMs": 0,
+    "coTheGiaoDich": false,
+    "gia": 0,
+    "hoiPhuc": 0
+  },
+  {
+    "id": 158,
+    "iconId": 5702,
+    "ten": "Lửa to",
+    "moTa": "luato",
+    "hoiChieuMs": 0,
+    "coTheGiaoDich": false,
+    "gia": 0,
+    "hoiPhuc": 0
+  },
+  {
+    "id": 159,
+    "iconId": 5576,
+    "ten": "Bao lì xì",
+    "moTa": "baolixi",
+    "hoiChieuMs": 0,
+    "coTheGiaoDich": false,
+    "gia": 0,
+    "hoiPhuc": 0
+  },
+  {
+    "id": 160,
+    "iconId": 5647,
+    "ten": "Ngà voi",
+    "moTa": "ngavoi",
+    "hoiChieuMs": 0,
+    "coTheGiaoDich": false,
+    "gia": 0,
+    "hoiPhuc": 0
+  },
+  {
+    "id": 161,
+    "iconId": 5648,
+    "ten": "Cựa gà",
+    "moTa": "cuaga",
+    "hoiChieuMs": 0,
+    "coTheGiaoDich": false,
+    "gia": 0,
+    "hoiPhuc": 0
+  },
+  {
+    "id": 162,
+    "iconId": 5649,
+    "ten": "Lông mao",
+    "moTa": "longmao",
+    "hoiChieuMs": 0,
+    "coTheGiaoDich": false,
+    "gia": 0,
+    "hoiPhuc": 0
+  },
+  {
+    "id": 163,
+    "iconId": 5688,
+    "ten": "Dưa lê",
+    "moTa": "duale",
+    "hoiChieuMs": 0,
+    "coTheGiaoDich": false,
+    "gia": 0,
+    "hoiPhuc": 0
+  },
+  {
+    "id": 164,
+    "iconId": 5612,
+    "ten": "Socola",
+    "moTa": "socola",
+    "hoiChieuMs": 0,
+    "coTheGiaoDich": false,
+    "gia": 0,
+    "hoiPhuc": 0
+  },
+  {
+    "id": 165,
+    "iconId": 5653,
+    "ten": "Rương bát bảo",
+    "moTa": "ruongbatbao",
+    "hoiChieuMs": 0,
+    "coTheGiaoDich": false,
+    "gia": 0,
+    "hoiPhuc": 0
+  },
+  {
+    "id": 166,
+    "iconId": 5748,
+    "ten": "Bóng vàng",
+    "moTa": "bongvang",
+    "hoiChieuMs": 0,
+    "coTheGiaoDich": false,
+    "gia": 0,
+    "hoiPhuc": 0
+  },
+  {
+    "id": 167,
+    "iconId": 5747,
+    "ten": "Bóng bạc",
+    "moTa": "bongbac",
+    "hoiChieuMs": 0,
+    "coTheGiaoDich": false,
+    "gia": 0,
+    "hoiPhuc": 0
+  },
+  {
+    "id": 168,
+    "iconId": 5563,
+    "ten": "Lá thư của Ngưu Lang",
+    "moTa": "lathucuanguulang",
+    "hoiChieuMs": 0,
+    "coTheGiaoDich": false,
+    "gia": 0,
+    "hoiPhuc": 0
+  },
+  {
+    "id": 169,
+    "iconId": 5724,
+    "ten": "N",
+    "moTa": "n",
+    "hoiChieuMs": 0,
+    "coTheGiaoDich": false,
+    "gia": 0,
+    "hoiPhuc": 0
+  },
+  {
+    "id": 170,
+    "iconId": 5725,
+    "ten": "O",
+    "moTa": "o",
+    "hoiChieuMs": 0,
+    "coTheGiaoDich": false,
+    "gia": 0,
+    "hoiPhuc": 0
+  },
+  {
+    "id": 171,
+    "iconId": 5514,
+    "ten": "E",
+    "moTa": "e",
+    "hoiChieuMs": 0,
+    "coTheGiaoDich": false,
+    "gia": 0,
+    "hoiPhuc": 0
+  },
+  {
+    "id": 172,
+    "iconId": 5726,
+    "ten": "L",
+    "moTa": "l",
+    "hoiChieuMs": 0,
+    "coTheGiaoDich": false,
+    "gia": 0,
+    "hoiPhuc": 0
+  },
+  {
+    "id": 173,
+    "iconId": 5576,
+    "ten": "Thiệp Giáng Sinh",
+    "moTa": "thiepgiangsinh",
+    "hoiChieuMs": 0,
+    "coTheGiaoDich": false,
+    "gia": 0,
+    "hoiPhuc": 0
+  },
+  {
+    "id": 174,
+    "iconId": 5729,
+    "ten": "Quả châu",
+    "moTa": "quachau",
+    "hoiChieuMs": 0,
+    "coTheGiaoDich": true,
+    "gia": 0,
+    "hoiPhuc": 0
+  },
+  {
+    "id": 175,
+    "iconId": 5653,
+    "ten": "Rương Pet",
+    "moTa": "ruongpet",
+    "hoiChieuMs": 0,
+    "coTheGiaoDich": false,
+    "gia": 0,
+    "hoiPhuc": 0
+  },
+  {
+    "id": 176,
+    "iconId": 5644,
+    "ten": "Rương Thú",
+    "moTa": "ruongthu",
+    "hoiChieuMs": 0,
+    "coTheGiaoDich": false,
+    "gia": 0,
+    "hoiPhuc": 0
+  },
+  {
+    "id": 177,
+    "iconId": 5681,
+    "ten": "Nhánh hoa hồng",
+    "moTa": "nhanhhoahong",
+    "hoiChieuMs": 0,
+    "coTheGiaoDich": false,
+    "gia": 0,
+    "hoiPhuc": 0
+  },
+  {
+    "id": 178,
+    "iconId": 5694,
+    "ten": "Nhánh hoa hồng vàng",
+    "moTa": "nhanhhoahongvang",
+    "hoiChieuMs": 0,
+    "coTheGiaoDich": false,
+    "gia": 0,
+    "hoiPhuc": 0
+  },
+  {
+    "id": 179,
+    "iconId": 5689,
+    "ten": "Bó hoa hồng vàng",
+    "moTa": "bohoahongvang",
+    "hoiChieuMs": 0,
+    "coTheGiaoDich": true,
+    "gia": 0,
+    "hoiPhuc": 0
+  },
+  {
+    "id": 180,
+    "iconId": 5683,
+    "ten": "Bó hoa hồng đỏ",
+    "moTa": "bohoahongdo",
+    "hoiChieuMs": 0,
+    "coTheGiaoDich": false,
+    "gia": 0,
+    "hoiPhuc": 0
+  },
+  {
+    "id": 181,
+    "iconId": 5529,
+    "ten": "Trứng Rồng",
+    "moTa": "trungrong",
+    "hoiChieuMs": 0,
+    "coTheGiaoDich": true,
+    "gia": 0,
+    "hoiPhuc": 0
+  },
+  {
+    "id": 182,
+    "iconId": 5541,
+    "ten": "Trứng Poro",
+    "moTa": "trungporo",
+    "hoiChieuMs": 0,
+    "coTheGiaoDich": true,
+    "gia": 0,
+    "hoiPhuc": 0
+  },
+  {
+    "id": 183,
+    "iconId": 5748,
+    "ten": "Bóng vàng xu",
+    "moTa": "bongvangxu",
+    "hoiChieuMs": 0,
+    "coTheGiaoDich": true,
+    "gia": 0,
+    "hoiPhuc": 0
+  },
+  {
+    "id": 184,
+    "iconId": 5671,
+    "ten": "Tô trái cây",
+    "moTa": "totraicay",
+    "hoiChieuMs": 0,
+    "coTheGiaoDich": true,
+    "gia": 0,
+    "hoiPhuc": 0
+  },
+  {
+    "id": 185,
+    "iconId": 5712,
+    "ten": "Bong bóng halloween \n -Tăng 10% phòng thủ trong 10 phút",
+    "moTa": "bongbonghalloweentangphongthutrongphut",
+    "hoiChieuMs": 0,
+    "coTheGiaoDich": true,
+    "gia": 0,
+    "hoiPhuc": 0
+  },
+  {
+    "id": 186,
+    "iconId": 5671,
+    "ten": "Boo hồng\n \u002B 10% hp trong 10 phút",
+    "moTa": "boohonghptrongphut",
+    "hoiChieuMs": 0,
+    "coTheGiaoDich": true,
+    "gia": 0,
+    "hoiPhuc": 0
+  },
+  {
+    "id": 187,
+    "iconId": 5687,
+    "ten": "Hộp quà bí mật khóa",
+    "moTa": "hopquabimatkhoa",
+    "hoiChieuMs": 0,
+    "coTheGiaoDich": false,
+    "gia": 0,
+    "hoiPhuc": 0
+  }
+]
