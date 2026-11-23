@@ -27,10 +27,10 @@ Trang dùng được trên cả máy tính và điện thoại. Khi lượt lấ
 | `Skills.json` | Kỹ năng 5 phái, mô tả, giá học, chỉ số 11 cấp | `SKILL_NAME` + cmd `1` + cmd `35` |
 | `Monsters/{id}.png` | Ảnh quái đã giải mã | cmd `-47` |
 | `Icons/{id/1000}/{id}.png` | Icon vật phẩm | cmd `-51` |
-| `SkillIcons/{phái}.png` | Bảng icon kỹ năng 20×20 | cmd `-8` loại 1 |
+| `assets/skills/{phái}.png` | Icon kỹ năng 20×20 (nằm ngoài `TeaMobi`, cố định) | `res/other` trong `resources.assets` của client |
 
 Tên và mô tả kỹ năng của cả 5 phái nằm sẵn trong gói vào game. Riêng chỉ số từng cấp (sát thương,
-MP, hồi chiêu, tầm đánh) và bảng icon kỹ năng thì máy chủ chỉ gửi cho phái của nhân vật đang
+MP, hồi chiêu, tầm đánh) thì máy chủ chỉ gửi cho phái của nhân vật đang
 đăng nhập. Muốn đủ chỉ số cả 5 phái, hãy thêm một nhân vật cho mỗi phái vào danh sách nhân vật
 của workflow.
 

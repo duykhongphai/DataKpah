@@ -89,7 +89,6 @@ public sealed class BoDocGoi
                 case 35: DocChiSoKyNang(goi.DuLieu); break;
                 case 37: DocThongBao(goi.DuLieu); break;
                 case 100: DocMauQuai(goi.DuLieu); break;
-                case -8: DocBoAnh(goi.DuLieu); break;
                 case -47: DocAnhQuai(goi.DuLieu); break;
                 case -51: LuuIcon(goi.DuLieu); break;
             }
@@ -471,23 +470,6 @@ public sealed class BoDocGoi
     private static void GiaiMa(byte[] b)
     {
         for (var i = 0; i < b.Length; i++) b[i] ^= MaFilePack[i % MaFilePack.Length];
-    }
-
-    // cmd -8 loại 1 (GameData.saveImgSkill): bảng icon kỹ năng 20×20 của phái đang chơi.
-    private void DocBoAnh(byte[] raw)
-    {
-        var r = new BoDoc(raw);
-        var loai = r.Byte();
-        r.Byte();
-        var anh = r.Bytes(r.Short());
-        if (loai != 1 || anh.Length < 8 || anh[0] != 0x89) return;
-        sbyte lop;
-        lock (data.Khoa) lop = data.LopHienTai;
-        if (lop < 0) return;
-        var dir = Path.Combine(thuMuc, "SkillIcons");
-        Directory.CreateDirectory(dir);
-        File.WriteAllBytes(Path.Combine(dir, lop + ".png"), anh);
-        Console.WriteLine($"Bảng icon kỹ năng phái {lop}: {anh.Length} byte");
     }
 
     private void LuuIcon(byte[] raw)

@@ -92,8 +92,6 @@ public static class Program
             Console.WriteLine($"Gói đã nhận: {doc.TomTatGoi()}");
             BoXuat.Ghi(data, c.ThuMucRa, mayChu, c.NhanVat);
 
-            // Bảng icon kỹ năng của phái đang chơi (GameData.saveImgSkill).
-            await phien.GuiAsync(-8, new BoGhi().Byte(1).Byte(0).Xong(), ct);
 
             int soQuai;
             lock (data.Khoa) soQuai = data.SoMauQuai;

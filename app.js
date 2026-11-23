@@ -23,7 +23,7 @@ const ICON_BOX = 66;        // cạnh lớn nhất của icon trong thẻ
 const ICON_BOX_LARGE = 88;  // trong panel chi tiết
 const SPRITE_BOX = 72;
 const SPRITE_BOX_LARGE = 92;
-const SKILL_FRAME = 20;     // GameData.saveImgSkill: bảng icon kỹ năng khung 20×20
+const SKILL_FRAME = 20;     // dải icon kỹ năng của client, khung 20×20
 const reduceMotion = window.matchMedia?.("(prefers-reduced-motion: reduce)");
 
 function iconImage(value) {
@@ -78,7 +78,8 @@ const CATEGORIES = {
   skills: {
     code: "KN", title: "Kỹ năng", short: "Kỹ năng", file: "Skills.json", layout: "cards", pageSize: 200,
     description: "Kỹ năng của 5 phái. Chỉ số từng cấp có ở các phái đã có nhân vật đăng nhập.",
-    image: (x) => ({ src: `${DATA_ROOT}/SkillIcons/${x.lop}.png`, kind: "skill", frame: x.id }),
+    // Icon kỹ năng nằm sẵn trong client (res/other: icon_sk_kiem, _dao, _ps, _bua, _cung), dải dọc 20×20 theo id.
+    image: (x) => (Number(x.lop) >= 0 ? { src: `assets/skills/${x.lop}.png`, kind: "skill", frame: x.id } : null),
     group: (x) => skillClass(x.lop),
     groupOrder: (x) => (Number(x.lop) >= 0 ? Number(x.lop) : 99),
     detail: (x) => x.moTa || (x.cacCap?.length ? `${x.cacCap.length} cấp kỹ năng` : "Chưa có chỉ số cấp"),
@@ -200,7 +201,7 @@ function frameEmpty(image) {
 // Chọn khung theo đúng cách client vẽ:
 // - icon (GameData.paintIcon): cao hơn 25px là dải dọc 3 khung chạy vòng;
 // - quái "strip": dải dọc khung rộng × cao của mẫu, đi bộ qua khung 0–3;
-// - kỹ năng: khung 20×20 thứ "frame" trong bảng icon của phái.
+// - kỹ năng: khung 20×20 thứ "frame" trong dải icon của phái (QuickSlot.paint).
 function spriteLayout(image, width, height) {
   const { kind } = image.dataset;
   if (kind === "skill") {
