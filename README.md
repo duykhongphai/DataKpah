@@ -38,9 +38,13 @@ Thư mục `RawPackets/` giữ gói gốc của cmd `1`, `25` và `35` để ki�
 
 ## Dữ liệu xmap (`navigation/`)
 
-ToolKpah (xmap) tải hai file này từ GitHub mỗi lần chạy. Tool thêm query ngẫu nhiên và header `no-cache`
-nên đẩy lên là tool lấy được ngay. Tool cũng lưu một bản đệm để dùng khi mất mạng. Workflow ở trên chỉ
-commit `TeaMobi/`, không đụng tới thư mục này.
+ToolKpah (xmap) tải hai file này từ GitHub mỗi lần chạy, và đẩy lên là tool lấy được ngay:
+- Tool hỏi mã commit mới nhất của nhánh `main` qua giao thức git (`info/refs`, không qua CDN).
+- Tool tải file theo đúng mã commit đó. CDN của `raw.githubusercontent.com` giữ file 5 phút và bỏ qua query
+  khi tra cache, nên tải theo nhánh `main` có thể nhận bản cũ; tải theo mã commit thì không.
+- Bản đệm trên máy cùng commit thì dùng luôn; mất mạng thì dùng bản đệm lần trước.
+
+Workflow ở trên chỉ commit `TeaMobi/`, không đụng tới thư mục này.
 
 | File | Nội dung | Cách cập nhật |
 |---|---|---|
