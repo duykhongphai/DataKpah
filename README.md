@@ -48,13 +48,13 @@ Workflow ở trên chỉ commit `TeaMobi/`, không đụng tới thư mục này
 
 | File | Nội dung | Cách cập nhật |
 |---|---|---|
-| `navigation/KpahMaps.json` | Bảng loại ô (`res/t`, `res/t_hang`, `res/t_thanh`), file map client mang sẵn (`res/<id>`), cổng và NPC của từng map (server `cMap`) | Sinh lại bằng `tools/MapDataGen` của ToolKpah |
+| `navigation/KpahMaps.json` | Bảng loại ô (`res/t`, `res/t_hang`, `res/t_thanh`), file map client mang sẵn (`res/<id>`), cổng và NPC của từng map (server `cMap`), quái mọc theo map (`MonsterMaps`, lưới quái server `map/map<load>`), tên/cấp/HP mẫu quái (`MonsterTemplates`, bảng `data_monster` trong SQL) | Sinh lại bằng `tools/MapDataGen` của ToolKpah |
 | `navigation/KpahRules.json` | Tên map và `offMapID` của client, `idXaphu` của client, làng theo lãnh thổ, tàu ra đảo, NPC dịch chuyển do máy chủ sinh (vị trí, tầm, các dòng menu, giá) | Sửa tay (có chú thích trong file) |
 
 Sinh lại `KpahMaps.json` (chạy trong thư mục ToolKpah):
 
 ```powershell
-dotnet run --project tools\MapDataGen -- "<KPAH_276>\KPAH_276_Data" "<GameResource>\server\cMap" "<DataKpah>\navigation\KpahMaps.json"
+dotnet run --project tools\MapDataGen -- "<KPAH_276>\KPAH_276_Data" "<GameResource>\server\cMap" "<DataKpah>\navigation\KpahMaps.json" "<GameResource>\server\map" "<KpahGameResource>\hoang.sql"
 ```
 
 Muốn thử dữ liệu trước khi đẩy lên: đặt biến môi trường `TOOLKPAH_DATA_DIR` = thư mục DataKpah trên máy.
