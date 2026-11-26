@@ -25837,5 +25837,59 @@
     "mau": -1,
     "iconId": 12186,
     "soNgayThue": 10080
+  },
+  {
+    "id": 958,
+    "ten": "Chiến Tướng\n- Tăng 50% băng ,sét ,độc ,lửa lan\r\n- Quyền năng ma thuật:\r\n. Tỷ lệ xh: 5%\r\n. Gây st 1%-10% hp\r\n- Ám Khí:\r\n. Gây st 1%-5% hp\r\n. Hồi 1%-10%hp",
+    "loai": 0,
+    "kieuDang": 0,
+    "he": -1,
+    "gioiTinh": 1,
+    "cap": 1,
+    "doBen": 480,
+    "chiSoGoc": [
+      10,
+      10,
+      5000,
+      5000,
+      0,
+      0,
+      0,
+      0,
+      0,
+      1
+    ],
+    "gia": 0,
+    "lop": -1,
+    "mau": -1,
+    "iconId": 6631,
+    "soNgayThue": 10080
+  },
+  {
+    "id": 959,
+    "ten": "Linh Hồ\n- Tăng 50% băng ,sét ,độc ,lửa lan\r\n- Quyền năng ma thuật:\r\n. Tỷ lệ xh: 5%\r\n. Gây st 1%-10% hp\r\n- Ám Khí:\r\n. Gây st 1%-5% hp\r\n. Hồi 1%-10%hp",
+    "loai": 0,
+    "kieuDang": 0,
+    "he": -1,
+    "gioiTinh": 2,
+    "cap": 1,
+    "doBen": 480,
+    "chiSoGoc": [
+      10,
+      10,
+      5000,
+      5000,
+      0,
+      0,
+      0,
+      0,
+      0,
+      1
+    ],
+    "gia": 0,
+    "lop": -1,
+    "mau": -1,
+    "iconId": 6632,
+    "soNgayThue": 10080
   }
 ]
